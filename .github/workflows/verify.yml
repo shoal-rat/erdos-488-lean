@@ -1,0 +1,22 @@
+name: Verify finite core and source manifest
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  finite-core:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned Lean toolchain
+        run: |
+          curl -sSf https://elan.lean-lang.org/elan-init.sh -o /tmp/elan-init.sh
+          sh /tmp/elan-init.sh -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Check published source hashes and complete import closure
+        run: python3 research/verify_bundle.py --dry-run
+      - name: Rebuild three Init-only proofs with trust level zero
+        run: python3 scripts/verify_core.py

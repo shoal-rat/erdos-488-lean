@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="720pt" viewBox="0 0 1152 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-06T00:02:03.918633</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1152 720 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #f7f6f1"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 51.84 54 
+L 86.4 54 
+L 86.4 47.52 
+L 51.84 47.52 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #275dd2"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 69.12 416.16 
+L 279.36 416.16 
+Q 296.64 416.16 296.64 405.36 
+L 296.64 212.4 
+Q 296.64 201.6 279.36 201.6 
+L 69.12 201.6 
+Q 51.84 201.6 51.84 212.4 
+L 51.84 405.36 
+Q 51.84 416.16 69.12 416.16 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 301.523906 311.76 
+Q 308.160578 311.76 313.45561 311.76 
+" clip-path="url(#pe26d21bac9)" style="fill: none; stroke: #275dd2; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 308.25561 309.16 
+L 313.45561 311.76 
+L 308.25561 314.36 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #275dd2; stroke: #275dd2; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 336.96 416.16 
+L 547.2 416.16 
+Q 564.48 416.16 564.48 405.36 
+L 564.48 212.4 
+Q 564.48 201.6 547.2 201.6 
+L 336.96 201.6 
+Q 319.68 201.6 319.68 212.4 
+L 319.68 405.36 
+Q 319.68 416.16 336.96 416.16 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 569.363906 311.76 
+Q 576.000578 311.76 581.29561 311.76 
+" clip-path="url(#pe26d21bac9)" style="fill: none; stroke: #275dd2; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 576.09561 309.16 
+L 581.29561 311.76 
+L 576.09561 314.36 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #275dd2; stroke: #275dd2; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 604.8 416.16 
+L 815.04 416.16 
+Q 832.32 416.16 832.32 405.36 
+L 832.32 212.4 
+Q 832.32 201.6 815.04 201.6 
+L 604.8 201.6 
+Q 587.52 201.6 587.52 212.4 
+L 587.52 405.36 
+Q 587.52 416.16 604.8 416.16 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #152b41"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 837.203906 311.76 
+Q 843.840578 311.76 849.13561 311.76 
+" clip-path="url(#pe26d21bac9)" style="fill: none; stroke: #275dd2; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 843.93561 309.16 
+L 849.13561 311.76 
+L 843.93561 314.36 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #275dd2; stroke: #275dd2; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 872.64 416.16 
+L 1082.88 416.16 
+Q 1100.16 416.16 1100.16 405.36 
+L 1100.16 212.4 
+Q 1100.16 201.6 1082.88 201.6 
+L 872.64 201.6 
+Q 855.36 201.6 855.36 212.4 
+L 855.36 405.36 
+Q 855.36 416.16 872.64 416.16 
+z
+" clip-path="url(#pe26d21bac9)" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 51.84 658.8 
+L 1100.16 658.8 
+" clip-path="url(#pe26d21bac9)" style="fill: none; stroke: #dce2e5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 397.44 541.44 
+L 397.44 447.84 
+" clip-path="url(#pe26d21bac9)" style="fill: none; stroke: #dce2e5; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #275dd2" x="99.072" y="57.24" transform="rotate(-0 99.072 57.24)">ERDŐS 488  /  RESEARCH NOTES</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #526273" x="1097.856" y="55.878281" transform="rotate(-0 1097.856 55.878281)">03 / 03</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526273" x="51.84" y="690.538359" transform="rotate(-0 51.84 690.538359)">LEAN-VERIFIED  ·  OPEN PROBLEM RESEARCH</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #526273" x="1100.16" y="690.538359" transform="rotate(-0 1100.16 690.538359)">shoal-rat  /  OpenAI Codex</text>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 34px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #152b41" x="51.84" y="122.314687" transform="rotate(-0 51.84 122.314687)">From a broad prompt to a checked result</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526273" x="51.84" y="163.397344" transform="rotate(-0 51.84 163.397344)">Autonomous exploration, explicit proofs, and inspectable evidence.</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #275dd2" x="72.576" y="233.077969" transform="rotate(-0 72.576 233.077969)">01</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #152b41" x="72.576" y="272.157188" transform="rotate(-0 72.576 272.157188)">Original prompt</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(72.576 315.917813)">Find open problems.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(72.576 336.381766)">Assess feasibility.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(72.576 356.845719)">Attempt a solution.</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #275dd2" x="340.416" y="233.077969" transform="rotate(-0 340.416 233.077969)">02</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #152b41" x="340.416" y="272.157188" transform="rotate(-0 340.416 272.157188)">Multi-agent search</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(340.416 315.917813)">Explore examples.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(340.416 336.381766)">Develop lemmas.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(340.416 356.845719)">Build certificates.</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b7cfff" x="608.256" y="233.077969" transform="rotate(-0 608.256 233.077969)">03</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="608.256" y="272.157188" transform="rotate(-0 608.256 272.157188)">Lean kernel</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #d0dbe6" transform="translate(608.256 315.917813)">Check each proof.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #d0dbe6" transform="translate(608.256 336.381766)">Verify completeness.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #d0dbe6" transform="translate(608.256 356.845719)">Reject admitted steps.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #275dd2" x="876.096" y="233.077969" transform="rotate(-0 876.096 233.077969)">04</text>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #152b41" x="876.096" y="272.157188" transform="rotate(-0 876.096 272.157188)">Auditable artifacts</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(876.096 315.917813)">Lean sources.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(876.096 336.381766)">Logs and file hashes.</text>
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #526273" transform="translate(876.096 356.845719)">Manuscript and examples.</text>
+  </g>
+  <g id="text_19">
+   <text style="font-weight: 700; font-size: 48px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #275dd2" x="51.84" y="484.3125" transform="rotate(-0 51.84 484.3125)">6 h</text>
+  </g>
+  <g id="text_20">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #152b41" x="51.84" y="515.477344" transform="rotate(-0 51.84 515.477344)">Recorded active search</text>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526273" x="51.84" y="543.397969" transform="rotate(-0 51.84 543.397969)">21,600.003879 seconds</text>
+  </g>
+  <g id="text_22">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #152b41" x="432" y="468.116719" transform="rotate(-0 432 468.116719)">No sorry  ·  No added axioms</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526273" x="432" y="500.277656" transform="rotate(-0 432 500.277656)">Kernel verification with trust level 0; no native_decide.</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526273" x="432" y="530.058047" transform="rotate(-0 432 530.058047)">Standard foundations: propext, Classical.choice, Quot.sound.</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #152b41" x="51.84" y="591.0375" transform="rotate(-0 51.84 591.0375)">The images explain the result. The Lean sources contain the proofs.</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 13.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526273" x="51.84" y="630.025922" transform="rotate(-0 51.84 630.025922)">AI-assisted audit is not external peer review. The unrestricted problem remains open.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe26d21bac9">
+   <rect x="0" y="0" width="1152" height="720"/>
+  </clipPath>
+ </defs>
+</svg>

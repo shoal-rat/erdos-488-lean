@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "scope": "E≤15 release paper; E16 remains a clearly marked pending outlook",
+  "recorded_utc": "2026-09-05T21:03:08.786128+00:00",
+  "compiler": "XeLaTeX (TeX Live 2023/Debian)",
+  "renderer": "PyMuPDF; bundled pdftoppm failed to load libpoppler.so.160",
+  "outputs": [
+    {
+      "file": "paper.pdf",
+      "pages": 12,
+      "actual_compile_exit_code": 0,
+      "warnings_or_overflows": [],
+      "sha256": "7b2d76664280ee01333c478fb4a8498dce16d917114aca797b3aa08be004145b",
+      "source_sha256": "d20c302bdaefe08ee9284182bb7f543c656168b3f1b3d492f3fc89a962d79f9f",
+      "log_sha256": "8c74036521ab25470edbfd18c2ca934d18e9d1fdec1d66af44197e7197aa0518",
+      "rendered_page_count": 12,
+      "montage": "tmp/qa/en-montage.png",
+      "text_character_count": 26005
+    },
+    {
+      "file": "paper.zh.pdf",
+      "pages": 10,
+      "actual_compile_exit_code": 0,
+      "warnings_or_overflows": [],
+      "sha256": "715b84325964ad7844adef181c0c744fa03ed207b56c418f8e6e349c9fd770e8",
+      "source_sha256": "0f80dec71b91e3de68b8762e747065a8f4d349e01ccbab878e0996419bed97fa",
+      "log_sha256": "d04d94e29d17d413edb56d40ee1d740e23930aab04b68e5c62ecc595688648bc",
+      "rendered_page_count": 10,
+      "montage": "tmp/qa/zh-montage.png",
+      "text_character_count": 11904
+    }
+  ],
+  "visual_review": "Every rendered page reviewed in montage; source mapping tables, witness figure, and bilingual prompt appendix additionally inspected at page resolution.",
+  "font_strategy": "Local Noto Sans CJK OTF with native XeTeX Chinese line breaking; Latin Modern supplies the Hungarian double-acute glyph and math fonts."
+}

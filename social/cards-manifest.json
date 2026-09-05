@@ -1,0 +1,38 @@
+{
+  "original_bound": 15,
+  "auxiliary_first_failure_excess": 16,
+  "size_px": [
+    1600,
+    1000
+  ],
+  "figure_is_a_proof": false,
+  "active_search_seconds": "21600.003879",
+  "files": {
+    "01-results.png": {
+      "sha256": "7b98e5ccdcb2b705a3e8d743a64282020730a36cba3e78159a3464faacb4be13",
+      "dimensions_px": [
+        1600,
+        1000
+      ]
+    },
+    "02-witness.png": {
+      "sha256": "d01802dc3b32f72b17649b879148538aff330a3f8ae0edfbeef1dd82a0b291cf",
+      "dimensions_px": [
+        1600,
+        1000
+      ]
+    },
+    "03-workflow.png": {
+      "sha256": "ee8996a7d99dbb386172cf3b647d77d19fc268cc7fb32a3cb2e5c06dc7d8caa3",
+      "dimensions_px": [
+        1600,
+        1000
+      ]
+    }
+  },
+  "visual_review": {
+    "all_three_images_viewed": true,
+    "text_overflow_observed": false,
+    "scope": "E<=15 first release; E=16 remains the auxiliary first-failure witness only"
+  }
+}
