@@ -1,0 +1,3 @@
+'PrimeIncidenceGrowth.finite_prime_subtype_sum_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeIncidenceGrowth.finite_prime_reciprocals_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeIncidenceGrowth.arbitrary_prime_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]

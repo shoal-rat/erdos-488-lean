@@ -1,0 +1,4 @@
+'UnboundedSlackRatio.arbitrary_sparse_coprime_incidence_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UnboundedSlackRatio.no_fixed_multiplicative_slack_repair' depends on axioms: [propext, Classical.choice, Quot.sound]

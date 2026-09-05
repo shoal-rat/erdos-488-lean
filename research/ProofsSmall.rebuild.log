@@ -1,0 +1,3 @@
+'AuxiliaryCounterexamplesCore.Small.pair_primitive' depends on axioms: [propext]
+'AuxiliaryCounterexamplesCore.Small.pair_count_1468' depends on axioms: [propext]
+'AuxiliaryCounterexamplesCore.Small.not_pairTailDoublingConjecture' depends on axioms: [propext]

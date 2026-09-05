@@ -1,0 +1,2 @@
+'E16KnownProfileOriginal.profile_safe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E16KnownProfileOriginal.original_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]

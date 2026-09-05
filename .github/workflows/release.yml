@@ -1,0 +1,39 @@
+name: Publish research release
+on:
+  push:
+    branches: [main]
+    paths: ['release/v0.1.0.md']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-v0.1.0
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify the complete published source manifest
+        run: python3 research/verify_bundle.py --dry-run
+      - name: Install pinned Lean
+        run: |
+          curl -sSf https://elan.lean-lang.org/elan-init.sh -o /tmp/elan-init.sh
+          sh /tmp/elan-init.sh -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Rebuild finite core with trust level zero
+        run: python3 scripts/verify_core.py
+      - name: Package exact committed source
+        run: |
+          mkdir -p artifacts
+          git archive --format=zip --prefix=erdos-488-lean-v0.1.0/ HEAD -o artifacts/erdos-488-lean-v0.1.0.zip
+      - name: Publish versioned paper and source assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v0.1.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release v0.1.0 already exists; preserving its original assets."
+          else
+            gh release create v0.1.0 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Beyond the Slack Barrier · E15 verified" --notes-file release/v0.1.0.md paper/paper.pdf paper/paper.zh.pdf artifacts/erdos-488-lean-v0.1.0.zip social/01-results.png social/02-witness.png social/03-workflow.png
+          fi

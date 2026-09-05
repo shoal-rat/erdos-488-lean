@@ -1,0 +1,7 @@
+'SevenSixSixPatterns.embedding_of_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixSixPatterns.certificate_twenty_twentyfive_twentyfour' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SevenSixSixPatterns.certificate_twelve_fifteen_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixSixPatterns.certificate_thirty_thirtysix_thirtyfive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixSixPatterns.certificate_swap' depends on axioms: [propext, Classical.choice, Quot.sound]

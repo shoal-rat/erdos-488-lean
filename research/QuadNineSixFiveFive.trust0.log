@@ -1,0 +1,2 @@
+'QuadNineSixFiveFive.nine_six_five_union_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFive.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

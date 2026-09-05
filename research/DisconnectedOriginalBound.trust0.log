@@ -1,0 +1,4 @@
+'DisconnectedOriginalBound.nonempty_active_excess_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DisconnectedOriginalBound.disconnected_active_original_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

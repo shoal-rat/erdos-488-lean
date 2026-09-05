@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-09-05T18:04:46.905432+00:00",
+  "actual_tool_session": 86517,
+  "exit_code": 0,
+  "pass": true,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_sha256": "2d171fbb6b60381a782ca2820f70677e74282c612bc22d1fb26ec55918aad802",
+  "olean_sha256": "f4477d69a722d8631c77f7bb88d36e064dcc0092495a7cab94ad6cdae12be086",
+  "log_sha256": "120e886aed9330321c7fadbb0d73ee19dede1c0bf834a89875605b1ace0af7d0"
+}

@@ -1,0 +1,4 @@
+'NormalizedCertificate.slackSafe_of_integer_cache' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.next_mono_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.slackCertified_nodes_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.shared_dag_safe' depends on axioms: [propext, Classical.choice, Quot.sound]

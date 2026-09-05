@@ -1,0 +1,5 @@
+'NineCoreEnhancedCuts.valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineCoreEnhancedCuts.cut_9754333' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineCoreEnhancedCuts.cut_9764333' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineCoreEnhancedCuts.cut_97543' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineCoreEnhancedCuts.cut_976433' depends on axioms: [propext, Classical.choice, Quot.sound]

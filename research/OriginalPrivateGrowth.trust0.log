@@ -1,0 +1,5 @@
+'OriginalPrivateGrowth.exclusive_growth_of_original_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPrivateGrowth.minimal_original_exclusive_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPrivateGrowth.minimal_original_deletion_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPrivateGrowth.deletion_count_le_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPrivateGrowth.minimal_original_private_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

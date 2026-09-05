@@ -1,0 +1,1941 @@
+{
+  "audited_utc": "2026-09-05T19:16:28.677263+00:00",
+  "conclusion": "NormalizedCertificate.final_prefix_profiles_sixteen_safe: every profile in the exact 16-profile aggregate satisfies ExactPrefixSafe 16.",
+  "does_not_alone_establish_all_excess_sixteen_profiles": true,
+  "graph_modules_actually_verified": 135,
+  "aggregate_modules_actually_verified": 1,
+  "all_accepted_kernel_exit_codes_zero": true,
+  "trust_level": 0,
+  "final_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "final_source_sha256": "ea6eac8bfc12cbf21f7911c4f8cfe74f31f217e9eba7ddfd0750eb3a8b257c50",
+  "final_olean_sha256": "b869720a799d2184d2a4d110ddda035104747bf9c58163f6e4fc721ffba81ff8",
+  "final_log_sha256": "07ba0494da5e7d599d903d46344a3951199d520522b4c8f094b3fb8f190583d2",
+  "final_verification_record_sha256": "d6e34b604fb720f23b0a3326435d3386fbf3b49f72d37c31f2348474513461d9",
+  "group_audit_sha256": "344cfaf270b5b72857662ba2bb40f61298d7efc26724027dd4ed76c1df284ea0",
+  "initial_aggregate_attempt": {
+    "exit_code": 1,
+    "accepted": false,
+    "archive": "research/attempts/E16FinalPrefixCertificates.initial-failed.verification.json",
+    "explanation": "List rcases elaboration failed; only the final corrected Or.elim source was accepted."
+  },
+  "local_dependency_modules": 193,
+  "banned_code_token_hits": [],
+  "source_scan_scope": "Complete research.* source closure of the final aggregate, comments and strings excluded. No extra heavy recompile and no recursive Lean/Mathlib source scan.",
+  "external_import_roots": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+    "Mathlib.Algebra.Field.Rat",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Field.Basic",
+    "Mathlib.Algebra.Order.Field.Rat",
+    "Mathlib.Data.Finset.Card",
+    "Mathlib.Data.Finset.Filter",
+    "Mathlib.Data.Finset.Lattice.Fold",
+    "Mathlib.Data.Finset.Max",
+    "Mathlib.Data.Finset.Powerset",
+    "Mathlib.Data.Finset.Range",
+    "Mathlib.Data.Finset.Union",
+    "Mathlib.Data.List.Count",
+    "Mathlib.Data.List.Perm.Basic",
+    "Mathlib.Data.List.Perm.Subperm",
+    "Mathlib.Data.List.Sort",
+    "Mathlib.Data.List.Sublists",
+    "Mathlib.Data.Nat.Cast.Order.Basic",
+    "Mathlib.Data.Nat.Factorization.Basic",
+    "Mathlib.Data.Rat.Lemmas",
+    "Mathlib.Logic.Relation",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "sources_and_objects": {
+    "research.E16FinalPrefixCertificates": {
+      "source": "research/E16FinalPrefixCertificates.lean",
+      "source_sha256": "ea6eac8bfc12cbf21f7911c4f8cfe74f31f217e9eba7ddfd0750eb3a8b257c50",
+      "olean_sha256": "b869720a799d2184d2a4d110ddda035104747bf9c58163f6e4fc721ffba81ff8",
+      "bytes": 1569
+    },
+    "research.certificates.E16PrefixFamilyQ11W33": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33.lean",
+      "source_sha256": "6825c34f2dcd29ef2007cf1a4317679b48f29decb5bf8f910c17311509a762ca",
+      "olean_sha256": "c8194e3ed8d3fee9ac8509c35da44e095755985417666b0040b6c8d22731ac99",
+      "bytes": 46116
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk000": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk000.lean",
+      "source_sha256": "bc15f0e2dee33d058eb9fe20a178b31b60f13e717619e0da7c4131773ef33dfb",
+      "olean_sha256": "ebad27735c89f8e972cf6b9bcaa32858d56d3802c3d1b2c82e145e37cbde3107",
+      "bytes": 33077
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Data": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Data.lean",
+      "source_sha256": "3cd351a525ea9d1e684a47cc6073369d497b695fe6350d19f16076ded7bb409f",
+      "olean_sha256": "677427e3cfc77106a31d14f0028c5aed03404ba1114148a2fcb6f6c9ac989834",
+      "bytes": 264521
+    },
+    "research.ExactReciprocalPrefixFamily": {
+      "source": "research/ExactReciprocalPrefixFamily.lean",
+      "source_sha256": "fad0c858a31338a8ed42f260b583d7de9a48d414f92754a44dff7474c4d45c0a",
+      "olean_sha256": "eb10e3d6182eb470cde5dc49c2113f56629172427926d15abfbb48e0b8c10458",
+      "bytes": 6852
+    },
+    "research.ExactReciprocalPrefixCertificate": {
+      "source": "research/ExactReciprocalPrefixCertificate.lean",
+      "source_sha256": "31ceb97a6b0ff05d21689bae016fd9953a077d5f085492e353caae1681edbd91",
+      "olean_sha256": "a34066f678384b65d2e9f6d2c0a9bbc503a13dfa8c4bde7ad2e21e86c6886b46",
+      "bytes": 6420
+    },
+    "research.NormalizedReciprocalCertificate": {
+      "source": "research/NormalizedReciprocalCertificate.lean",
+      "source_sha256": "dc400472540750ad4bb5ea461b1fca5e74a5e7d0f91bba692d73f1bceb5ab88b",
+      "olean_sha256": "07f31cf1acc56ee55cda248e24335ebd1b4d0a66cfb304ec1b2f5c9423819e8e",
+      "bytes": 6633
+    },
+    "research.NormalizedReciprocalPruning": {
+      "source": "research/NormalizedReciprocalPruning.lean",
+      "source_sha256": "4992db83999fb9613ec2d703729cc5681fde4bd1ae3c8b00092a5e3e79360f95",
+      "olean_sha256": "3be78af1c8599331f9a8d8961f9fb683fc8a4606b42056c178de67409c95321d",
+      "bytes": 4174
+    },
+    "research.RatioNormalization": {
+      "source": "research/RatioNormalization.lean",
+      "source_sha256": "f21a3af81eba88851f18220372a6f6b6843439c71f4e8c1f110ed3f2b7b72663",
+      "olean_sha256": "8ed34bc5bebc64dce3787f6f348e0e6aaae410be845c121dbcf6bd2015a57820",
+      "bytes": 15930
+    },
+    "research.ConnectedReduction": {
+      "source": "research/ConnectedReduction.lean",
+      "source_sha256": "04554aa68c8801214c6dd8baaf825630043178594bb80eff5d32e59d9f5e44da",
+      "olean_sha256": "d590ad0d26fdf3e0a007b97507ed16bd1810395ab7d60d4893bad46be788bcdb",
+      "bytes": 7886
+    },
+    "research.ExcessAtMostSix": {
+      "source": "research/ExcessAtMostSix.lean",
+      "source_sha256": "bf6aa9adf89776e293ca5c3fcbe3989bf84723c90d16d4454471187c51dc9db1",
+      "olean_sha256": "ce8f2def9a3d30d2c272d16afa9839322c449a8ae25f027fe752c441d84b93de",
+      "bytes": 10406
+    },
+    "research.ExcessSix": {
+      "source": "research/ExcessSix.lean",
+      "source_sha256": "130307443c8249ae30f69047db1c5b2a7f0abc512e804fd03dcf8a0b2fdf139b",
+      "olean_sha256": "3a28b616b9559f93cb81a02ac5995052f9792be5e2f741805ac542bc70f2f575",
+      "bytes": 12999
+    },
+    "research.SearchLemmas": {
+      "source": "research/SearchLemmas.lean",
+      "source_sha256": "f60b23ef4485a394feea83680737e5620657b3c08ebd2729b0cd020cf1427c4c",
+      "olean_sha256": "a0f3a6379da412073c4228292d0ea63a7523bad3d0a2258ed0a0e96022beea4d",
+      "bytes": 9608
+    },
+    "research.Proofs": {
+      "source": "research/Proofs.lean",
+      "source_sha256": "1226d6f95c263afaeb4c1ac1859f561c513076e512d782eea2a843d52e0ce12e",
+      "olean_sha256": "67aa55948f0d1030fbe34bebeb524eedd3118ffbaf7af22994df23c3b2206cba",
+      "bytes": 7469
+    },
+    "research.ExcessPair": {
+      "source": "research/ExcessPair.lean",
+      "source_sha256": "52b17e5bae7f3aef4b21367fdccc997fd8018d8d37a8071979d8ef10d94ed8cc",
+      "olean_sha256": "476b3cf64738a71b2003f54e3e4565a2d7f3ebf89a0efa1bf059bab7a2e1c07c",
+      "bytes": 3871
+    },
+    "research.NormalizedState": {
+      "source": "research/NormalizedState.lean",
+      "source_sha256": "29b9b8be0b0e495aa1d27be35480b5deec5c0c10b97c0d03409fcacd95fe1d99",
+      "olean_sha256": "e6c56e6145252642d92ab328fa04799bbf8fd7876bac8bb7a5e070a97412f2c5",
+      "bytes": 2913
+    },
+    "research.RationalUnionPruning": {
+      "source": "research/RationalUnionPruning.lean",
+      "source_sha256": "3b5ed81159e24026b60c932ea739ae12f402423bc1e9fda1a5f7a264b4eefee5",
+      "olean_sha256": "3dedf065b7a3fa31c12348d5673bbd8ac6ee1a7ea9307e98ef1e35daf9df45f3",
+      "bytes": 2735
+    },
+    "research.SmallSlack": {
+      "source": "research/SmallSlack.lean",
+      "source_sha256": "e467402e52232a6a0e8083a24054acb6521bfdd8b3c4640fa60eecfd4e97062c",
+      "olean_sha256": "ad40872c35c14172ba6904bd0559da788d25defa540def92f0a37051a8c730e3",
+      "bytes": 2778
+    },
+    "research.NormalizedFastDAG": {
+      "source": "research/NormalizedFastDAG.lean",
+      "source_sha256": "18d9b5bf606b82ee914b49e891d51bb7464cde7396c8935714c95661b451d825",
+      "olean_sha256": "9ecfcfb5d1ff2bd894b684cadedf0c7a98052343119639638d207dc3798706b1",
+      "bytes": 3400
+    },
+    "research.NormalizedDAG": {
+      "source": "research/NormalizedDAG.lean",
+      "source_sha256": "9be17e1fadc6b542d77dd6e2a16dfd88e36c9549e4d71a8f80979fc187a5563c",
+      "olean_sha256": "6b70143167a0a9609804e3ebab2606f896928ea55aab480c0db46be68efb10b7",
+      "bytes": 4537
+    },
+    "research.NormalizedCertificate": {
+      "source": "research/NormalizedCertificate.lean",
+      "source_sha256": "20107610ae6f80dffd74c304cfa4026ed26218d973430576b917b95012290d03",
+      "olean_sha256": "760bd964feb506ff56fb1b2f476a71579751eb412e0a8c65200d8322288b48b4",
+      "bytes": 3801
+    },
+    "research.NormalizedCompleteness": {
+      "source": "research/NormalizedCompleteness.lean",
+      "source_sha256": "8325262b9fe72b4318d735bf694a53fe98ed16266c11043a17b0859afdf731d1",
+      "olean_sha256": "70a836bfb98e0f7c324b301ab3ca0a357de83e1961f0d199530e141946a5764e",
+      "bytes": 8474
+    },
+    "research.FiniteGrowth": {
+      "source": "research/FiniteGrowth.lean",
+      "source_sha256": "09ddfc285ac9ba395ba27b948e2e259176faceded4ca8e4d55338fa9549c284a",
+      "olean_sha256": "06f3a53611f08cb151dc29fc723aa17aa335bf8e741ed0f31e25f500bafd3284",
+      "bytes": 1438
+    },
+    "research.ExcessProfiles": {
+      "source": "research/ExcessProfiles.lean",
+      "source_sha256": "86dd0027328b5b2c164e93b5997f65c5c1bb8f43147d68e5381723f538a74eb6",
+      "olean_sha256": "b5aeacd993faf47b86bcf5d4099b0a8546cb438673227e4ebeb8f463f8e11e21",
+      "bytes": 12801
+    },
+    "research.ExcessNine": {
+      "source": "research/ExcessNine.lean",
+      "source_sha256": "c7c693e14365addf2627e8b2d90896aff45ae660189b3909499fcab08ca09e0e",
+      "olean_sha256": "f169c0dbda5956da47e6056b829f022c924ea55501daa6ea0dac61648a9bb269",
+      "bytes": 12465
+    },
+    "research.ExcessCapacity": {
+      "source": "research/ExcessCapacity.lean",
+      "source_sha256": "11df2e9026f1fef9afbbc9a95185a61c1a180fc127b256e22f2860348e4c101b",
+      "olean_sha256": "ae7b6dbc4169f2312c1ffdc76d44dc1390f74bd0d9488752bc840963d8eb901e",
+      "bytes": 4925
+    },
+    "research.ExcessEight": {
+      "source": "research/ExcessEight.lean",
+      "source_sha256": "5878bdc09e881560d117bbb0021d855d3db3b701d983810a32285719fd6cda50",
+      "olean_sha256": "97dbd646b7108bfdb37fd26a279fe742fd6ff9b2250e5adc989d9fc13ec93bf0",
+      "bytes": 16119
+    },
+    "research.ExcessSeven": {
+      "source": "research/ExcessSeven.lean",
+      "source_sha256": "7ac0b75cdaa015118431db7620114c10c1d0487318f5c1290d3da57f6a6e997a",
+      "olean_sha256": "456e00c76d0d92981d642d8cde0630a9d0fa8831d9d0a31a7a9691b0bcd1261e",
+      "bytes": 12513
+    },
+    "research.EqualQuotient": {
+      "source": "research/EqualQuotient.lean",
+      "source_sha256": "741fe746cf7536a0676bb85257d50cd8a16048d84aca30ed17110c2337975955",
+      "olean_sha256": "719b61cb64e087ad281880973c5d3a3af5ecff4ee07abd98d0b883aa2a80b114",
+      "bytes": 1477
+    },
+    "research.ExcessEightGeometry": {
+      "source": "research/ExcessEightGeometry.lean",
+      "source_sha256": "e07d440f2c1f8525ea0877c8f8c326acd7c97b2e1eceed9fa20e23988a6d505c",
+      "olean_sha256": "0e3b70838720bca81caba752f1b5e33d9f5b9390eee124ea2a779e72e66f6176",
+      "bytes": 7809
+    },
+    "research.ExcessEightTools": {
+      "source": "research/ExcessEightTools.lean",
+      "source_sha256": "a7132f60d69bc39072a9e60e7ee5a2a5f83735cdc90aa5b63d1a6743460faace",
+      "olean_sha256": "dadd8c87d54315a54c7ab788947990f820f915a8f012148c1e2d8eb2283141ff",
+      "bytes": 6264
+    },
+    "research.ExactPairCap": {
+      "source": "research/ExactPairCap.lean",
+      "source_sha256": "296440baf747cd7668afe42b7078e78e72563283c7d190ac222fa41bbb23a530",
+      "olean_sha256": "b9feb3309c1dd6a6ee8a70618adde37394ebc0913f2ebfdcaeb2fef4bde1de01",
+      "bytes": 7968
+    },
+    "research.ExcessTen": {
+      "source": "research/ExcessTen.lean",
+      "source_sha256": "b90c30ee59a27e55118d7929811f3574120a67904ef180ce005574f5c0c107fe",
+      "olean_sha256": "d6715bd9ad62c82e1c0643b3ecc0aee08c0c22b227d54946d55a87eb30c0b26f",
+      "bytes": 18493
+    },
+    "research.ExcessHigherCapacity": {
+      "source": "research/ExcessHigherCapacity.lean",
+      "source_sha256": "06a389edd8d7e6f648954d97cd0545451b1f460d740fb3fd5246461ec06d748d",
+      "olean_sha256": "81920a26e68fdc8e9dd25814de6f3bf84d60eb7e0dc642c8f5077c7938168bbf",
+      "bytes": 11886
+    },
+    "research.TripleNineSixFour": {
+      "source": "research/TripleNineSixFour.lean",
+      "source_sha256": "f1d10addab88d9e39d3d1c3b9c0e4337ba35f206e8d42ced7de28f80df23f052",
+      "olean_sha256": "43ca3d2f3e8d92ccd9a04f6db0dccf16ddbd0fdc2310aee0f023f9abddde3f25",
+      "bytes": 6585
+    },
+    "research.CertificateBridge": {
+      "source": "research/CertificateBridge.lean",
+      "source_sha256": "d51365142a00671989505fdc65aabf52e188ca1b8851ecd27795cc05b422664b",
+      "olean_sha256": "07b80c23ce80488c9391fea59baed0863331470daa6f009a635de749cbd944fe",
+      "bytes": 3917
+    },
+    "research.ExcessElevenMain": {
+      "source": "research/ExcessElevenMain.lean",
+      "source_sha256": "91f101b24c001643637a475f5186ae45580593a3c4637c54793ea47bfedd6523",
+      "olean_sha256": "738078092a1871fc8b42acfde27a5f9f789b0788477ad87a298132fa84deef72",
+      "bytes": 11463
+    },
+    "research.ExcessEleven": {
+      "source": "research/ExcessEleven.lean",
+      "source_sha256": "1ddec86c517d238cf859e3157005658bcf14766714f0606ffbb9b0be5d6d4a49",
+      "olean_sha256": "9130e5ade5521f2e54d459759ee7eec526bbd6ec057ed802c4c412e3da7f9761",
+      "bytes": 9052
+    },
+    "research.ExcessElevenTools": {
+      "source": "research/ExcessElevenTools.lean",
+      "source_sha256": "76620af6588f8de59e302c052bffe2d150bb1e9eb1c05b30c811241accc95f8f",
+      "olean_sha256": "d784d258ea68eb315757698ec1b91f3f0ea12e673e2afac90f0312801f57ef28",
+      "bytes": 8613
+    },
+    "research.ExcessLayerCapacity": {
+      "source": "research/ExcessLayerCapacity.lean",
+      "source_sha256": "025e3fc2b7673b23121cdf8e4d61ae3091f0355842acc8d2d579fe64ddc4ee91",
+      "olean_sha256": "5dc359a527d598d37a9c256c2d4db9c84573723f51791901dbea0570ac74f414",
+      "bytes": 4764
+    },
+    "research.TripleEightSixFive": {
+      "source": "research/TripleEightSixFive.lean",
+      "source_sha256": "a52148ffa3985ed5104b7bd59d2fb373529bec6f0d5f581e1fbef05107b483c0",
+      "olean_sha256": "351c4226f1e8d5dea93efec823a66de095db2f1f06b4cb7034f73257b77d4bb7",
+      "bytes": 6497
+    },
+    "research.RatioCapacityTools": {
+      "source": "research/RatioCapacityTools.lean",
+      "source_sha256": "b67bbb634b657c8befa4383475142dab1d77cf022e0c935a8052f045948a1397",
+      "olean_sha256": "73ea6e8acb3c5e352181305a19ac9a1165a5bc4b7515d4ebfa0afed442ccab71",
+      "bytes": 3510
+    },
+    "research.QuadSevenSixFiveFour": {
+      "source": "research/QuadSevenSixFiveFour.lean",
+      "source_sha256": "5ab870d175532dace2e5588541f89618c8dfd0cfb01ecbacfe667fc4855e50a9",
+      "olean_sha256": "fefa559e5551092d408979e703b4352c09f565ad9aead778d4c284581fae1a91",
+      "bytes": 10785
+    },
+    "research.ExcessProfilesTwelveTable": {
+      "source": "research/ExcessProfilesTwelveTable.lean",
+      "source_sha256": "2ae2995f0a7b2f434f9e9256c2012d9334955dd36aeab22380abfd0fbb135c3a",
+      "olean_sha256": "723925c75f3b1c2d3b17141cc43b06eb01765cd0651cea014f871e58f0c24545",
+      "bytes": 3976
+    },
+    "research.ExcessProfilesCompact": {
+      "source": "research/ExcessProfilesCompact.lean",
+      "source_sha256": "3b2c1d6718e4f4acd5cb5eb4a7483c69d0688727911ab7236d78dab2b965b70c",
+      "olean_sha256": "2c1b50ef73f4bfc29f98ac8a13e0d7ff77241312daa854fcaccd318aa7375254",
+      "bytes": 4235
+    },
+    "research.ExcessProfilesHalf": {
+      "source": "research/ExcessProfilesHalf.lean",
+      "source_sha256": "514d649e9e11dd7cf2cc2e52dd2ade7c0532f140c81aa421ecb65f311e9502ad",
+      "olean_sha256": "7b4c2bf72089294e57e14dc31e5d9ba1e6fc6fafdaebee5a5b5c086a384207c9",
+      "bytes": 5824
+    },
+    "research.ExcessProfilesBonferroni": {
+      "source": "research/ExcessProfilesBonferroni.lean",
+      "source_sha256": "7c780ec27dea397cb436cdc788e13bfad18a25394fbee5128858cc098809fa01",
+      "olean_sha256": "accc2f8e5ee97afd278d3f30bdd8235845d789b27c07e4a4c74eaed1ffb0e0a8",
+      "bytes": 6613
+    },
+    "research.PartialReciprocalPruning": {
+      "source": "research/PartialReciprocalPruning.lean",
+      "source_sha256": "ff25726f88964c4ce2548d893bfbd91911b344bc4cb6728b68536c06c1d2715d",
+      "olean_sha256": "25cb394f67e32a95a06d6ecc0b2cf3d7b470abc3c9a80d56d228e31ad2bd7846",
+      "bytes": 3975
+    },
+    "research.PartialReciprocalStateBound": {
+      "source": "research/PartialReciprocalStateBound.lean",
+      "source_sha256": "e36dcf2aaf83c7e3c5a77f9ffb7e0f34a13c805651f3d5496e6d6e55a534bbc5",
+      "olean_sha256": "2f278c3a022076ad522e50357b6872dbf7a7a31786e2cb9cfb33e4f8c4042925",
+      "bytes": 1885
+    },
+    "research.NormalizedFamily": {
+      "source": "research/NormalizedFamily.lean",
+      "source_sha256": "0a8fe4cfd2ee1afda4ccc4e04740ce4ead8e827fdd0f4d71d9d4b091abfa164f",
+      "olean_sha256": "596765ef6116253f9170af1e34cb0b6b6c199d3fddcedfe9310fedc3ef63dcab",
+      "bytes": 5046
+    },
+    "research.NormalizedExtend": {
+      "source": "research/NormalizedExtend.lean",
+      "source_sha256": "5357eaa62dd138c8f0598b8f13593cd5a470c2dda0bba4c1191fc75735524957",
+      "olean_sha256": "b480168030adb08f2c013604f339dbc7e8ba0e81ffd5b6a7b9b18cd507a10c06",
+      "bytes": 3506
+    },
+    "research.NormalizedFits": {
+      "source": "research/NormalizedFits.lean",
+      "source_sha256": "051ab4d724b6cefb56cae961212a9dbf3913c5d3639299653d2feef53bc6788e",
+      "olean_sha256": "8225a045a81822daae9e4133a9b2a8cdc626e4420fdbdc889f8d22d95e93753d",
+      "bytes": 4391
+    },
+    "research.NormalizedShared": {
+      "source": "research/NormalizedShared.lean",
+      "source_sha256": "bce07348eefef1c001f05af664c76339d5de3bcb6839397da6e61047b172409a",
+      "olean_sha256": "8b02b8e0bef5451bfbfa8094bfd1be5a840650479787f5aa10070d02712853d9",
+      "bytes": 3616
+    },
+    "research.NormalizedIntegerIndexed": {
+      "source": "research/NormalizedIntegerIndexed.lean",
+      "source_sha256": "de63be1d2abbb63ad1c63b2832a46f430952586db57fce5fc1f264762f808feb",
+      "olean_sha256": "8b3980771c6fc4ee45c6f5e3da0d8c8a81fd36b7ec17bd56dd2d1669f2ddd2d3",
+      "bytes": 2467
+    },
+    "research.NormalizedInteger": {
+      "source": "research/NormalizedInteger.lean",
+      "source_sha256": "025d1f1eca9ebdeb6b04aa5d8bdaf159eeb955834665b0e1e4f7c48e8871e208",
+      "olean_sha256": "5f5fa9c01280f2d8c522d836a26f27cc3dd08a7201ac5ee3d903b4bd606f5b1d",
+      "bytes": 6647
+    },
+    "research.NormalizedUnique": {
+      "source": "research/NormalizedUnique.lean",
+      "source_sha256": "06bb40fda40b590e418cf9a0d441455f53f211855cd6a5aafa666bd6f522fa31",
+      "olean_sha256": "c40b882061a264ced09fbf4fd1f6fbae8a7b6f72bd8f7e7e5e2bc508207a5808",
+      "bytes": 1272
+    },
+    "research.NormalizedDirect": {
+      "source": "research/NormalizedDirect.lean",
+      "source_sha256": "e3b6e24d34962c97f5540b3c69d05d9e698b44660eeff2ccdc0c36fecb508a3c",
+      "olean_sha256": "282515985d79db87f2f676274f18d4870acd056ebdbc62358a958b81b0c86534",
+      "bytes": 1650
+    },
+    "research.NormalizedPruned": {
+      "source": "research/NormalizedPruned.lean",
+      "source_sha256": "7b51c2d897a1c3fe8bc60e98427eac125ba1bf3f8f05f8a7694fb4ae572962f6",
+      "olean_sha256": "5f457f2281a9d3f94a485010814cf34f63d202c9eae854e3ff794ba0a9e2d1a4",
+      "bytes": 2376
+    },
+    "research.NormalizedCached": {
+      "source": "research/NormalizedCached.lean",
+      "source_sha256": "cb99dc077a5a5bd6a3e624fb1d2a7474cda7c898a6bb94c69ad0a50e9bcdc907",
+      "olean_sha256": "0cb13d3ef8672761c3c5a4ff10d258a01a381388785033fd260e71ac26e36174",
+      "bytes": 4169
+    },
+    "research.NormalizedArithmetic": {
+      "source": "research/NormalizedArithmetic.lean",
+      "source_sha256": "652d132163d8b598125855ac05931969dc8fabb760f75794e29a9e78aefe129c",
+      "olean_sha256": "a0c4140bbcf70cc47b8077d8d55eb098662665cf62039753de27550061a41724",
+      "bytes": 3514
+    },
+    "research.PartialReciprocalGain": {
+      "source": "research/PartialReciprocalGain.lean",
+      "source_sha256": "870fc151fac0dbe3fd713ab8215e0bac03da326ba32aa3e1f545e045ff02bebf",
+      "olean_sha256": "6156dcf866c02891e958e9bcd02ee7a7422f309499fd4e7734583143d83c845a",
+      "bytes": 2372
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk001": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk001.lean",
+      "source_sha256": "b822599b0eb4f7ac40e65070511170df376f2e895fc6b1c2b1bcd23c0cf77ff8",
+      "olean_sha256": "097cc60dac5ef4796901cbc796532ac5533af8d19381150c4df68038bbc5b124",
+      "bytes": 33498
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk002": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk002.lean",
+      "source_sha256": "1d50e07eb4c716c4ae978907028d9744ddd7b3f26117868831807d52e408e3b5",
+      "olean_sha256": "555f90e60fb78d79fc45e46b2b29e8eff338f9cb561b9adca425452c9e9e8842",
+      "bytes": 33106
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk003": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk003.lean",
+      "source_sha256": "389935cb2b24e262587ce48494c75d1006fd3c22d26d94a6d5824ff1d5185010",
+      "olean_sha256": "559e021d603194ccdde59e66c3fa8528985ed4844d417e228c53020e6b2da1d7",
+      "bytes": 35066
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk004": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk004.lean",
+      "source_sha256": "216be862cd7f65ac506a6109864f1e332c63968d6d587e1cc1a1d0d7fc961831",
+      "olean_sha256": "3702a7716dbf68da9e1c2524b9be4e5a1332b2d884658e1780aaacbc26b8916a",
+      "bytes": 33890
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk005": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk005.lean",
+      "source_sha256": "b533dbed70ab2522fc8800d9b6f81b4e6f92181db9a5823bb3b3882a978c9295",
+      "olean_sha256": "7282357493585d81f1c66b844044cb1d17eb8e8879efb4e931a810009acebfce",
+      "bytes": 35066
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk006": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk006.lean",
+      "source_sha256": "69659fe64dd7d710cd13308ab93d5e97e09fa5b8bbf17417fa3323c1e1da2e47",
+      "olean_sha256": "01becc092f751544e0442f07b6b61a084ec19de0db4a24c73c53b9f44df959e8",
+      "bytes": 36634
+    },
+    "research.certificates.E16PrefixFamilyQ11W33Chunk007": {
+      "source": "research/certificates/E16PrefixFamilyQ11W33Chunk007.lean",
+      "source_sha256": "24a57362e8aa1fd63c7ea2a0c53b522ae222639a0c8a3d8b567e15da8dd8e62b",
+      "olean_sha256": "8475dc1c7fbca7fd439cce2d9c598fc358cd786867ade4753b2968875ba5f783",
+      "bytes": 24456
+    },
+    "research.certificates.E16PrefixFamilyQ10W33": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33.lean",
+      "source_sha256": "1fd23e16ab97fdc81e407cea6aadc27aa200703c8dc8ce2e8cdb01d7324aa9cd",
+      "olean_sha256": "afe16d8be311a749ef3e9a49c6d3d69a4faf5279d50a1c33078db14f0b6db4a4",
+      "bytes": 110084
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk000": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk000.lean",
+      "source_sha256": "53678c209633f059ae83f1ba4724a46eebb6ff21d41e2432d9108ae0c53e6aac",
+      "olean_sha256": "a6c806348429551b92736c1952fcfdc554129fc530fab444ab4c8d07f07081a0",
+      "bytes": 36015
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Data": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Data.lean",
+      "source_sha256": "8338fe0d804b1123943f1ddace04b4e75fb1ad3a541544c2fd6412ae1c3306e9",
+      "olean_sha256": "5626b23d8102aef6cf60e75b3c23047208b26f2a95ae557b90f97bfede2b3ac6",
+      "bytes": 683159
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk001": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk001.lean",
+      "source_sha256": "d1784de477c21188d090db070ffe1cd7204017870650fe7ede872f7810bf3211",
+      "olean_sha256": "0bbe5d98cd0c1454bd3d1f5aa137ffb6eade4813a635488652f080acf68a7070",
+      "bytes": 34902
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk002": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk002.lean",
+      "source_sha256": "cd450b5226c8207249cbb4d1cbc54ec3e6258a3e7d8c9ba5577db22e02aa4c4c",
+      "olean_sha256": "8015efbeaa016546eea2b50d6a2df692270ec7c268d0e0c1b4dc14a5006f1c6c",
+      "bytes": 34508
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk003": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk003.lean",
+      "source_sha256": "9a63fba42899e1c73627267997411213180829632f74b6425fc553429b12a2e5",
+      "olean_sha256": "2c1c1f40dd061f11aa32b4d660b068b167a042799746da434e1b69a86a96278d",
+      "bytes": 33326
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk004": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk004.lean",
+      "source_sha256": "69e3c5b742357284e55739c83bd8f1e54669c9471b33daaece892c02429208a9",
+      "olean_sha256": "57ba75a1d9a31bd7aa938628a40e19e15452750bd9a05b92412a1c41cea6fe59",
+      "bytes": 32932
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk005": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk005.lean",
+      "source_sha256": "be132a40d467cd1ca364ce6b76bc689bd934b187da2b945c61d1f4c5195ee24b",
+      "olean_sha256": "040c42fb3c485f602e9b249e7f5c0eca338e8ca721d503d3ac5aa6fc74f9033d",
+      "bytes": 32932
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk006": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk006.lean",
+      "source_sha256": "69288255db00c87cd195fc0e537f24ec248891f14391a6c5cf75935dab9c0296",
+      "olean_sha256": "4d24d23ffe96e92078b475985116b7fe7e3c1e7f8414cd8ffa5bbad5a5c706c7",
+      "bytes": 34902
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk007": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk007.lean",
+      "source_sha256": "6fcb9b60ff8a89bca1f9136eb23f8d427da59ee76f2a157de12068271ff42528",
+      "olean_sha256": "0a9b62562e05345225623a8fc294f08b8dd59a0b7f8f4693707b5c3c054d4564",
+      "bytes": 37266
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk008": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk008.lean",
+      "source_sha256": "5e3fa66c9e51329ff796404b94fde585fbb83aaceb72e5d9e4bd579943cc8e92",
+      "olean_sha256": "9c7a186158fcbc9212e6d6cc8de3193cacc809baec3449868f5c72a4f50c1f07",
+      "bytes": 37266
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk009": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk009.lean",
+      "source_sha256": "4b944cbc87ec13202f490ec8dd8201798c26ea4233c735c911296ab8c51cc56a",
+      "olean_sha256": "e9b22d3f24e5693f7805d71ce86b4acfe95e7e37b2087a0726251126d41b06e2",
+      "bytes": 34902
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk010": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk010.lean",
+      "source_sha256": "3efd1dc9752fbf5320a31ebdb08c8bc84c05979b8d2d2d374d7cd9c52c7d75e1",
+      "olean_sha256": "495f0dfdaf61c755d726f2fd5d12f8439c9f99285488bd51390b6db284d34567",
+      "bytes": 34487
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk011": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk011.lean",
+      "source_sha256": "7aa725c5dcafe277b3c116cd9142b850fbdf97a63833f450df34391150dec6ea",
+      "olean_sha256": "a6a757270265448323ebe1aec33af068cdc51016ad3bd3a5cf5fc527fd110ef4",
+      "bytes": 37687
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk012": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk012.lean",
+      "source_sha256": "3707ef1a3ab93090fde826f836a8e5322d70882d64d10638b2c763a0304ac829",
+      "olean_sha256": "a1cfeeffa94a6194e382b5e066b8dd3503767a34c358d8c04c80bbf46b2a6356",
+      "bytes": 36487
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk013": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk013.lean",
+      "source_sha256": "138bf9599e5e9d2a08aeea2f0e505bc3caadf99f0276dc3165fd774cab91ebf6",
+      "olean_sha256": "09f7c7b35fa1e31351748c3d57bbe0c816b600ddb2673074fffca350512b2160",
+      "bytes": 38887
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk014": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk014.lean",
+      "source_sha256": "e4f5309350d30e2ceed36e2aa9fa0d5a41bca352884d6911c0f6d961d94dc2cf",
+      "olean_sha256": "57908b929951caa7facb4f39769b4fba6b65c9b6526271b913eb533ead46252e",
+      "bytes": 37287
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk015": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk015.lean",
+      "source_sha256": "df96a021ff39c693b2041b0f53540567b77c8a394082302e58c329720a23b8f2",
+      "olean_sha256": "0f4e615dc7105c737068563d7457e610fe459a709e0965b1f6c9eb4b061cb7bf",
+      "bytes": 36087
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk016": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk016.lean",
+      "source_sha256": "73b185fa1bfdbce4ef13ca1eb92851c93f7eede26da98d9c74f1f5b7af0acba0",
+      "olean_sha256": "abfd387988952a7060f783ec709681781b6713847adfe6dcef1c700fb71dba6f",
+      "bytes": 38087
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk017": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk017.lean",
+      "source_sha256": "d62d3908736636d4f0c8bff316d26b94b2b783ccedc2d79229d0c8ede927e91c",
+      "olean_sha256": "a491fd1ee7a37a0c8f1e6a802f95337df40c6050f729f308d0618cfc6371a474",
+      "bytes": 40487
+    },
+    "research.certificates.E16PrefixFamilyQ10W33Chunk018": {
+      "source": "research/certificates/E16PrefixFamilyQ10W33Chunk018.lean",
+      "source_sha256": "b37b0d73c6ac4820fe0817cb89bb52ee94d254448b436653dcced56ce57c1cb7",
+      "olean_sha256": "31e4c7e792969540394d0535568c46d5716f4a5e6624d020a38c78e1d5a30d83",
+      "bytes": 16529
+    },
+    "research.certificates.E16PrefixFamilyQ7W33": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33.lean",
+      "source_sha256": "faac49724dd0a55963817376b9d7dd6a200dc6aad1c78c9b309cddb8d2440551",
+      "olean_sha256": "2ba87016c094278e40b5e7ab911a37c5e71a8d8d47606faf72b21fc4d9059d27",
+      "bytes": 130483
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk000": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk000.lean",
+      "source_sha256": "6c03696f2f9c649cb1b78b140da667de20455fcf04706fe8ef0fdd053b40b3fe",
+      "olean_sha256": "2c364359b174a9aae99100c186e039e8e6c5107a7fbddbd49979eddb213e9f7e",
+      "bytes": 32948
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Data": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Data.lean",
+      "source_sha256": "41398bd80659fe1e2fd2ab60c608f90c0fc56d3780a0eedddd70994ba7d462a6",
+      "olean_sha256": "90c20b7a5983d1da7f4899c8dfccf50563ea4cac6d3fc4551a933600e3b2805b",
+      "bytes": 787857
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk001": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk001.lean",
+      "source_sha256": "7e8bcef581800daa401f84a4304585bad91d05fcc210d61fa60ffe958260c2ac",
+      "olean_sha256": "0d2d4d1091001698b556650f79e0fec322e735ab5b27f496e13dca5301fd593d",
+      "bytes": 32585
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk002": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk002.lean",
+      "source_sha256": "3de93a18a7b3e185f1b66db592930bd8158e028b7881374d0b98245537b8636a",
+      "olean_sha256": "4da9f26724860bc4c15233bf9e8a0ffc563e108b6d19cab6d671342c0e227391",
+      "bytes": 31807
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk003": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk003.lean",
+      "source_sha256": "062e92715b577fed3eff4046ad3d1b1eca12e32f276681b6205753d2352b0a72",
+      "olean_sha256": "ecdefc7ac45ec8f9a7ef45ab3bab26aa98216c8b2aa6a0162b0aa85b1df53d0b",
+      "bytes": 31807
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk004": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk004.lean",
+      "source_sha256": "1dbeb82fa07481c5ec78fcd7f47769c12404877242f610a257515c5ae20a62be",
+      "olean_sha256": "c44e06bc1d0cbb391346832b40e257f5880c95251533b879e760f964516c8c76",
+      "bytes": 32196
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk005": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk005.lean",
+      "source_sha256": "98a0f0bf2d9749bc0a6aee4d4d6f0fb1f5bd34f2a3b95058a2edaa43a6284591",
+      "olean_sha256": "cd5544a7dca2a723230e9281ffdf2925279836a74835ef3d6192967ac115c675",
+      "bytes": 32585
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk006": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk006.lean",
+      "source_sha256": "66b671853c11842f074368177e3e71923730a463a51222cb0fbe5f906e616425",
+      "olean_sha256": "450946e82170e9625a591da7512d9a8daf5b7b243f121ef8d87c783e26869153",
+      "bytes": 32585
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk007": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk007.lean",
+      "source_sha256": "5dbd40a08dbcd0a8b9508e8a85a544779daaa5a7ec2757ce57e98c3c4ba9ccf1",
+      "olean_sha256": "f43272b087612a9953ac34aee79a2aa5233bcc117ea4a9eefbb71a34fd2f6034",
+      "bytes": 34141
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk008": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk008.lean",
+      "source_sha256": "1e1be925691d992796530e244973bf386dbe1edf7b90b18647f46bf904bb3365",
+      "olean_sha256": "1a5558c7549cf068e751f1e808557eb091ad1597cd6787056ee29407ec4e7d05",
+      "bytes": 34530
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk009": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk009.lean",
+      "source_sha256": "c6353112c7d144a2b93f6687ff70e4578efec2b084ae4277869c29731bb0a5c6",
+      "olean_sha256": "6c01a4bcb499ea7b183b36651818fe3b3a9177c4a431b30b97d4ee3d32d99cd7",
+      "bytes": 33363
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk010": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk010.lean",
+      "source_sha256": "6f76965bcff22b45ac89545e2d31e8417f1e4ea8c645ad16a4bf45e33b05cb54",
+      "olean_sha256": "aa061b323ecb5e1422db786ae4cc366203023a7e8c2577a12d6aa6e8d33a236a",
+      "bytes": 36100
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk011": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk011.lean",
+      "source_sha256": "bf58ef366841a392e9f7b6015f157980ef175349bcf703ab61b12e88689d58b5",
+      "olean_sha256": "69e86c2760e6254374aaaa48ead211acabeb452e202cfa0d58444816d5dd1473",
+      "bytes": 34125
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk012": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk012.lean",
+      "source_sha256": "3af1c26805c8af18f5d63496c89f973340059853ea9dfe010d787c375cc708bb",
+      "olean_sha256": "7086b938667a9678549762c26f96640c77773cf990ffe0ea8dd390601b774561",
+      "bytes": 32940
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk013": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk013.lean",
+      "source_sha256": "24dd1ba1e1e9dd09647c6b913c464a81bd6c7aaa731c79d0387782a98c25ccf6",
+      "olean_sha256": "4a3a8edb21fe332c2b077a6cfd98c589b17e7462d22d36f0f6d349239982832c",
+      "bytes": 33730
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk014": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk014.lean",
+      "source_sha256": "afd841622be0ff889bde2abfeb1c5edb1e127269b0945d5e564ccb25be7fa122",
+      "olean_sha256": "11cb544cca417262b421c81ee5602833d70122106351e1d3e54cee53b6019510",
+      "bytes": 32545
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk015": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk015.lean",
+      "source_sha256": "667944686e42f4c87c6eede328d2527754993703802e8751d439576f1edb6e28",
+      "olean_sha256": "a794ba3f469b2ba36e6e6e230a329a3d1e5ba87ce7b1cbf3b8e8f04fa2a41442",
+      "bytes": 32150
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk016": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk016.lean",
+      "source_sha256": "de3bc42ca048d58763a3a3c13cc33515bb9395325ec7649ce8a755dd58ac361d",
+      "olean_sha256": "c862e708c02c6c39d0870ea9e4f2e83a711ef27a57a54f79825e27a73854d03c",
+      "bytes": 34125
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk017": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk017.lean",
+      "source_sha256": "e00bc28908104803fefc37cf92bbefa99babea8114037ef15a3568934d8c0bc5",
+      "olean_sha256": "619ee9e3ea1f4c350ce795122d7fdb7848a5ac65ff9a01e61481791994d8878c",
+      "bytes": 34915
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk018": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk018.lean",
+      "source_sha256": "146ba069fce10090073f15f6b1e05d51617bac37011cc5054a4d3d499b062197",
+      "olean_sha256": "ec2dfc7d2e43b569919e113600e619210fa497429dbc59eea7feffaf609b036a",
+      "bytes": 40050
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk019": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk019.lean",
+      "source_sha256": "871fb616d37380c3512328f244d8637166ad655ab3fb041ecd915a03e448fef0",
+      "olean_sha256": "85c8a263b2479e0240442d4846247d4adb9a5449b48d3144756ee12dce22bae7",
+      "bytes": 33730
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk020": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk020.lean",
+      "source_sha256": "3a4e86cf57ab9d05f27f4e5ec77c13a2b915ecab2277723ee117af4bf0f6da05",
+      "olean_sha256": "f23d139dcb15baf779aaa4708a0d7d6f166069890ad85d2adfce46e466bedd2b",
+      "bytes": 36495
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk021": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk021.lean",
+      "source_sha256": "5778c9e6915b4afac66abc0c53de039e9c6a3df81888758512ed2da9479ca44d",
+      "olean_sha256": "3092eb1d35a61680b0f6c4f69a1b57880db112d3dc7a70fcf9ae3cbd0e3ddf1c",
+      "bytes": 35705
+    },
+    "research.certificates.E16PrefixFamilyQ7W33Chunk022": {
+      "source": "research/certificates/E16PrefixFamilyQ7W33Chunk022.lean",
+      "source_sha256": "d9024cbe906009955f77597a4ab2ae3215836d0a59e1d8a81676b00b067c90cb",
+      "olean_sha256": "0721637f97ac778b9ab1997cbf7d97c37dde0ac697b3a05185955d93ca5e813c",
+      "bytes": 8558
+    },
+    "research.certificates.E16PrefixFamilyQ10W34": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34.lean",
+      "source_sha256": "ff95f971f8ad4c6ba070709f0cf30d5dd86dae34b5facd84594b0af6ecfda5de",
+      "olean_sha256": "a977dc8b9e7549518aabc29dea8e0939817bfa3a2bd7f97c5adbc32a47ed921b",
+      "bytes": 203736
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk000": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk000.lean",
+      "source_sha256": "89dbfc4892cc9555f460e1bb5ead4c5e8be8f9e69d5cdd3e5363a3447d39c4cf",
+      "olean_sha256": "61d0576265a3500f7c940b82519e2462a0f11653f4d188a753db858da44b81c6",
+      "bytes": 38871
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Data": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Data.lean",
+      "source_sha256": "e9cd29b0243a0dbd2c597bacd47326db97f0da77816640745821894628e14824",
+      "olean_sha256": "78a65f79bf7ac332cfbf96f36a615e241576c74ddc0dc62f3d5eb1140cea99c2",
+      "bytes": 1737253
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk001": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk001.lean",
+      "source_sha256": "9c32b36ec44c71e404299b49d2b47f2bbefb0cdeef9a84e3928229d24e828a40",
+      "olean_sha256": "08ea1cfcc393c51aa205207870e0cec41437e24d80d53dfe7564f9cee1695064",
+      "bytes": 39008
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk002": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk002.lean",
+      "source_sha256": "11f868c3f2c9d38a9907eba267d708584ceeefc5b8b9a753863a10357f9746af",
+      "olean_sha256": "adb8083b27fea0aa2db5f1de9be8216b77627a0337101d798229d3c0f10e8eed",
+      "bytes": 40552
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk003": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk003.lean",
+      "source_sha256": "48b70b620a6a31a5d3f613ccce3cee80f7f857a96f9d1feb369cd715cbbf1bf5",
+      "olean_sha256": "d6f86036c6acde65c19ca4a36325dea26ed87745e91f1cd4d7f081b4f93f9283",
+      "bytes": 45956
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk004": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk004.lean",
+      "source_sha256": "1175e0a6cedce06979c1c91d5f45875850f7c91c519f5caba60521ba3c0cd056",
+      "olean_sha256": "741876bdba77f688b58f7b8e1264734eac247ad8ec087d9c466bfb12d2f9bb4f",
+      "bytes": 42868
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk005": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk005.lean",
+      "source_sha256": "ea5166ba0bebf4e89453fdc3261ef9e4d70a991aa188d58908962c88cda70aa4",
+      "olean_sha256": "e6b7aa7f9587ea0c88781137cbf5a9cdc290714b2cde52ade3b0140a141d9e47",
+      "bytes": 49044
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk006": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk006.lean",
+      "source_sha256": "d6473ce1c25c46c482b039bc82c23c0fbbb2220344f4977478838e67c55f713f",
+      "olean_sha256": "80b6cbb40d70e21c024c7ed80645584e754dee1c6184f0f79513fe9096dd9122",
+      "bytes": 47500
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk007": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk007.lean",
+      "source_sha256": "b88e89b1b417bd22bc20c5f311e3f8559dd8a023ed15f963c66fa6156be0e4f5",
+      "olean_sha256": "e16b25850d36f27632a244bbdbdb5703bb634d5cf9d7d11eab7969617a757102",
+      "bytes": 45956
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk008": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk008.lean",
+      "source_sha256": "b194570621a2b8b29a847345386726aefa46205b8c310b4380e5cc6192a7a6f3",
+      "olean_sha256": "b217a1368c0b28d713bbc61ec2b5f30784ce0614e880288e0635937df4fd1ed8",
+      "bytes": 37464
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk009": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk009.lean",
+      "source_sha256": "949db98966708b0fa6786de52381b79271eb39e805e848f98f3e9da3e37dcee4",
+      "olean_sha256": "f390287c296b4d79a417d64658197def6a4f1bff97dc8feecb0bac7f5533c8b7",
+      "bytes": 37850
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk010": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk010.lean",
+      "source_sha256": "02049beca637b19cefa6faf9fb2fddb303896e6546d12cde6892e2af87235c6a",
+      "olean_sha256": "08aab59ac71e091313bf45a4ce991a301687ae4722b7820b8dcbfd1f7f939177",
+      "bytes": 40647
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk011": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk011.lean",
+      "source_sha256": "4ab1a50862561698ac8478e64afe1e88b3a1fb6b6e74bcbb6629e3d574442042",
+      "olean_sha256": "b0308799f6f2b2aba2437a908ecaea82f7e271dec64cdff4ef248752bcdc8129",
+      "bytes": 37511
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk012": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk012.lean",
+      "source_sha256": "2e66e7fe5a7dcdea9c4eec21600ccafcd6b6d86acd3feb3093b363122fdd9c26",
+      "olean_sha256": "a58a1d69db6c6062741ad0e2e1dd4e2f4afe3a26a1658e4153b6163da9b099ba",
+      "bytes": 44175
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk013": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk013.lean",
+      "source_sha256": "b49809a8b1bc05cff3b9a2aafae977a48a9ec542c5cc5bfc36e3753620bece40",
+      "olean_sha256": "5a9d63a93451cf2a0b9ee65f8ddf62df13f3e3179ee5d35f8eda23cf17c2f311",
+      "bytes": 48095
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk014": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk014.lean",
+      "source_sha256": "bb8585761559de954ea9f2c8561a64b563126cd16f1693f6e41ebfb343e7fb59",
+      "olean_sha256": "35d9e0e9773b393ae86cecf0adde32926adcc69fd0b36b7d9b50edaf1a35ab0d",
+      "bytes": 40255
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk015": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk015.lean",
+      "source_sha256": "de18ceb4e19c59939e0ff88995ca603543e22d3e0e7ee6976c3fb13a68c1998e",
+      "olean_sha256": "32d277367220913299ddd9003e849c5ab0af9b93d16917ed2f6219242abac77a",
+      "bytes": 38295
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk016": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk016.lean",
+      "source_sha256": "35f765acb56143568e06f0777207ee00124e2eece34dd6b0f5bf4de32a63712a",
+      "olean_sha256": "45f25cfdf7ab5a54a2f9e430e80b50e536027dc2b2820036bedbedf086ff36eb",
+      "bytes": 47703
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk017": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk017.lean",
+      "source_sha256": "24ef2387cf20de602d54c84c09ed8d68a3b350f541058585aa5fd2b4968ddca0",
+      "olean_sha256": "72885b821c96466409250fc5c0f3cbeccc4b38b649194fbfa114346fccf2395d",
+      "bytes": 42215
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk018": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk018.lean",
+      "source_sha256": "ced812fd46f40664641b956118f6ffc1e1626754dc213010a5a43d3304b29ce4",
+      "olean_sha256": "5c22494db41ead9aad3fe53fb6528abbb48f27819860de5b5dcbb70703f16a38",
+      "bytes": 41039
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk019": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk019.lean",
+      "source_sha256": "df75bd744931181180ccb6d8a5bef935bd455b2bc40a68b44bbe0bfe02ae568d",
+      "olean_sha256": "26b5f98c05a6f9601fdf2b0b1562625b74e431325ca73712fee5e6d8f125b793",
+      "bytes": 43391
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk020": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk020.lean",
+      "source_sha256": "5d42658e3785beb7b9fc56fc1bc6c2f5e67b63d592a13183c14875fbaed832ed",
+      "olean_sha256": "a37989058e3970e42cb2d7878abdc885bc8229c6d57b75fb9ca4b58062916e80",
+      "bytes": 50055
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk021": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk021.lean",
+      "source_sha256": "17c1aa0823ea6ddc9ba5a3239c15dcf06b90adcce7a1dc03ffc1695b91d08a27",
+      "olean_sha256": "460e1d7c86d6b71a1d2149088a5814fe02e42bc3acd9cf2407620ded987d6e7f",
+      "bytes": 41823
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk022": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk022.lean",
+      "source_sha256": "790e3547492ec9e1d52af23d2e572ba22e7024b81ec12957059871c9ca969919",
+      "olean_sha256": "c1ef55e66122b93be18c7e20f21eebf7c63324b743bd3ab53f275b53e067e25d",
+      "bytes": 46135
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk023": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk023.lean",
+      "source_sha256": "d55c0caaf84440d065480eabbb34efab0c077ad2e2542de65931c19bc52c0c03",
+      "olean_sha256": "259661212cf390535593d6db8570e4f9b6a213c8d0c2b4badcd3f620cadca271",
+      "bytes": 45743
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk024": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk024.lean",
+      "source_sha256": "e89e7187d48c6d26e4c9253428880e11e747b8ba50440451e2e9da3076be0913",
+      "olean_sha256": "ae3a5272cc153eddf40af7bdc6852a3964ee8fe297715eeebea17772b08d2f2b",
+      "bytes": 46135
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk025": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk025.lean",
+      "source_sha256": "fde5ff1960d3eb8d3d35deac80b0a3e18ee991d54305a8bed60a545603ba6db6",
+      "olean_sha256": "ca664f3b986922c78e6286015f3d3a3e7035b70bc9144c15545f5d5448a4709e",
+      "bytes": 42999
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk026": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk026.lean",
+      "source_sha256": "3a5e9a20d9086e77fde36ada76aa69094def0feb34d2c81500b806a8667732f4",
+      "olean_sha256": "4dcc788b64364ecb2b7d970a54a67316c31df6875d2a6ffdec786402c2faf148",
+      "bytes": 42215
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk027": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk027.lean",
+      "source_sha256": "2078ccd723b6d9a2dffee98d27e90a88b49687c06a40a31ed2ed78524f627967",
+      "olean_sha256": "bf5e9f19b8fbe5e8d44ecc5ada69983796bb771269f6a0695486e8f65c1693b9",
+      "bytes": 43391
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk028": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk028.lean",
+      "source_sha256": "9d6d7b3eb068dacd8b0b7ea5e68a50bd522919dc32161ae74573ecfbb2a610a8",
+      "olean_sha256": "ad348a0890993b6d4fcf8c74365f621d29b2575e674dcd1d3c1d867955b51712",
+      "bytes": 48095
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk029": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk029.lean",
+      "source_sha256": "3528af5416a85b8a859915f2cc5ec89cb167c6cc9b2fbc3b4163f8597c003740",
+      "olean_sha256": "c1e1bccd211e16cea0d0fac213fc1e2b3492cde0255fa61c2d240242b868628c",
+      "bytes": 46919
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk030": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk030.lean",
+      "source_sha256": "20ccfa659a366d2daab4969fb06a771a26150cd28bbee3a6cfac8f335bbe14a4",
+      "olean_sha256": "4faef564f04f02542a5e521344c99193a315ddaee5571dcab602c34f9a49e8a2",
+      "bytes": 53583
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk031": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk031.lean",
+      "source_sha256": "12d5f44895fda2479692cbc7f1564875583c63e25277955c5b300afbfb3d3072",
+      "olean_sha256": "c1d09d619131d0a0e9fa7a873cd6591e6684971b2375b6fa3e38f606d9460650",
+      "bytes": 57111
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk032": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk032.lean",
+      "source_sha256": "faab576785642c321579160cd073a5b1d3d76205802e3a96addfcb4db1654e43",
+      "olean_sha256": "363600159587f1fa772db4cc5d6c9bc6272a5261c0a81242c7501db26c1dd2e6",
+      "bytes": 49271
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk033": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk033.lean",
+      "source_sha256": "7095a16dcc8331fe1ca8636e9a8b096e4598fd7105be6cc800d611b26b849184",
+      "olean_sha256": "ae23a5469fe7b71958714708666edba26f5871b7c6500d34f619ff42bca5794e",
+      "bytes": 55935
+    },
+    "research.certificates.E16PrefixFamilyQ10W34Chunk034": {
+      "source": "research/certificates/E16PrefixFamilyQ10W34Chunk034.lean",
+      "source_sha256": "27d350de2134fa7c9a06698778552649c2567fd9ccb460ffdb8e5bd259ce92c8",
+      "olean_sha256": "7ef554445e834d0cdcb4659500096aa387ccbc92e73e6d1932d80397f00cca7f",
+      "bytes": 9281
+    },
+    "research.certificates.E16PrefixFamilyQ7W34": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34.lean",
+      "source_sha256": "cc35096d3cad7b5b6509e2d878aac32f484e87dc00850d4d18776ef8453910c5",
+      "olean_sha256": "6dfdf28855c20c07139b8aa93555370b8f86b26659c97aa9bd577e4689155e3b",
+      "bytes": 230599
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk000": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk000.lean",
+      "source_sha256": "3deb4efb768d80e649f68557c7703ea2af17e7cb5a95cb86c364a570bf7c732b",
+      "olean_sha256": "83877c0e140a1c0411ce8ee517f3170dd950a40fd2286eea2dd902a596f634ba",
+      "bytes": 35183
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Data": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Data.lean",
+      "source_sha256": "275e05ff2c4738920de04f1b50e6690c97aade2b4f4a4dbde286d2b52faeeba6",
+      "olean_sha256": "0fb542ef9841f0949f6a43a3f6eb714710924417b1bb2c8084c9efcf5aaf42d6",
+      "bytes": 1913242
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk001": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk001.lean",
+      "source_sha256": "62b814bd568ddb9d9fb0c33c020a6b9b21534a054511a4f3d61515def97d3bed",
+      "olean_sha256": "00e3f432b31b37e6bd7225cb71ae67729f6577ebcedeb014a859ff9d4b71c410",
+      "bytes": 38696
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk002": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk002.lean",
+      "source_sha256": "d050e5da2eeb2acf779cd0417de314042fd13b9515772c09ed55da8dfeeaacc3",
+      "olean_sha256": "97dc7de7d783c7cf65635211cd1f2a147042f489ad68d71d4139f9e039e3dc5a",
+      "bytes": 37938
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk003": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk003.lean",
+      "source_sha256": "5c4c1987feca3343f0b9ba3de50418fa73c50134adfadda0868af955ae910a66",
+      "olean_sha256": "e38967bdae5c30543e523202dbca16ed4e97b064a28b4f8d5b88ae51e9cf0e54",
+      "bytes": 37559
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk004": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk004.lean",
+      "source_sha256": "af59a2a5e5bac89bd015851b3e0fb1084588739adf95fdda93cc36b1df0c04ff",
+      "olean_sha256": "75f65b46df2385635acaac43f555acf1198b12ad6b374a98eb8f8ae48a8061fb",
+      "bytes": 43244
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk005": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk005.lean",
+      "source_sha256": "dd4ce023d425840e4463cb935d0da78653bc9b1f2702493065e39efefd698e49",
+      "olean_sha256": "ecc33b63118a77faa26aea5a7b320fbd203157b1e8266f9e00cb1dc0a948e894",
+      "bytes": 45518
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk006": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk006.lean",
+      "source_sha256": "477c586719b1c7cf3ca6d4778e7de0efd7b6d57d2cd4361ef7b174e1333af889",
+      "olean_sha256": "ab3b19927a721760649001708b8f44670895a6933847562a1e484659e2129950",
+      "bytes": 46655
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk007": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk007.lean",
+      "source_sha256": "b371d1bf488b2c130400c38aa67e6849b073d8ca2d69204f2dc62857f7026ba0",
+      "olean_sha256": "2f0d8675afa16ae83cf58f4b4a98372ee009e2d186110f3b1f86ce10f1abfd77",
+      "bytes": 38696
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk008": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk008.lean",
+      "source_sha256": "7b1806624945ce8dc769f9de835f1847862343ec8926a682675a77236d88ebac",
+      "olean_sha256": "d452d4cdabd0a0c5462645499cc28e56d87c34e0fed7682ced46a0f611af3b72",
+      "bytes": 33769
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk009": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk009.lean",
+      "source_sha256": "9923121eb306f8643b162c7009e2120de1e48d3dc43e6eb8e892c58d9d4dda1b",
+      "olean_sha256": "c124e5f8b0548a0addef890e1fdd58e6b3dc4f4f2b7693979158114d894b4f85",
+      "bytes": 34148
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk010": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk010.lean",
+      "source_sha256": "fddcd29b4bfc96dec591c85537dfaa27c6415814f1dfe27f5d5be42965450ad0",
+      "olean_sha256": "61a59c310b2dfebc4c5072413782bf1d25b2a9cb0cbc592cfc2df27ec3144f64",
+      "bytes": 37240
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk011": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk011.lean",
+      "source_sha256": "533d0d0e8d35f7ff4d3c9490ffa119483576cdd14c203a65dec0323298c1ec9f",
+      "olean_sha256": "0e42e3e63ac2c00b86c7bfa8546334cbe7eae04df0969f87523dd41ce249caf0",
+      "bytes": 38010
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk012": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk012.lean",
+      "source_sha256": "9c890379865fe28cbd20f155995ffc76ba3e4ac120c8e1f9797b572eaef6ca8e",
+      "olean_sha256": "bf51e48a07a109da4aef31606820ddd41723f1dde0be8ff832352cd80c7d8bf4",
+      "bytes": 40320
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk013": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk013.lean",
+      "source_sha256": "cd38c8b891571a22002617038aebcd103a14ccbefac3ab10c22fe1a88398f9a9",
+      "olean_sha256": "59e13ad09c516a2b653a6e093800b2d9f28e0ec0426fad2c3900d3955db7b2ef",
+      "bytes": 39935
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk014": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk014.lean",
+      "source_sha256": "cf4dac85456d967e55114eab77611e46378b39f36db14f6068b187efccdb239b",
+      "olean_sha256": "231ec9ee42aac84b11595020ff55669072375f2eafbd191b39d5185f5fab74b1",
+      "bytes": 39165
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk015": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk015.lean",
+      "source_sha256": "cd4e3648e89b02b0436fac58f4e6ddabd8bbc0f976eb94538499dc48e894652e",
+      "olean_sha256": "ae52e895f6265e3bd4391b6e9f1318202870f6e626768653be7a5579b7b3dc0e",
+      "bytes": 38780
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk016": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk016.lean",
+      "source_sha256": "9e5cb17a45fa232958b41f24af76e701520af08ba3a6e156dcd807d892b7df20",
+      "olean_sha256": "5696cc5f519bf2b6660a502a9e82d351a521b4809c0d65fbaf8ea5f6868ae374",
+      "bytes": 37625
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk017": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk017.lean",
+      "source_sha256": "b86b64999c3fa1b5fac2af580e827f0d471fa4558b6bb64a4a63b482f424f02a",
+      "olean_sha256": "fd7d7a64c90b345eb96575fb0a871e805008075a92bd11c042f55914b4a97506",
+      "bytes": 36855
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk018": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk018.lean",
+      "source_sha256": "25c07ba021528a442f1538a0c19f70a6b121e1a50255b40ca81167be57ea8b79",
+      "olean_sha256": "4ab9e33d6d3d2d2282aa1e2acccf60923c82fcf0facfad1a8347543b4c7e1a95",
+      "bytes": 41090
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk019": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk019.lean",
+      "source_sha256": "397e73aa7d35df690758bf9eba72d5062792f2680fdc5bcd1e4652ad8f882771",
+      "olean_sha256": "913518797833860c7bd2c4f24e02991dc65498a413b912e917b48bf1f6995bbf",
+      "bytes": 36470
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk020": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk020.lean",
+      "source_sha256": "6593317b729fba665b2afdf0360fe6caf06e0919e6a2af6c0e30b845138fc5fd",
+      "olean_sha256": "b7949e1e8a1b9ca922c2da559080e2998a06dc73aa39a6ab8f1ffdf58c665d41",
+      "bytes": 43400
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk021": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk021.lean",
+      "source_sha256": "4e3f0df1240b85bf692e5fd8c507e1067c467b522c6fb34fc20bce578db256ca",
+      "olean_sha256": "bf92f8cc748b4dea4f997127d5fdacd721af5cf873f3fa7dc7cbdc1491663ae2",
+      "bytes": 40320
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk022": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk022.lean",
+      "source_sha256": "9cad1550b8e2125f6a9af5b0d31c3547d803ba6757366597b3d89e114664ae81",
+      "olean_sha256": "0ed686c112388e38ecb9dd97d6ec5fb80a0cec373e232f928cbf941ece5d09af",
+      "bytes": 44555
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk023": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk023.lean",
+      "source_sha256": "a48904d75489f37435dfb0dff76afc25e5ec6c862e68f7e7960371f157d72d5a",
+      "olean_sha256": "d89d19d386564bd1d689cc49dfc711e425156a6acb8797216b4b2ed8d6cbae78",
+      "bytes": 43400
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk024": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk024.lean",
+      "source_sha256": "9c4bee27abfb30b7e07dc35b7a0f92af22a7a3fe41b616ebd5d1fdce5676c5a1",
+      "olean_sha256": "73150cdc6014d3df9bfcec48dd3d3101766d784e4022734a296c2c97653756b6",
+      "bytes": 40320
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk025": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk025.lean",
+      "source_sha256": "5133fb05510efdf17c35dd0ca0a21a4c0b69eac43d2972159791a747c196f60b",
+      "olean_sha256": "71e22bd97b8c18da61c8219b89a71bd2d6359bbe17225bc5449f6fef82cb7c7a",
+      "bytes": 45325
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk026": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk026.lean",
+      "source_sha256": "1b7df47f786b49bd905b344550a5d08c267f9b3d7c4f2a7e56e65ad85b39d8a4",
+      "olean_sha256": "7eca2dd7df0c29adc2a088b8457863a96b28adad814ca9402c19ec6245d96900",
+      "bytes": 48790
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk027": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk027.lean",
+      "source_sha256": "6c46d42c1d8b2dca50b91af2d90a83f640efa26f2d1963fdb16b1a1dbf259f3c",
+      "olean_sha256": "cf9c7e3e42d949c644b5c5cb91fcf3209e71034c38ec2292086231b2fab5717b",
+      "bytes": 43400
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk028": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk028.lean",
+      "source_sha256": "a7b3c859a47668a4f23ebbd41422bf51852a7c7a27fe163b9ee434275c6429f7",
+      "olean_sha256": "4ed517843d60affd9093a4092dcb2230636eb9d394a64e9fb45bec69b50fd616",
+      "bytes": 43015
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk029": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk029.lean",
+      "source_sha256": "0e73ef52ff4db6f517b5fcac48b9e3e635e84ca788c7c817fff8574ae201c69d",
+      "olean_sha256": "3b841e2e5ef4d3ea31b959039385aec232a35e506158a9d45955c2ef968594fb",
+      "bytes": 45710
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk030": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk030.lean",
+      "source_sha256": "aa5e7c55066a48d47c8a81c00a44117bbb16cae41ed295dcbea40c87a35d6bb0",
+      "olean_sha256": "06919f74013d5a0bd0d649e83de242ae4646ecde8e07dea183292056e1805542",
+      "bytes": 46480
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk031": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk031.lean",
+      "source_sha256": "41ad8b276f161ed96f6928b50c879db172cb0e3104a69d5542e7ca5809de5861",
+      "olean_sha256": "036637baebc8ead0f16dd9195ac4823595cbfd4a3633b42c8475e0de88b76817",
+      "bytes": 41090
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk032": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk032.lean",
+      "source_sha256": "a9959d6bdef9e26f3df85546c9212f40b4e3cef6e0992c7cf2032e8e24c66f8a",
+      "olean_sha256": "7ef08d2a56f796b2b9bba4efaea6617ba53851b366e2b3a1ed2e63cc7c9167b7",
+      "bytes": 49560
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk033": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk033.lean",
+      "source_sha256": "92282249ba689306363c116857fbf0877393a699b507e3a70eda931b5f53c59c",
+      "olean_sha256": "bf977d202db0a88ff35b7bb1fad6fb6e10269a43190036eec02bd9e5b019ed72",
+      "bytes": 45325
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk034": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk034.lean",
+      "source_sha256": "f7c91768bd9b00a9593be27e07bef8b2b5dc85210106fcb0c7fb87dbc08be2e1",
+      "olean_sha256": "22204e10b15edfff354a22623624057460886e0c9dc04612559384c826860593",
+      "bytes": 42630
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk035": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk035.lean",
+      "source_sha256": "2d7c596c713018352cb019c3bdc48ba30b3f32c30a5cd97cfda8b2846f5edb5e",
+      "olean_sha256": "7ec0f67842682a99739452fd62a1a9e127770f713b8a82043487d7bb11f40aa9",
+      "bytes": 44170
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk036": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk036.lean",
+      "source_sha256": "19acb849babd846c5ef9b96bcf174bfe8f2ea3de122a9b9a2adbd45b0df1dcfe",
+      "olean_sha256": "0b1ae52cd69da8d3c5c1088fafceb4201531edf434aab118337c9696d719b734",
+      "bytes": 42245
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk037": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk037.lean",
+      "source_sha256": "05e9045968954fe6041d2a55166fedea054fee5a83745ed04a9185777e91c5f7",
+      "olean_sha256": "be8f64f84005e9feb6a5101890753d4fa474038f9687c24713f751486f0b5565",
+      "bytes": 48020
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk038": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk038.lean",
+      "source_sha256": "4d4aa3280fdb7b2f22c7dbe22ea049d38b047896e7eab6fb04fcebeb31237806",
+      "olean_sha256": "f4c07c58091523ac6c9e7fa8b57d39add953a8c41b6f3b2ec338899edb145068",
+      "bytes": 45710
+    },
+    "research.certificates.E16PrefixFamilyQ7W34Chunk039": {
+      "source": "research/certificates/E16PrefixFamilyQ7W34Chunk039.lean",
+      "source_sha256": "ef3c2f288a9d05c47f53711da0f8f6ac66bf3b6abf6081300af227db47022015",
+      "olean_sha256": "127dc6408ab6d10a7c58ea4155c36431e080c4d3c70da57884efdca0fb08e3c2",
+      "bytes": 15333
+    }
+  },
+  "local_import_edges": {
+    "research.E16FinalPrefixCertificates": [
+      "research.certificates.E16PrefixFamilyQ11W33",
+      "research.certificates.E16PrefixFamilyQ10W33",
+      "research.certificates.E16PrefixFamilyQ7W33",
+      "research.certificates.E16PrefixFamilyQ10W34",
+      "research.certificates.E16PrefixFamilyQ7W34"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33": [
+      "research.certificates.E16PrefixFamilyQ11W33Chunk000",
+      "research.certificates.E16PrefixFamilyQ11W33Chunk001",
+      "research.certificates.E16PrefixFamilyQ11W33Chunk002",
+      "research.certificates.E16PrefixFamilyQ11W33Chunk003",
+      "research.certificates.E16PrefixFamilyQ11W33Chunk004",
+      "research.certificates.E16PrefixFamilyQ11W33Chunk005",
+      "research.certificates.E16PrefixFamilyQ11W33Chunk006",
+      "research.certificates.E16PrefixFamilyQ11W33Chunk007"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk000": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Data": [
+      "research.ExactReciprocalPrefixFamily"
+    ],
+    "research.ExactReciprocalPrefixFamily": [
+      "research.ExactReciprocalPrefixCertificate",
+      "research.NormalizedFamily",
+      "research.PartialReciprocalGain"
+    ],
+    "research.ExactReciprocalPrefixCertificate": [
+      "research.NormalizedReciprocalCertificate",
+      "research.PartialReciprocalPruning"
+    ],
+    "research.NormalizedReciprocalCertificate": [
+      "research.NormalizedReciprocalPruning",
+      "research.NormalizedFastDAG",
+      "research.NormalizedCompleteness",
+      "research.CertificateBridge"
+    ],
+    "research.NormalizedReciprocalPruning": [
+      "research.RatioNormalization",
+      "research.RationalUnionPruning"
+    ],
+    "research.RatioNormalization": [
+      "research.ConnectedReduction",
+      "research.NormalizedState"
+    ],
+    "research.ConnectedReduction": [
+      "research.ExcessAtMostSix"
+    ],
+    "research.ExcessAtMostSix": [
+      "research.ExcessSix"
+    ],
+    "research.ExcessSix": [
+      "research.SearchLemmas",
+      "research.ExcessPair"
+    ],
+    "research.SearchLemmas": [
+      "research.Proofs"
+    ],
+    "research.Proofs": [],
+    "research.ExcessPair": [
+      "research.SearchLemmas"
+    ],
+    "research.NormalizedState": [],
+    "research.RationalUnionPruning": [
+      "research.SearchLemmas",
+      "research.SmallSlack"
+    ],
+    "research.SmallSlack": [
+      "research.Proofs"
+    ],
+    "research.NormalizedFastDAG": [
+      "research.NormalizedDAG"
+    ],
+    "research.NormalizedDAG": [
+      "research.NormalizedCertificate"
+    ],
+    "research.NormalizedCertificate": [
+      "research.NormalizedState"
+    ],
+    "research.NormalizedCompleteness": [
+      "research.RatioNormalization",
+      "research.NormalizedCertificate",
+      "research.FiniteGrowth",
+      "research.ExcessProfiles",
+      "research.ExcessTen"
+    ],
+    "research.FiniteGrowth": [],
+    "research.ExcessProfiles": [
+      "research.ExcessNine"
+    ],
+    "research.ExcessNine": [
+      "research.ExcessCapacity",
+      "research.ExactPairCap"
+    ],
+    "research.ExcessCapacity": [
+      "research.ExcessEight"
+    ],
+    "research.ExcessEight": [
+      "research.ExcessSeven",
+      "research.ExcessEightGeometry",
+      "research.ExcessEightTools"
+    ],
+    "research.ExcessSeven": [
+      "research.ExcessAtMostSix",
+      "research.EqualQuotient"
+    ],
+    "research.EqualQuotient": [
+      "research.ExcessPair"
+    ],
+    "research.ExcessEightGeometry": [
+      "research.ExcessAtMostSix"
+    ],
+    "research.ExcessEightTools": [
+      "research.ExcessAtMostSix"
+    ],
+    "research.ExactPairCap": [
+      "research.ExcessPair"
+    ],
+    "research.ExcessTen": [
+      "research.ExcessHigherCapacity",
+      "research.TripleNineSixFour"
+    ],
+    "research.ExcessHigherCapacity": [
+      "research.ExcessNine"
+    ],
+    "research.TripleNineSixFour": [
+      "research.ExcessSeven",
+      "research.ExcessEightGeometry"
+    ],
+    "research.CertificateBridge": [
+      "research.NormalizedCompleteness",
+      "research.ExcessElevenMain",
+      "research.ExcessProfilesTwelveTable"
+    ],
+    "research.ExcessElevenMain": [
+      "research.ExcessEleven",
+      "research.QuadSevenSixFiveFour"
+    ],
+    "research.ExcessEleven": [
+      "research.ExcessElevenTools"
+    ],
+    "research.ExcessElevenTools": [
+      "research.ExcessLayerCapacity",
+      "research.RatioCapacityTools"
+    ],
+    "research.ExcessLayerCapacity": [
+      "research.ExcessTen",
+      "research.TripleEightSixFive"
+    ],
+    "research.TripleEightSixFive": [
+      "research.ExcessEight"
+    ],
+    "research.RatioCapacityTools": [
+      "research.ExcessPair"
+    ],
+    "research.QuadSevenSixFiveFour": [
+      "research.TripleEightSixFive",
+      "research.ExactPairCap"
+    ],
+    "research.ExcessProfilesTwelveTable": [
+      "research.ExcessProfilesCompact"
+    ],
+    "research.ExcessProfilesCompact": [
+      "research.ExcessProfilesHalf"
+    ],
+    "research.ExcessProfilesHalf": [
+      "research.ExcessProfilesBonferroni"
+    ],
+    "research.ExcessProfilesBonferroni": [
+      "research.ExcessProfiles"
+    ],
+    "research.PartialReciprocalPruning": [
+      "research.PartialReciprocalStateBound",
+      "research.NormalizedCompleteness"
+    ],
+    "research.PartialReciprocalStateBound": [
+      "research.NormalizedReciprocalPruning"
+    ],
+    "research.NormalizedFamily": [
+      "research.NormalizedExtend"
+    ],
+    "research.NormalizedExtend": [
+      "research.NormalizedFits"
+    ],
+    "research.NormalizedFits": [
+      "research.NormalizedShared"
+    ],
+    "research.NormalizedShared": [
+      "research.NormalizedIntegerIndexed"
+    ],
+    "research.NormalizedIntegerIndexed": [
+      "research.NormalizedInteger"
+    ],
+    "research.NormalizedInteger": [
+      "research.NormalizedUnique"
+    ],
+    "research.NormalizedUnique": [
+      "research.NormalizedDirect"
+    ],
+    "research.NormalizedDirect": [
+      "research.NormalizedPruned"
+    ],
+    "research.NormalizedPruned": [
+      "research.NormalizedCached"
+    ],
+    "research.NormalizedCached": [
+      "research.NormalizedArithmetic"
+    ],
+    "research.NormalizedArithmetic": [
+      "research.NormalizedFastDAG"
+    ],
+    "research.PartialReciprocalGain": [
+      "research.PartialReciprocalPruning"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk001": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk002": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk003": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk004": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk005": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk006": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ11W33Chunk007": [
+      "research.certificates.E16PrefixFamilyQ11W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33": [
+      "research.certificates.E16PrefixFamilyQ10W33Chunk000",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk001",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk002",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk003",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk004",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk005",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk006",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk007",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk008",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk009",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk010",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk011",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk012",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk013",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk014",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk015",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk016",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk017",
+      "research.certificates.E16PrefixFamilyQ10W33Chunk018"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk000": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Data": [
+      "research.ExactReciprocalPrefixFamily"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk001": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk002": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk003": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk004": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk005": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk006": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk007": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk008": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk009": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk010": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk011": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk012": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk013": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk014": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk015": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk016": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk017": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W33Chunk018": [
+      "research.certificates.E16PrefixFamilyQ10W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33": [
+      "research.certificates.E16PrefixFamilyQ7W33Chunk000",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk001",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk002",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk003",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk004",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk005",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk006",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk007",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk008",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk009",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk010",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk011",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk012",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk013",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk014",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk015",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk016",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk017",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk018",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk019",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk020",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk021",
+      "research.certificates.E16PrefixFamilyQ7W33Chunk022"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk000": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Data": [
+      "research.ExactReciprocalPrefixFamily"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk001": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk002": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk003": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk004": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk005": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk006": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk007": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk008": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk009": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk010": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk011": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk012": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk013": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk014": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk015": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk016": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk017": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk018": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk019": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk020": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk021": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W33Chunk022": [
+      "research.certificates.E16PrefixFamilyQ7W33Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34": [
+      "research.certificates.E16PrefixFamilyQ10W34Chunk000",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk001",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk002",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk003",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk004",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk005",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk006",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk007",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk008",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk009",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk010",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk011",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk012",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk013",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk014",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk015",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk016",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk017",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk018",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk019",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk020",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk021",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk022",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk023",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk024",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk025",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk026",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk027",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk028",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk029",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk030",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk031",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk032",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk033",
+      "research.certificates.E16PrefixFamilyQ10W34Chunk034"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk000": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Data": [
+      "research.ExactReciprocalPrefixFamily"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk001": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk002": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk003": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk004": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk005": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk006": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk007": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk008": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk009": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk010": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk011": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk012": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk013": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk014": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk015": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk016": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk017": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk018": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk019": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk020": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk021": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk022": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk023": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk024": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk025": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk026": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk027": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk028": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk029": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk030": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk031": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk032": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk033": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ10W34Chunk034": [
+      "research.certificates.E16PrefixFamilyQ10W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34": [
+      "research.certificates.E16PrefixFamilyQ7W34Chunk000",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk001",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk002",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk003",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk004",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk005",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk006",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk007",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk008",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk009",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk010",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk011",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk012",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk013",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk014",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk015",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk016",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk017",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk018",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk019",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk020",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk021",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk022",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk023",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk024",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk025",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk026",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk027",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk028",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk029",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk030",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk031",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk032",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk033",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk034",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk035",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk036",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk037",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk038",
+      "research.certificates.E16PrefixFamilyQ7W34Chunk039"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk000": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Data": [
+      "research.ExactReciprocalPrefixFamily"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk001": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk002": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk003": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk004": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk005": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk006": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk007": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk008": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk009": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk010": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk011": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk012": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk013": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk014": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk015": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk016": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk017": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk018": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk019": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk020": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk021": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk022": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk023": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk024": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk025": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk026": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk027": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk028": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk029": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk030": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk031": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk032": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk033": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk034": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk035": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk036": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk037": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk038": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ],
+    "research.certificates.E16PrefixFamilyQ7W34Chunk039": [
+      "research.certificates.E16PrefixFamilyQ7W34Data"
+    ]
+  }
+}

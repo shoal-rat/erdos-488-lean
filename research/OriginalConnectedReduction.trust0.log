@@ -1,0 +1,7 @@
+'OriginalConnectedReduction.exists_minimal_original_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalConnectedReduction.minimal_original_failure_connected' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalConnectedReduction.exists_connected_active_original_failure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

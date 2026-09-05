@@ -1,0 +1,73 @@
+{
+  "scope": "Arbitrary-scale local obstructions, sharpness, covered-third-layer capacity, and symbolic-cut core exclusions; not the global excess-fifteen theorem",
+  "files": [
+    {
+      "source": "research/TripleThirteenEightFive.lean",
+      "sha256": "ef9a4782f38f13d7dc0b047482164253abf990aeace32561747a5e71d62e0c09",
+      "verification": "Lean 4.33.1 -t 0, exit 0",
+      "log": "research/TripleThirteenEightFive.trust0.log",
+      "axiom_report": "'TripleThirteenEightFive.ratio_thirteen_eight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TripleThirteenEightFive.excess_at_least_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/QuadSevenSevenFiveFiveSixteen.lean",
+      "sha256": "73df04ef6156bfefcb8c28aeff382296a62ce20d8aebaea61182a0764eaaa507",
+      "verification": "Lean 4.33.1 -t 0, exit 0",
+      "log": "research/QuadSevenSevenFiveFiveSixteen.trust0.log",
+      "axiom_report": "'QuadSevenSevenFiveFiveSixteen.oriented_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'QuadSevenSevenFiveFiveSixteen.excess_at_least_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/Core7755SixteenSharp.lean",
+      "sha256": "7497ba35c58f230b53b956a13c639c1885214c1441908ae1e13f4694ceda2059",
+      "verification": "Lean 4.33.1 -t 0, exit 0",
+      "log": "research/Core7755SixteenSharp.trust0.log",
+      "axiom_report": "'Core7755SixteenSharp.sharp' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/ThirdLayerCapacity.lean",
+      "sha256": "6b8afb1c96ac0d003a5b54ebb37c87ba93757da732c931eba3b8d08cdfeda648",
+      "verification": "Lean 4.33.1 -t 0, exit 0",
+      "log": "research/ThirdLayerCapacity.trust0.log",
+      "axiom_report": "'ThirdLayerCapacity.covering_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ThirdLayerCapacity.third_layer_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ThirdLayerCapacity.actual_profileTest' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/SymbolicProfileConnectivity.lean",
+      "sha256": "a5f113113663a4b625e9dba1a63e20bb5eea3fd1dffc6109ba266197bdd3cece",
+      "verification": "Lean 4.33.1 -t 0, exit 0",
+      "log": "research/SymbolicProfileConnectivity.trust0.log",
+      "axiom_report": "'SymbolicProfileConnectivity.splitTests_imply_connected' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SymbolicProfileConnectivity.checked_profile_unrealizable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SymbolicProfileConnectivity.checked_core_not_subperm' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/NineCoreProfileLowerBound.lean",
+      "sha256": "e40f223321ef358f6c38958d808e874f09bbcca5b86286ca1b61227e9a2967e0",
+      "verification": "Lean 4.33.1 -t 0, exit 0",
+      "log": "research/NineCoreProfileLowerBound.trust0.log",
+      "axiom_report": "'NineCoreProfileLowerBound.generator_list_lowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/NineCoreEnhancedCuts.lean",
+      "sha256": "8b3cb852640610b35ddee163af8a340ead35b6291702cb85591a57795550613f",
+      "verification": "Lean 4.33.1 -t 0, exit 0",
+      "log": "research/NineCoreEnhancedCuts.trust0.log",
+      "axiom_report": "'NineCoreEnhancedCuts.valid' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NineCoreEnhancedCuts.cut_9754333' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NineCoreEnhancedCuts.cut_9764333' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NineCoreEnhancedCuts.cut_97543' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NineCoreEnhancedCuts.cut_976433' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/E15LastNineCoreExclusion.lean",
+      "sha256": "973d4ebf90d4e41970eb4133d219a570531cf0c52014e7a8519fb4097f4945b5",
+      "verification": "Lean 4.33.1 -j 1 -t 0, exit 0",
+      "log": "research/E15LastNineCoreExclusion.trust0.log",
+      "axiom_report": "'E15LastNineCoreExclusion.not_subperm_9754333' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E15LastNineCoreExclusion.not_subperm_9764333' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E15LastNineCoreExclusion.actual_profileTest' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  ],
+  "no_completion_dependencies": [
+    {
+      "source": "research/certificates/E15Core9754333NoCompletion.lean",
+      "states": 591,
+      "sha256": "409a6d876e10095587a2451378b2bb63d9abe51c925cb651ec5099bb484e3f29"
+    },
+    {
+      "source": "research/certificates/E15Core9764333NoCompletion.lean",
+      "states": 287,
+      "sha256": "5a98017147f28ed2c0e269387580f8b00306c842c5a3ed01f90a73e490cca8c3"
+    }
+  ]
+}

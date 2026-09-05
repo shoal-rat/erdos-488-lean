@@ -1,0 +1,1 @@
+'SemanticProfileLowerBound.core_list_union_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

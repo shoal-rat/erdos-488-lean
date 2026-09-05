@@ -1,0 +1,10 @@
+'AuxiliaryCounterexamplesCore.coprimeSmall_certificate' depends on axioms: [propext]
+'AuxiliaryCounterexamplesCore.coprimeSmall_counterexample' depends on axioms: [propext]
+'AuxiliaryCounterexamplesCore.coprimeGenerators_primitive' depends on axioms: [propext, Quot.sound]
+'AuxiliaryCounterexamplesCore.coprimeGenerators_gcd_one' depends on axioms: [propext, Quot.sound]
+'AuxiliaryCounterexamplesCore.isolated_generator_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamplesCore.coprimeGenerators_exact_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamplesCore.coprime_sparse_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamplesCore.coprime_counterexamples_arbitrarily_sparse_and_large' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

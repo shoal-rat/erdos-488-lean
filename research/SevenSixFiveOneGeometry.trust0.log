@@ -1,0 +1,4 @@
+'SevenSixFiveOneGeometry.ratios_six_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixFiveOneGeometry.one_one_one_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixFiveOneGeometry.one_one_one_triple_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixFiveOneGeometry.positive_common_of_relation' depends on axioms: [propext, Quot.sound]

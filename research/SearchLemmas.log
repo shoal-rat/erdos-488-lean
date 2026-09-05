@@ -1,0 +1,8 @@
+'SearchPruning.multipleCount_le_incidenceCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SearchPruning.union_bound_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SearchPruning.union_bound_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SearchPruning.dense_pruning_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SearchPruning.counterexample_survives_filters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SearchPruning.envelope_violation_survives_filters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SearchPruning.scale_multipleCount_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SearchPruning.scale_multipleCount_mul' depends on axioms: [propext, Classical.choice, Quot.sound]

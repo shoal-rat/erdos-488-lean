@@ -1,0 +1,2 @@
+'SharpSparseOriginal.scaled_reciprocal_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpSparseOriginal.sharp_sparse_family_original' depends on axioms: [propext, Classical.choice, Quot.sound]

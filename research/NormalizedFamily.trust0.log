@@ -1,0 +1,3 @@
+'NormalizedCertificate.checkFamilyEntryInteger_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.familyCertified_nodes_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.family_dag_safe' depends on axioms: [propext, Classical.choice, Quot.sound]

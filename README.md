@@ -12,36 +12,38 @@ An auxiliary estimate works for every primitive generator set through excess **1
 
 ## The mathematics
 
-A finite set of positive integers is **primitive** if no distinct element divides another. For a finite primitive set $G\subseteq\{2,\ldots,n\}$, define
+A finite set of positive integers is **primitive** if no distinct element divides another. For a finite primitive set $`G\subseteq\{2,\ldots,n\}`$, define
 
-$$
+```math
 F_G(n)=\#\{1\le u\le n:\exists g\in G,\ g\mid u\},
 \qquad
 I_G(n)=\sum_{g\in G}\left\lfloor\frac ng\right\rfloor.
-$$
+```
 
-The **excess** $E_G(n)=F_G(n)-|G|$ counts covered integers beyond the generators themselves. The original inequality asks, for nonempty $G$ and every integer $m>n$, whether
 
-$$
+The **excess** $`E_G(n)=F_G(n)-|G|`$ counts covered integers beyond the generators themselves. The original inequality asks, for nonempty $`G`$ and every integer $`m>n`$, whether
+
+```math
 nF_G(m)<2mF_G(n).
-$$
+```
 
-The auxiliary estimate $I_G(n)+|G|\le2F_G(n)$ is sufficient to establish this inequality. Our results locate its exact first failure and explain why stronger tools are needed beyond it.
+
+The auxiliary estimate $`I_G(n)+|G|\le2F_G(n)`$ is sufficient to establish this inequality. Our results locate its exact first failure and explain why stronger tools are needed beyond it.
 
 ## Proved results
 
 | Result | What is proved | Lean entry point |
 | --- | --- | --- |
-| **Original inequality through excess 15** | Every nonempty primitive $G\subseteq\{2,\ldots,n\}$ with $E_G(n)\le15$ satisfies the original strict inequality for every $m>n$. The auxiliary estimate also holds throughout this range. | [ExcessFifteenMain.lean](research/ExcessFifteenMain.lean) |
+| **Original inequality through excess 15** | Every nonempty primitive $`G\subseteq\{2,\ldots,n\}`$ with $`E_G(n)\le15`$ satisfies the original strict inequality for every $`m>n`$. The auxiliary estimate also holds throughout this range. | [ExcessFifteenMain.lean](research/ExcessFifteenMain.lean) |
 | **Sharp auxiliary threshold: 16** | The least excess permitting an auxiliary failure is exactly 16. This remains true with collective coprimality, arbitrarily small covered density, and arbitrarily large lower endpoints. The constructed sharp family still satisfies the original inequality. | [SharpSlackThreshold.lean](research/SharpSlackThreshold.lean), [SharpSparseLeast.lean](research/SharpSparseLeast.lean), [SharpSparseOriginal.lean](research/SharpSparseOriginal.lean) |
 | **Two auxiliary conjectures refuted** | Explicit finite counterexamples refute the pair-versus-tail assertion and the sparse order-slack assertion—Conjectures 4.8 and 6.11 in the specified 20 March 2026 manuscript. | [ProofsSmall.lean](research/ProofsSmall.lean), [ProofsCore.lean](research/ProofsCore.lean) |
-| **Unbounded pair-tail density ratios** | For every fixed $2\le a<b$ with $a\nmid b$, a suitable finite prime tail makes the later-to-earlier surviving-density ratio exceed any prescribed factor. The tail and endpoints may vary. | [GeneralPairTail.lean](research/GeneralPairTail.lean) |
-| **Unbounded auxiliary failures** | Incidence-to-coverage ratios are unbounded even with simultaneous primitivity, collective coprimality, arbitrary sparsity, and arbitrarily large endpoints. Separate constructions realize every additive defect $L\ge2$. | [UnboundedSlackRatio.lean](research/UnboundedSlackRatio.lean), [UnboundedSlackDefect.lean](research/UnboundedSlackDefect.lean) |
+| **Unbounded pair-tail density ratios** | For every fixed $`2\le a<b`$ with $`a\nmid b`$, a suitable finite prime tail makes the later-to-earlier surviving-density ratio exceed any prescribed factor. The tail and endpoints may vary. | [GeneralPairTail.lean](research/GeneralPairTail.lean) |
+| **Unbounded auxiliary failures** | Incidence-to-coverage ratios are unbounded even with simultaneous primitivity, collective coprimality, arbitrary sparsity, and arbitrarily large endpoints. Separate constructions realize every additive defect $`L\ge2`$. | [UnboundedSlackRatio.lean](research/UnboundedSlackRatio.lean), [UnboundedSlackDefect.lean](research/UnboundedSlackDefect.lean) |
 
-Here **collectively coprime** means $\gcd(G)=1$; it does not require pairwise coprimality. The full hypotheses, quantifiers, and theorem names appear in the [paper](paper/paper.pdf) and linked Lean sources.
+Here **collectively coprime** means $`\gcd(G)=1`$; it does not require pairwise coprimality. The full hypotheses, quantifiers, and theorem names appear in the [paper](paper/paper.pdf) and linked Lean sources.
 
 <!-- BEGIN E16 STATUS: v0.1 retains the excess-at-most-fifteen release scope. -->
-**Release scope: excess at most 15.** The complete E16 original-inequality theorem and its primitive-core wrappers have now passed local kernel compilation. Their separate final semantic audit is pending; the v0.1 theorem list above retains the excess-at-most-fifteen result while that follow-up is prepared.
+**Release scope: excess at most 15.** The E16 original-inequality theorem and its primitive-core wrappers have now passed local recompilation and an independent integration audit. They are reserved for a separate next release; the v0.1 theorem list and reproduction manifest retain the accepted E≤15 snapshot.
 <!-- END E16 STATUS -->
 
 The unrestricted Erdős problem remains unresolved in this project. Auxiliary counterexamples do not refute the original inequality. Formal verification establishes the displayed statements; global historical priority for all strengthened formulations is not claimed.
@@ -50,17 +52,27 @@ The unrestricted Erdős problem remains unresolved in this project. Auxiliary co
 
 Take
 
-$$
+```math
 G=\{16,24,36,40,54,56,60,81,84,88,90\},\qquad n=180.
-$$
+```
 
-Lean verifies that $G$ is primitive, $\gcd(G)=1$, and
 
-$$
+Lean verifies that $`G`$ is primitive, $`\gcd(G)=1`$, and
+
+```math
 |G|=11,\quad F_G(180)=27,\quad I_G(180)=44,\quad E_G(180)=16.
-$$
+```
 
-Thus $2F_G(180)=54<180$, while $I_G(180)+|G|=55>54$. The failure is only one unit, and the threshold theorem excludes every smaller excess. [Witness and exact counts](research/SmallSlack.lean) · [Least-excess theorem](research/SharpSlackThreshold.lean)
+
+Thus $`2F_G(180)=54<180`$, while $`I_G(180)+|G|=55>54`$. The failure is only one unit, and the threshold theorem excludes every smaller excess. [Witness and exact counts](research/SmallSlack.lean) · [Least-excess theorem](research/SharpSlackThreshold.lean)
+
+## The proof classification, in one chart
+
+![E=15 profile counts across six proved filtering stages: 1610, 429, 223, 11, 9, and 7. A separate linear-scale detail shows the final three stages.](paper/figures/profile-funnel.png)
+
+The bars count candidate quotient profiles for a minimal auxiliary failure at exact excess 15. Each final profile has a checked safety certificate; the complete reduction and those certificates establish the universal theorem. The enlarged panel has its own explicitly labelled linear scale.
+
+[Exact data, source definitions, and theorem names](paper/figures/profile-funnel-data.json) · [Rebuild the chart](scripts/build_profile_funnel.py) · [Final safety theorem](research/E15CompletedGroups.lean)
 
 ## Reproduce the proofs
 
@@ -99,6 +111,8 @@ Search programs generate candidate finite tables. Lean proves the reductions tha
 The positive result combines quotient-profile bounds, finite capacity checks, small-core exclusions, normalized graph certificates, and a bridge back to the original inequality. Checking a final module against existing compiled imports and rebuilding its entire dependency graph are distinct operations; the verification records identify their actual scope. Interrupted, rejected, and superseded attempts are not accepted proofs.
 
 ## Started from one broad research prompt
+
+![Research workflow: original prompt, multi-agent search, Lean kernel verification, and auditable artifacts. Recorded active search was 21,600.003879 seconds; AI audit is distinct from external peer review.](social/03-workflow.png)
 
 The project began with a user asking an AI agent to survey mathematical opportunities, undertake at least six hours of research, and deliver a Lean-verified result. Read the [original Chinese prompt and its English translation](docs/INITIAL-PROMPT.md).
 

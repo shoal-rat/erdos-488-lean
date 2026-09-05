@@ -1,0 +1,4 @@
+'TwelveEightFiveLayers.equality_ratios' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwelveEightFiveLayers.equality_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwelveEightFiveLayers.excess_at_least_sixteen_with_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwelveEightFiveLayers.three_layer_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]

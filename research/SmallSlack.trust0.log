@@ -1,0 +1,8 @@
+'SmallSlack.generators_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallSlack.covered_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallSlack.incidence_count' depends on axioms: [propext, Quot.sound]
+'SmallSlack.generators_collectively_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallSlack.exact_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallSlack.exact_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallSlack.not_sparseOrderSlackConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallSlack.not_sparseOrderSlackConjectureRat' depends on axioms: [propext, Classical.choice, Quot.sound]

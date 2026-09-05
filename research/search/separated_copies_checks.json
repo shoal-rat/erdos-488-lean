@@ -1,0 +1,250 @@
+{
+  "started_utc": "2026-09-05T15:03:07.895327+00:00",
+  "finished_utc": "2026-09-05T15:03:09.322965+00:00",
+  "base": [
+    16,
+    24,
+    36,
+    40,
+    54,
+    56,
+    60,
+    81,
+    84,
+    88,
+    90
+  ],
+  "base_covered_points": [
+    16,
+    24,
+    32,
+    36,
+    40,
+    48,
+    54,
+    56,
+    60,
+    64,
+    72,
+    80,
+    81,
+    84,
+    88,
+    90,
+    96,
+    108,
+    112,
+    120,
+    128,
+    144,
+    160,
+    162,
+    168,
+    176,
+    180
+  ],
+  "status": "all_six_finite_audit_cases_passed",
+  "scope": "finite exact audit only; general theorem is a separate Lean task",
+  "cases": [
+    {
+      "L": 2,
+      "N": 361,
+      "n": 65340,
+      "assumptions": true,
+      "floors_n_over_multipliers": [
+        180,
+        180
+      ],
+      "F": 54,
+      "I": 88,
+      "card": 22,
+      "E": 32,
+      "defect": 2,
+      "gcd": 1,
+      "primitive": true,
+      "max_generator": 32580,
+      "copy_covered_counts": [
+        27,
+        27
+      ],
+      "copy_intersection_sizes": [
+        0
+      ],
+      "two_independent_count_methods_agree": true,
+      "sparse": true
+    },
+    {
+      "L": 2,
+      "N": 362,
+      "n": 65520,
+      "assumptions": true,
+      "floors_n_over_multipliers": [
+        180,
+        180
+      ],
+      "F": 54,
+      "I": 88,
+      "card": 22,
+      "E": 32,
+      "defect": 2,
+      "gcd": 1,
+      "primitive": true,
+      "max_generator": 32670,
+      "copy_covered_counts": [
+        27,
+        27
+      ],
+      "copy_intersection_sizes": [
+        0
+      ],
+      "two_independent_count_methods_agree": true,
+      "sparse": true
+    },
+    {
+      "L": 3,
+      "N": 541,
+      "n": 97920,
+      "assumptions": true,
+      "floors_n_over_multipliers": [
+        180,
+        180,
+        180
+      ],
+      "F": 81,
+      "I": 132,
+      "card": 33,
+      "E": 48,
+      "defect": 3,
+      "gcd": 1,
+      "primitive": true,
+      "max_generator": 48870,
+      "copy_covered_counts": [
+        27,
+        27,
+        27
+      ],
+      "copy_intersection_sizes": [
+        0,
+        0,
+        0
+      ],
+      "two_independent_count_methods_agree": true,
+      "sparse": true
+    },
+    {
+      "L": 3,
+      "N": 542,
+      "n": 98100,
+      "assumptions": true,
+      "floors_n_over_multipliers": [
+        180,
+        180,
+        180
+      ],
+      "F": 81,
+      "I": 132,
+      "card": 33,
+      "E": 48,
+      "defect": 3,
+      "gcd": 1,
+      "primitive": true,
+      "max_generator": 48960,
+      "copy_covered_counts": [
+        27,
+        27,
+        27
+      ],
+      "copy_intersection_sizes": [
+        0,
+        0,
+        0
+      ],
+      "two_independent_count_methods_agree": true,
+      "sparse": true
+    },
+    {
+      "L": 5,
+      "N": 901,
+      "n": 163080,
+      "assumptions": true,
+      "floors_n_over_multipliers": [
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "F": 135,
+      "I": 220,
+      "card": 55,
+      "E": 80,
+      "defect": 5,
+      "gcd": 1,
+      "primitive": true,
+      "max_generator": 81450,
+      "copy_covered_counts": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "copy_intersection_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "two_independent_count_methods_agree": true,
+      "sparse": true
+    },
+    {
+      "L": 5,
+      "N": 902,
+      "n": 163260,
+      "assumptions": true,
+      "floors_n_over_multipliers": [
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "F": 135,
+      "I": 220,
+      "card": 55,
+      "E": 80,
+      "defect": 5,
+      "gcd": 1,
+      "primitive": true,
+      "max_generator": 81540,
+      "copy_covered_counts": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "copy_intersection_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "two_independent_count_methods_agree": true,
+      "sparse": true
+    }
+  ]
+}

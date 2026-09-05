@@ -1,0 +1,31 @@
+{
+  "audit_utc": "2026-09-05T12:07:02.245399+00:00",
+  "source": "research/UnboundedPairTail.lean",
+  "sha256": "12cc307ba44ac4d229362a6425da6b951f5111803bc19226ef330e489699fce7",
+  "working_directory": "<original-proof-root>/lean-work",
+  "command": "LEAN_PATH=<original-proof-root> lake env lean -t 0 <original-proof-root>/research/UnboundedPairTail.lean",
+  "environment_setup": "source <original-proof-root>/lean-env.sh",
+  "exit_code": 0,
+  "log": "research/UnboundedPairTail.independent.trust0.log",
+  "checked_theorem": "AuxiliaryCounterexamples.pairTail_density_ratios_unbounded",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "warnings_only": [
+    "unused simp argument Nat.lt_succ_iff",
+    "unnecessary sequence focus"
+  ],
+  "loaded_definition_audit": {
+    "exit_code": 0,
+    "command": "LEAN_PATH=<original-proof-root> lake env lean -t 0 --stdin",
+    "log": "research/UnboundedPairTail.definitions-audit.log",
+    "declarations": [
+      "AuxiliaryCounterexamples.pairSplitSet",
+      "AuxiliaryCounterexamples.pairSplitCount",
+      "AuxiliaryCounterexamples.Primitive",
+      "AuxiliaryCounterexamples.pairTail_density_ratios_unbounded"
+    ]
+  }
+}

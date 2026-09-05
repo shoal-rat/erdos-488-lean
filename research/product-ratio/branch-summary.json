@@ -1,0 +1,79 @@
+{
+  "target": {
+    "erdos_problem": 686,
+    "N": 25,
+    "status": "No witness or unrestricted impossibility proof found"
+  },
+  "observed_start_utc": "2026-09-05T12:12:53+00:00",
+  "completed_utc": "2026-09-05T12:47:32.517685+00:00",
+  "elapsed_wall_seconds_from_first_timestamp": 2079.517685,
+  "formal_proofs": [
+    {
+      "file": "BoundaryObstructions.lean",
+      "sha256": "fbf616bdfcc8f97cab54f5a82d146d1fa62acbcbe91b154d0d9ebd4ba3624292",
+      "exit_code": 0,
+      "seconds": 4.143013765999058,
+      "trust_level": 0,
+      "pass": true
+    },
+    {
+      "file": "EllipticReduction.lean",
+      "sha256": "7102b2cc8319748b2c87ee6fd494e8a427b571882e79130bf0a14faf8537879a",
+      "exit_code": 0,
+      "seconds": 1.9338177460012957,
+      "trust_level": 0,
+      "pass": true
+    }
+  ],
+  "k3_exact_finite_search": {
+    "y_min": 2,
+    "y_max_complete": 100000000000,
+    "n_max_complete": 99999999998,
+    "hits": 0,
+    "seconds": 1298.41
+  },
+  "lengths_exact_finite_search_large": {
+    "k_min": 5,
+    "k_max_complete": 32,
+    "n_min": 0,
+    "n_max": 100000000,
+    "seconds": 531.001,
+    "hits": 0
+  },
+  "lengths_exact_finite_search_initial": {
+    "k_min": 5,
+    "k_max_complete": 100,
+    "n_min": 0,
+    "n_max": 1000000,
+    "seconds": 30.509,
+    "hits": 0
+  },
+  "elliptic_subgroup_search": {
+    "coefficient_abs_bound": 150,
+    "basis_P": [
+      25,
+      600
+    ],
+    "basis_Q": [
+      -25,
+      -650
+    ],
+    "skip_completed_bfs": 86,
+    "new_points_checked": 60672,
+    "seconds": 807.4557847860015,
+    "hits": []
+  },
+  "balanced_discovery_search": {
+    "k_max_complete": 10000,
+    "d_max": 10000,
+    "pairs": 49995000,
+    "candidate_n_checks": 249974984,
+    "seconds": 383.832,
+    "hits": 0,
+    "exhaustive_claim": false
+  },
+  "all_search_exit_codes": 0,
+  "original_target_solved": false,
+  "finite_searches_lean_verified": false,
+  "claim_of_novel_boundary_theorems": false
+}

@@ -1,0 +1,342 @@
+{
+  "started_utc": "2026-09-05T17:42:36.599115+00:00",
+  "scope": "Three dependencies with source mtime newer than olean, then final main",
+  "all_864_dependencies_rebuilt": false,
+  "proof_sources_modified": false,
+  "before": {
+    "research/profile_blocks/E13K8U9": {
+      ".lean": {
+        "path": "research/profile_blocks/E13K8U9.lean",
+        "bytes": 1449,
+        "sha256": "ba63eda807d8305f165300509e730573058c5107aea4dd0bb468d9c9fb67ad0a",
+        "mtime_utc": "2026-09-05T14:42:15.162393+00:00"
+      },
+      ".olean": {
+        "path": "research/profile_blocks/E13K8U9.olean",
+        "bytes": 267160,
+        "sha256": "4884712c219d6dd0b5fd52589e75364960af3a36953d4f7595aa5b26f76a7f17",
+        "mtime_utc": "2026-09-05T14:40:24.483634+00:00"
+      },
+      ".trust0.log": {
+        "path": "research/profile_blocks/E13K8U9.trust0.log",
+        "bytes": 97,
+        "sha256": "6ffbd51a97b4ed2108018c2d40f19ccf2ef5cebef0b2a403d3cfd4a77d7b0af9",
+        "mtime_utc": "2026-09-05T14:40:24.483634+00:00"
+      }
+    },
+    "research/certificates/E15Core7763": {
+      ".lean": {
+        "path": "research/certificates/E15Core7763.lean",
+        "bytes": 12577,
+        "sha256": "e82ac3981ddd6f6ecd1d78d17bfaacc1a1342baa1b8ef15a522a53799663493b",
+        "mtime_utc": "2026-09-05T16:41:22.990918+00:00"
+      },
+      ".olean": {
+        "path": "research/certificates/E15Core7763.olean",
+        "bytes": 611288,
+        "sha256": "26f69ec705d8481d8eda28836d5f60d66e10bad1f5046bc4f1b5f76edd3fd3ac",
+        "mtime_utc": "2026-09-05T16:40:48.464234+00:00"
+      },
+      ".trust0.log": {
+        "path": "research/certificates/E15Core7763.trust0.log",
+        "bytes": 100,
+        "sha256": "380ec1522c0e843b22d8660019dd9eb1ddd7a2618993b1ef50faeaf172a046cd",
+        "mtime_utc": "2026-09-05T16:40:48.468234+00:00"
+      }
+    },
+    "research/certificates/E15Core7763NoCompletion": {
+      ".lean": {
+        "path": "research/certificates/E15Core7763NoCompletion.lean",
+        "bytes": 580,
+        "sha256": "03f7d600025e72b3af9ee616c144b97dc22f4ac3158ef2fac3380fd3d94647e1",
+        "mtime_utc": "2026-09-05T16:41:22.991303+00:00"
+      },
+      ".olean": {
+        "path": "research/certificates/E15Core7763NoCompletion.olean",
+        "bytes": 9976,
+        "sha256": "ef6991116bc51431d36f8317f8c02427fd04e69c71db58d6e36faaabd4daa31b",
+        "mtime_utc": "2026-09-05T16:40:53.077213+00:00"
+      },
+      ".trust0.log": {
+        "path": "research/certificates/E15Core7763NoCompletion.trust0.log",
+        "bytes": 109,
+        "sha256": "ab6d9d7b188d294f0843ed0570bba92dfcbbd3569909805e5dca615ae39ec088",
+        "mtime_utc": "2026-09-05T16:40:53.077213+00:00"
+      }
+    }
+  },
+  "manifest_checks": [
+    {
+      "source": "research/certificates/E15Core7763.lean",
+      "manifest": {
+        "path": "research/certificates/E15Core7763.verification.json",
+        "bytes": 9687,
+        "sha256": "ef93952cf285b47f5cb7c38f33a14efd9b1d45f10be69749bff7a25f9d63cc80",
+        "mtime_utc": "2026-09-05T16:40:48.667747+00:00"
+      },
+      "recorded_exit_code": 0,
+      "recorded_trust_level": 0,
+      "source_hash_matches": true,
+      "olean_hash_matches": true,
+      "log_hash_matches": true,
+      "conclusion": "Same bytes as the verified compilation; later source mtime is regeneration"
+    },
+    {
+      "source": "research/certificates/E15Core7763NoCompletion.lean",
+      "manifest": {
+        "path": "research/certificates/E15Core7763NoCompletion.verification.json",
+        "bytes": 9884,
+        "sha256": "7cdd3741b435dc647418909d8ada4a9b7b2ec33cad43cb0961de056cdf1f45e2",
+        "mtime_utc": "2026-09-05T16:40:53.270714+00:00"
+      },
+      "recorded_exit_code": 0,
+      "recorded_trust_level": 0,
+      "source_hash_matches": true,
+      "olean_hash_matches": true,
+      "log_hash_matches": true,
+      "conclusion": "Same bytes as the verified compilation; later source mtime is regeneration"
+    }
+  ],
+  "builds": [
+    {
+      "source": "research/profile_blocks/E13K8U9.lean",
+      "source_before": {
+        "path": "research/profile_blocks/E13K8U9.lean",
+        "bytes": 1449,
+        "sha256": "ba63eda807d8305f165300509e730573058c5107aea4dd0bb468d9c9fb67ad0a",
+        "mtime_utc": "2026-09-05T14:42:15.162393+00:00"
+      },
+      "source_after": {
+        "path": "research/profile_blocks/E13K8U9.lean",
+        "bytes": 1449,
+        "sha256": "ba63eda807d8305f165300509e730573058c5107aea4dd0bb468d9c9fb67ad0a",
+        "mtime_utc": "2026-09-05T14:42:15.162393+00:00"
+      },
+      "source_unchanged": true,
+      "started_utc": "2026-09-05T17:42:36.602228+00:00",
+      "finished_utc": "2026-09-05T17:43:00.855887+00:00",
+      "seconds": 24.254,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/profile_blocks/E13K8U9.olean",
+        "<original-proof-root>/research/profile_blocks/E13K8U9.lean"
+      ],
+      "exit_code": 0,
+      "log": {
+        "path": "research/profile_blocks/E13K8U9.artifact-audit.trust0.log",
+        "bytes": 97,
+        "sha256": "6ffbd51a97b4ed2108018c2d40f19ccf2ef5cebef0b2a403d3cfd4a77d7b0af9",
+        "mtime_utc": "2026-09-05T17:43:00.653421+00:00"
+      },
+      "axiom_sets": [
+        [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      ],
+      "warnings": false,
+      "pass": true,
+      "output": {
+        "path": "research/profile_blocks/E13K8U9.olean",
+        "bytes": 267160,
+        "sha256": "4884712c219d6dd0b5fd52589e75364960af3a36953d4f7595aa5b26f76a7f17",
+        "mtime_utc": "2026-09-05T17:43:00.653421+00:00"
+      },
+      "output_identical_to_pre_audit_olean": true
+    },
+    {
+      "source": "research/certificates/E15Core7763.lean",
+      "source_before": {
+        "path": "research/certificates/E15Core7763.lean",
+        "bytes": 12577,
+        "sha256": "e82ac3981ddd6f6ecd1d78d17bfaacc1a1342baa1b8ef15a522a53799663493b",
+        "mtime_utc": "2026-09-05T16:41:22.990918+00:00"
+      },
+      "source_after": {
+        "path": "research/certificates/E15Core7763.lean",
+        "bytes": 12577,
+        "sha256": "e82ac3981ddd6f6ecd1d78d17bfaacc1a1342baa1b8ef15a522a53799663493b",
+        "mtime_utc": "2026-09-05T16:41:22.990918+00:00"
+      },
+      "source_unchanged": true,
+      "started_utc": "2026-09-05T17:43:00.856756+00:00",
+      "finished_utc": "2026-09-05T17:43:07.982628+00:00",
+      "seconds": 7.126,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/certificates/E15Core7763.olean",
+        "<original-proof-root>/research/certificates/E15Core7763.lean"
+      ],
+      "exit_code": 0,
+      "log": {
+        "path": "research/certificates/E15Core7763.artifact-audit.trust0.log",
+        "bytes": 100,
+        "sha256": "380ec1522c0e843b22d8660019dd9eb1ddd7a2618993b1ef50faeaf172a046cd",
+        "mtime_utc": "2026-09-05T17:43:07.777591+00:00"
+      },
+      "axiom_sets": [
+        [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      ],
+      "warnings": false,
+      "pass": true,
+      "output": {
+        "path": "research/certificates/E15Core7763.olean",
+        "bytes": 611288,
+        "sha256": "26f69ec705d8481d8eda28836d5f60d66e10bad1f5046bc4f1b5f76edd3fd3ac",
+        "mtime_utc": "2026-09-05T17:43:07.777591+00:00"
+      },
+      "output_identical_to_pre_audit_olean": true
+    },
+    {
+      "source": "research/certificates/E15Core7763NoCompletion.lean",
+      "source_before": {
+        "path": "research/certificates/E15Core7763NoCompletion.lean",
+        "bytes": 580,
+        "sha256": "03f7d600025e72b3af9ee616c144b97dc22f4ac3158ef2fac3380fd3d94647e1",
+        "mtime_utc": "2026-09-05T16:41:22.991303+00:00"
+      },
+      "source_after": {
+        "path": "research/certificates/E15Core7763NoCompletion.lean",
+        "bytes": 580,
+        "sha256": "03f7d600025e72b3af9ee616c144b97dc22f4ac3158ef2fac3380fd3d94647e1",
+        "mtime_utc": "2026-09-05T16:41:22.991303+00:00"
+      },
+      "source_unchanged": true,
+      "started_utc": "2026-09-05T17:43:07.983838+00:00",
+      "finished_utc": "2026-09-05T17:43:11.916396+00:00",
+      "seconds": 3.933,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/certificates/E15Core7763NoCompletion.olean",
+        "<original-proof-root>/research/certificates/E15Core7763NoCompletion.lean"
+      ],
+      "exit_code": 0,
+      "log": {
+        "path": "research/certificates/E15Core7763NoCompletion.artifact-audit.trust0.log",
+        "bytes": 109,
+        "sha256": "ab6d9d7b188d294f0843ed0570bba92dfcbbd3569909805e5dca615ae39ec088",
+        "mtime_utc": "2026-09-05T17:43:11.685968+00:00"
+      },
+      "axiom_sets": [
+        [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      ],
+      "warnings": false,
+      "pass": true,
+      "output": {
+        "path": "research/certificates/E15Core7763NoCompletion.olean",
+        "bytes": 9976,
+        "sha256": "ef6991116bc51431d36f8317f8c02427fd04e69c71db58d6e36faaabd4daa31b",
+        "mtime_utc": "2026-09-05T17:43:11.685968+00:00"
+      },
+      "output_identical_to_pre_audit_olean": true
+    },
+    {
+      "source": "research/ExcessFifteenMain.lean",
+      "source_before": {
+        "path": "research/ExcessFifteenMain.lean",
+        "bytes": 1439,
+        "sha256": "d4088451b8ea5327161a0d2dfdb7356d8cbbeaa54e8df613d4a8ca9c5b217a14",
+        "mtime_utc": "2026-09-05T17:22:11.983460+00:00"
+      },
+      "source_after": {
+        "path": "research/ExcessFifteenMain.lean",
+        "bytes": 1439,
+        "sha256": "d4088451b8ea5327161a0d2dfdb7356d8cbbeaa54e8df613d4a8ca9c5b217a14",
+        "mtime_utc": "2026-09-05T17:22:11.983460+00:00"
+      },
+      "source_unchanged": true,
+      "started_utc": "2026-09-05T17:43:11.917080+00:00",
+      "finished_utc": "2026-09-05T17:43:16.533527+00:00",
+      "seconds": 4.616,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/independent_audit/ExcessFifteenMain.artifact-consistency.olean",
+        "<original-proof-root>/research/ExcessFifteenMain.lean"
+      ],
+      "exit_code": 0,
+      "log": {
+        "path": "research/ExcessFifteenMain.artifact-consistency.trust0.log",
+        "bytes": 217,
+        "sha256": "4c3ac7fb2a4debb7bb2a6c9ce8b3b256b2c1624194e1c5ec80c24d6dac963011",
+        "mtime_utc": "2026-09-05T17:43:16.144242+00:00"
+      },
+      "axiom_sets": [
+        [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      ],
+      "warnings": false,
+      "pass": true,
+      "output": {
+        "path": "research/independent_audit/ExcessFifteenMain.artifact-consistency.olean",
+        "bytes": 16800,
+        "sha256": "b55e27428b2b58762da0b931a514aa339d97ca194fdbbef6704a12c4c3180ffa",
+        "mtime_utc": "2026-09-05T17:43:16.144242+00:00"
+      },
+      "canonical_main_olean_sha256": "b55e27428b2b58762da0b931a514aa339d97ca194fdbbef6704a12c4c3180ffa",
+      "audit_output_matches_canonical_main_olean": true
+    }
+  ],
+  "pass": true,
+  "profile_block_previous_evidence": {
+    "source": "research/profile_blocks/E13K8U9.lean",
+    "checkpoint_source_sha256": "ba63eda807d8305f165300509e730573058c5107aea4dd0bb468d9c9fb67ad0a",
+    "source_matches_checkpoint": true,
+    "build_status": "existing",
+    "limitation": "No compilation-time source hash found for this old block; rebuild required"
+  },
+  "finished_utc": "2026-09-05T17:43:16.535231+00:00",
+  "resolution": "All three current dependency sources rebuilt at trust 0; final main independently recompiled successfully"
+}

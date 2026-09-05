@@ -1,0 +1,6 @@
+'ExactReciprocalPrefixCertificate.entry_of_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactReciprocalPrefixCertificate.next_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactReciprocalPrefixCertificate.conditional_safe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactReciprocalPrefixCertificate.connected_original_inequality_of_exactPrefixSafe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'UnboundedSlackDefect.copiedFamily_collectively_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnboundedSlackDefect.copiedFamily_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnboundedSlackDefect.copiedFamily_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnboundedSlackDefect.arbitrary_sparse_coprime_exact_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UnboundedSlackDefect.no_fixed_additive_slack_repair' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-09-05T16:24:20.948889+00:00",
+  "sources": {
+    "PrimeIncidenceGrowth": "d9c5abd14bbb452130a3d88dc282ff86c2115e22c106e630ba798fddc3aef4e9",
+    "PrimeCopyAmplification": "9ac42e53b8d433ccfc355b51aa6eb8f90b65742b7bfada6e8db59ffbd42f8f51",
+    "UnboundedSlackRatio": "88ab0754a2effa6d41eef2703956a8cddfbf35d45c043f9588a0e0e1f9c11430"
+  },
+  "finished_utc": "2026-09-05T16:26:27.181031+00:00",
+  "compile_flags": [
+    "-j",
+    "1",
+    "-t",
+    "0"
+  ],
+  "exit_codes": {
+    "PrimeIncidenceGrowth": 0,
+    "PrimeCopyAmplification": 0,
+    "UnboundedSlackRatio": 0
+  },
+  "accepted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "final_sources_unchanged": true,
+  "warnings_or_errors": 0
+}

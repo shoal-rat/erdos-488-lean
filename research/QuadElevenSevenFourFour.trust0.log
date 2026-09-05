@@ -1,0 +1,3 @@
+'QuadElevenSevenFourFour.ratio_eleven_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadElevenSevenFourFour.quotient_four_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadElevenSevenFourFour.excess_at_least_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]

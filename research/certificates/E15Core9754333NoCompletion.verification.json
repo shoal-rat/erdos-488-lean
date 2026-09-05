@@ -1,0 +1,175 @@
+{
+  "file": "<original-proof-root>/research/certificates/E15Core9754333NoCompletion.lean",
+  "sha256": "409a6d876e10095587a2451378b2bb63d9abe51c925cb651ec5099bb484e3f29",
+  "fingerprint": "515b3db9bf0b0df9400c89eea0e6c120f5ea48c7879ab7753779cbe8025f6d82",
+  "exit_code": 0,
+  "pass": true,
+  "lean_verified": true,
+  "trust_level": 0,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "verification_seconds": 4.819939121000061,
+  "pool_wait_seconds": 112.43066110200016,
+  "log": "<original-proof-root>/research/certificates/E15Core9754333NoCompletion.trust0.log",
+  "log_sha256": "528ee037ecae76111af92bae1b829dd04f01f01aa176374bf7f2c45a873dd874",
+  "olean_sha256": "a19055c849f0b2d5ce959344bfe6679c6b49faad54e4d706c93290eef67da0ef",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j",
+    "1",
+    "-t",
+    "0",
+    "-R",
+    "..",
+    "-o",
+    "<original-proof-root>/research/certificates/E15Core9754333NoCompletion.olean",
+    "<original-proof-root>/research/certificates/E15Core9754333NoCompletion.lean"
+  ],
+  "resource_usage": {
+    "user_seconds": 2.802991,
+    "system_seconds": 1.865977,
+    "max_rss_kib": 3441352
+  },
+  "local_dependency_hashes": {
+    "<original-proof-root>/research/certificates/E15Core9754333.olean": "7f5bd770130d7fc04fd779c34c87235b967ad612c346f56b39f67a4cbf889294"
+  },
+  "dependency_hashes": {
+    "<original-proof-root>/research/NormalizedIntegerIndexed.lean": {
+      "source_sha256": "de63be1d2abbb63ad1c63b2832a46f430952586db57fce5fc1f264762f808feb",
+      "olean_sha256": "8b3980771c6fc4ee45c6f5e3da0d8c8a81fd36b7ec17bd56dd2d1669f2ddd2d3"
+    },
+    "<original-proof-root>/research/NormalizedInteger.lean": {
+      "source_sha256": "025d1f1eca9ebdeb6b04aa5d8bdaf159eeb955834665b0e1e4f7c48e8871e208",
+      "olean_sha256": "5f5fa9c01280f2d8c522d836a26f27cc3dd08a7201ac5ee3d903b4bd606f5b1d"
+    },
+    "<original-proof-root>/research/NormalizedUnique.lean": {
+      "source_sha256": "06bb40fda40b590e418cf9a0d441455f53f211855cd6a5aafa666bd6f522fa31",
+      "olean_sha256": "c40b882061a264ced09fbf4fd1f6fbae8a7b6f72bd8f7e7e5e2bc508207a5808"
+    },
+    "<original-proof-root>/research/NormalizedDirect.lean": {
+      "source_sha256": "e3b6e24d34962c97f5540b3c69d05d9e698b44660eeff2ccdc0c36fecb508a3c",
+      "olean_sha256": "282515985d79db87f2f676274f18d4870acd056ebdbc62358a958b81b0c86534"
+    },
+    "<original-proof-root>/research/NormalizedPruned.lean": {
+      "source_sha256": "7b51c2d897a1c3fe8bc60e98427eac125ba1bf3f8f05f8a7694fb4ae572962f6",
+      "olean_sha256": "5f457f2281a9d3f94a485010814cf34f63d202c9eae854e3ff794ba0a9e2d1a4"
+    },
+    "<original-proof-root>/research/NormalizedCached.lean": {
+      "source_sha256": "cb99dc077a5a5bd6a3e624fb1d2a7474cda7c898a6bb94c69ad0a50e9bcdc907",
+      "olean_sha256": "0cb13d3ef8672761c3c5a4ff10d258a01a381388785033fd260e71ac26e36174"
+    },
+    "<original-proof-root>/research/NormalizedArithmetic.lean": {
+      "source_sha256": "652d132163d8b598125855ac05931969dc8fabb760f75794e29a9e78aefe129c",
+      "olean_sha256": "a0c4140bbcf70cc47b8077d8d55eb098662665cf62039753de27550061a41724"
+    },
+    "<original-proof-root>/research/NormalizedFastDAG.lean": {
+      "source_sha256": "18d9b5bf606b82ee914b49e891d51bb7464cde7396c8935714c95661b451d825",
+      "olean_sha256": "9ecfcfb5d1ff2bd894b684cadedf0c7a98052343119639638d207dc3798706b1"
+    },
+    "<original-proof-root>/research/NormalizedDAG.lean": {
+      "source_sha256": "9be17e1fadc6b542d77dd6e2a16dfd88e36c9549e4d71a8f80979fc187a5563c",
+      "olean_sha256": "6b70143167a0a9609804e3ebab2606f896928ea55aab480c0db46be68efb10b7"
+    },
+    "<original-proof-root>/research/NormalizedCertificate.lean": {
+      "source_sha256": "20107610ae6f80dffd74c304cfa4026ed26218d973430576b917b95012290d03",
+      "olean_sha256": "760bd964feb506ff56fb1b2f476a71579751eb412e0a8c65200d8322288b48b4"
+    },
+    "<original-proof-root>/research/NormalizedState.lean": {
+      "source_sha256": "29b9b8be0b0e495aa1d27be35480b5deec5c0c10b97c0d03409fcacd95fe1d99",
+      "olean_sha256": "e6c56e6145252642d92ab328fa04799bbf8fd7876bac8bb7a5e070a97412f2c5"
+    },
+    "<original-proof-root>/research/NormalizedNoCompletion.lean": {
+      "source_sha256": "d49c415eea1790762829f44bbf334e735fcdbe99997c00cb375e67e1cdd4f9dc",
+      "olean_sha256": "a216155ee91644839094df68d2c6b761370807562d0787609fb79c1b016ed79d"
+    },
+    "<original-proof-root>/research/NormalizedCompleteness.lean": {
+      "source_sha256": "8325262b9fe72b4318d735bf694a53fe98ed16266c11043a17b0859afdf731d1",
+      "olean_sha256": "70a836bfb98e0f7c324b301ab3ca0a357de83e1961f0d199530e141946a5764e"
+    },
+    "<original-proof-root>/research/RatioNormalization.lean": {
+      "source_sha256": "f21a3af81eba88851f18220372a6f6b6843439c71f4e8c1f110ed3f2b7b72663",
+      "olean_sha256": "8ed34bc5bebc64dce3787f6f348e0e6aaae410be845c121dbcf6bd2015a57820"
+    },
+    "<original-proof-root>/research/ConnectedReduction.lean": {
+      "source_sha256": "04554aa68c8801214c6dd8baaf825630043178594bb80eff5d32e59d9f5e44da",
+      "olean_sha256": "d590ad0d26fdf3e0a007b97507ed16bd1810395ab7d60d4893bad46be788bcdb"
+    },
+    "<original-proof-root>/research/ExcessAtMostSix.lean": {
+      "source_sha256": "bf6aa9adf89776e293ca5c3fcbe3989bf84723c90d16d4454471187c51dc9db1",
+      "olean_sha256": "ce8f2def9a3d30d2c272d16afa9839322c449a8ae25f027fe752c441d84b93de"
+    },
+    "<original-proof-root>/research/ExcessSix.lean": {
+      "source_sha256": "130307443c8249ae30f69047db1c5b2a7f0abc512e804fd03dcf8a0b2fdf139b",
+      "olean_sha256": "3a28b616b9559f93cb81a02ac5995052f9792be5e2f741805ac542bc70f2f575"
+    },
+    "<original-proof-root>/research/SearchLemmas.lean": {
+      "source_sha256": "f60b23ef4485a394feea83680737e5620657b3c08ebd2729b0cd020cf1427c4c",
+      "olean_sha256": "a0f3a6379da412073c4228292d0ea63a7523bad3d0a2258ed0a0e96022beea4d"
+    },
+    "<original-proof-root>/research/Proofs.lean": {
+      "source_sha256": "1226d6f95c263afaeb4c1ac1859f561c513076e512d782eea2a843d52e0ce12e",
+      "olean_sha256": "67aa55948f0d1030fbe34bebeb524eedd3118ffbaf7af22994df23c3b2206cba"
+    },
+    "<original-proof-root>/research/ExcessPair.lean": {
+      "source_sha256": "52b17e5bae7f3aef4b21367fdccc997fd8018d8d37a8071979d8ef10d94ed8cc",
+      "olean_sha256": "476b3cf64738a71b2003f54e3e4565a2d7f3ebf89a0efa1bf059bab7a2e1c07c"
+    },
+    "<original-proof-root>/research/FiniteGrowth.lean": {
+      "source_sha256": "09ddfc285ac9ba395ba27b948e2e259176faceded4ca8e4d55338fa9549c284a",
+      "olean_sha256": "06f3a53611f08cb151dc29fc723aa17aa335bf8e741ed0f31e25f500bafd3284"
+    },
+    "<original-proof-root>/research/ExcessProfiles.lean": {
+      "source_sha256": "86dd0027328b5b2c164e93b5997f65c5c1bb8f43147d68e5381723f538a74eb6",
+      "olean_sha256": "b5aeacd993faf47b86bcf5d4099b0a8546cb438673227e4ebeb8f463f8e11e21"
+    },
+    "<original-proof-root>/research/ExcessNine.lean": {
+      "source_sha256": "c7c693e14365addf2627e8b2d90896aff45ae660189b3909499fcab08ca09e0e",
+      "olean_sha256": "f169c0dbda5956da47e6056b829f022c924ea55501daa6ea0dac61648a9bb269"
+    },
+    "<original-proof-root>/research/ExcessCapacity.lean": {
+      "source_sha256": "11df2e9026f1fef9afbbc9a95185a61c1a180fc127b256e22f2860348e4c101b",
+      "olean_sha256": "ae7b6dbc4169f2312c1ffdc76d44dc1390f74bd0d9488752bc840963d8eb901e"
+    },
+    "<original-proof-root>/research/ExcessEight.lean": {
+      "source_sha256": "5878bdc09e881560d117bbb0021d855d3db3b701d983810a32285719fd6cda50",
+      "olean_sha256": "97dbd646b7108bfdb37fd26a279fe742fd6ff9b2250e5adc989d9fc13ec93bf0"
+    },
+    "<original-proof-root>/research/ExcessSeven.lean": {
+      "source_sha256": "7ac0b75cdaa015118431db7620114c10c1d0487318f5c1290d3da57f6a6e997a",
+      "olean_sha256": "456e00c76d0d92981d642d8cde0630a9d0fa8831d9d0a31a7a9691b0bcd1261e"
+    },
+    "<original-proof-root>/research/EqualQuotient.lean": {
+      "source_sha256": "741fe746cf7536a0676bb85257d50cd8a16048d84aca30ed17110c2337975955",
+      "olean_sha256": "719b61cb64e087ad281880973c5d3a3af5ecff4ee07abd98d0b883aa2a80b114"
+    },
+    "<original-proof-root>/research/ExcessEightGeometry.lean": {
+      "source_sha256": "e07d440f2c1f8525ea0877c8f8c326acd7c97b2e1eceed9fa20e23988a6d505c",
+      "olean_sha256": "0e3b70838720bca81caba752f1b5e33d9f5b9390eee124ea2a779e72e66f6176"
+    },
+    "<original-proof-root>/research/ExcessEightTools.lean": {
+      "source_sha256": "a7132f60d69bc39072a9e60e7ee5a2a5f83735cdc90aa5b63d1a6743460faace",
+      "olean_sha256": "dadd8c87d54315a54c7ab788947990f820f915a8f012148c1e2d8eb2283141ff"
+    },
+    "<original-proof-root>/research/ExactPairCap.lean": {
+      "source_sha256": "296440baf747cd7668afe42b7078e78e72563283c7d190ac222fa41bbb23a530",
+      "olean_sha256": "b9feb3309c1dd6a6ee8a70618adde37394ebc0913f2ebfdcaeb2fef4bde1de01"
+    },
+    "<original-proof-root>/research/ExcessTen.lean": {
+      "source_sha256": "b90c30ee59a27e55118d7929811f3574120a67904ef180ce005574f5c0c107fe",
+      "olean_sha256": "d6715bd9ad62c82e1c0643b3ecc0aee08c0c22b227d54946d55a87eb30c0b26f"
+    },
+    "<original-proof-root>/research/ExcessHigherCapacity.lean": {
+      "source_sha256": "06a389edd8d7e6f648954d97cd0545451b1f460d740fb3fd5246461ec06d748d",
+      "olean_sha256": "81920a26e68fdc8e9dd25814de6f3bf84d60eb7e0dc642c8f5077c7938168bbf"
+    },
+    "<original-proof-root>/research/TripleNineSixFour.lean": {
+      "source_sha256": "f1d10addab88d9e39d3d1c3b9c0e4337ba35f206e8d42ced7de28f80df23f052",
+      "olean_sha256": "43ca3d2f3e8d92ccd9a04f6db0dccf16ddbd0fdc2310aee0f023f9abddde3f25"
+    }
+  }
+}

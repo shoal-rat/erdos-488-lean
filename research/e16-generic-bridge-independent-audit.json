@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-09-05T18:25:05.957066+00:00",
+  "kind": "read_only_independent_semantic_review",
+  "independent_rebuild_performed": false,
+  "files": {
+    "NormalizedReciprocalCertificate": {
+      "source_sha256": "dc400472540750ad4bb5ea461b1fca5e74a5e7d0f91bba692d73f1bceb5ab88b"
+    },
+    "ExactReciprocalPrefixFamily": {
+      "source_sha256": "fad0c858a31338a8ed42f260b583d7de9a48d414f92754a44dff7474c4d45c0a"
+    },
+    "SymbolicProfileConnectivity": {
+      "source_sha256": "a5f113113663a4b625e9dba1a63e20bb5eea3fd1dffc6109ba266197bdd3cece"
+    },
+    "SymbolicProfileCoreExclusion": {
+      "source_sha256": "917507cd9f241d766d04d66392ee5626deb5fd2698f5b225aa1be81d66142857"
+    }
+  },
+  "issues_found": []
+}

@@ -1,0 +1,2 @@
+'ExcessEleven.quotient_excess_le_twenty_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEleven.erdos488_excess_at_most_eleven' depends on axioms: [propext, Classical.choice, Quot.sound]

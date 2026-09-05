@@ -1,0 +1,2 @@
+'MinimalPrivatePoints.small_quotient_proper_point_shared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MinimalPrivatePoints.quotient_three_double_shared' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'ExcessFifteen.excess_at_most_fifteen_union_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessFifteen.erdos488_excess_at_most_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

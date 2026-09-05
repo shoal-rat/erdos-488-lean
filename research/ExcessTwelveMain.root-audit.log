@@ -1,0 +1,3 @@
+'ExcessTwelve.actual_closingTests' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessTwelve.all_final_profiles_excluded' depends on axioms: [propext, Quot.sound]
+'ExcessTwelve.erdos488_excess_at_most_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]

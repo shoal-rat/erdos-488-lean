@@ -1,0 +1,40 @@
+{
+  "scope": "Conditional original-density-failure reductions and necessary conditions; no unconditional assertion of a failure or resolution",
+  "files": [
+    {
+      "source": "research/OriginalCutAdditivity.lean",
+      "sha256": "1563c751cd1339400684c096581e4e23ea9d9ed8cf34294916a4c0a8bcd31262",
+      "verification": "Lean 4.33.1 -j 1 -t 0, exit 0",
+      "log": "research/OriginalCutAdditivity.trust0.log",
+      "axiom_report": "'OriginalCutAdditivity.covered_disjoint_of_proper_cut' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalCutAdditivity.multipleCount_cut_add' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalCutAdditivity.multipleCount_cut_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalCutAdditivity.original_bound_of_disjoint_cut' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalCutAdditivity.all_original_bounds_of_disjoint_cut' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/OriginalConnectedReduction.lean",
+      "sha256": "c6791c642a4095e4fa56c9b8adafb8274f138ccd03846d259d6c47e5b9f7edca",
+      "verification": "Lean 4.33.1 -j 1 -t 0, exit 0",
+      "log": "research/OriginalConnectedReduction.trust0.log",
+      "axiom_report": "'OriginalConnectedReduction.exists_minimal_original_failure' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalConnectedReduction.minimal_original_failure_connected' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'OriginalConnectedReduction.exists_connected_active_original_failure' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    {
+      "source": "research/OriginalPrivateGrowth.lean",
+      "sha256": "da3a13f6f43bfefdfb4ccc5cd45dd8a7f821c0632ee91fb7e3351ee580724bac",
+      "verification": "Lean 4.33.1 -j 1 -t 0, exit 0",
+      "log": "research/OriginalPrivateGrowth.trust0.log",
+      "axiom_report": "'OriginalPrivateGrowth.exclusive_growth_of_original_cut' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalPrivateGrowth.minimal_original_exclusive_growth' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalPrivateGrowth.minimal_original_deletion_growth' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalPrivateGrowth.deletion_count_le_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalPrivateGrowth.minimal_original_private_bound' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/OriginalThirdLayer.lean",
+      "sha256": "7fc558bc838adba8adc73375cbf29711bdce18335f8cd32f5abc9b5732605a7a",
+      "verification": "Lean 4.33.1 -j 1 -t 0, exit 0",
+      "log": "research/OriginalThirdLayer.trust0.log",
+      "axiom_report": "'OriginalThirdLayer.private_point_loss_at_least_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalThirdLayer.quotient_three_double_shared' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalThirdLayer.actual_profileTest' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "source": "research/OriginalMinimalProfile.lean",
+      "sha256": "282e29d48e106101d7df21b683507f7156fe07c3c4b2b81a69bda534108fd162",
+      "verification": "Lean 4.33.1 -j 1 -t 0, exit 0",
+      "log": "research/OriginalMinimalProfile.trust0.log",
+      "axiom_report": "'OriginalMinimalProfile.minimal_original_profileTest' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OriginalMinimalProfile.exists_reduced_original_failure' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+  ]
+}

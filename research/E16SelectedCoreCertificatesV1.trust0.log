@@ -1,0 +1,3 @@
+'NormalizedNoCompletion.selected_core_profiles_sixteen_v1_noCompletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

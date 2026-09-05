@@ -1,0 +1,1 @@
+'FiniteGrowth.of_singleton_and_extension' depends on axioms: [propext, Classical.choice, Quot.sound]

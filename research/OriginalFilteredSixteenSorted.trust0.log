@@ -1,0 +1,4 @@
+'OriginalFilteredSixteenData.sortFuel_perm' depends on axioms: [propext]
+'OriginalFilteredSixteenData.ordered_sorted' does not depend on any axioms
+'OriginalFilteredSixteenData.frozen_sorted' does not depend on any axioms
+'OriginalFilteredSixteenData.ordered_perm' depends on axioms: [propext]

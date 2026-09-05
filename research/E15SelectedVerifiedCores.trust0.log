@@ -1,0 +1,1 @@
+'ProfileCoreExclusion.selected_cores_verified' depends on axioms: [propext, Classical.choice, Quot.sound]

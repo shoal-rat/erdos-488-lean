@@ -1,0 +1,4 @@
+'NormalizedNoCompletion.checkSmallNodes_sound' depends on axioms: [propext, Quot.sound]
+'NormalizedNoCompletion.certified_noCompletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedNoCompletion.noCompletion_excludes_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedNoCompletion.connected_of_cut_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

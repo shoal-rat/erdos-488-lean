@@ -1,0 +1,7 @@
+'AuxiliaryCounterexamples.sparse_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.sparse_incidence' depends on axioms: [propext, Quot.sound]
+'AuxiliaryCounterexamples.not_sparseOrderSlackConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.not_sparseOrderSlackConjectureRat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.pair_count_1468' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.not_pairTailDoublingConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.not_pairTailDoublingConjectureRat' depends on axioms: [propext, Classical.choice, Quot.sound]

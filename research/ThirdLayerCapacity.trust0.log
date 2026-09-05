@@ -1,0 +1,3 @@
+'ThirdLayerCapacity.covering_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThirdLayerCapacity.third_layer_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThirdLayerCapacity.actual_profileTest' depends on axioms: [propext, Classical.choice, Quot.sound]

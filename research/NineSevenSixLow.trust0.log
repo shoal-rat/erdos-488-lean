@@ -1,0 +1,2 @@
+'NineSevenSixLow.equality_ratios' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineSevenSixLow.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

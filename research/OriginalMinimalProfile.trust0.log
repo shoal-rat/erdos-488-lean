@@ -1,0 +1,2 @@
+'OriginalMinimalProfile.minimal_original_profileTest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalMinimalProfile.exists_reduced_original_failure' depends on axioms: [propext, Classical.choice, Quot.sound]

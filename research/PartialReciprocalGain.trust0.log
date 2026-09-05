@@ -1,0 +1,5 @@
+'PartialReciprocalGain.profileMass_eq_weight_add_twice_length' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PartialReciprocalGain.prefixGood_iff_gain_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PartialReciprocalGain.prefixGood_of_gainTest' depends on axioms: [propext, Classical.choice, Quot.sound]

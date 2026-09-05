@@ -1,0 +1,19 @@
+def AuxiliaryCounterexamples.pairSplitSet : ℕ → ℕ → Finset ℕ → ℕ → Finset ℕ :=
+fun a b V n => {k ∈ Finset.range (n + 1) | 0 < k ∧ (a ∣ k ∨ b ∣ k) ∧ ∀ v ∈ V, ¬v ∣ k}
+def AuxiliaryCounterexamples.pairSplitCount : ℕ → ℕ → Finset ℕ → ℕ → ℕ :=
+fun a b V n => (AuxiliaryCounterexamples.pairSplitSet a b V n).card
+def AuxiliaryCounterexamples.Primitive : Finset ℕ → Prop :=
+fun G => ∀ a ∈ G, ∀ b ∈ G, a ∣ b → a = b
+AuxiliaryCounterexamples.pairTail_density_ratios_unbounded : ∀ (K : ℕ),
+  1 ≤ K →
+    ∃ V n m,
+      V.Nonempty ∧
+        (∀ p ∈ V, 3 < p ∧ Nat.Prime p) ∧
+          AuxiliaryCounterexamples.Primitive (insert 2 (insert 3 V)) ∧
+            3 ≤ n ∧
+              (∀ p ∈ V, p ≤ n) ∧
+                n < m ∧
+                  0 < AuxiliaryCounterexamples.pairSplitCount 2 3 V n ∧
+                    K * m * AuxiliaryCounterexamples.pairSplitCount 2 3 V n <
+                      n * AuxiliaryCounterexamples.pairSplitCount 2 3 V m
+'AuxiliaryCounterexamples.pairTail_density_ratios_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]

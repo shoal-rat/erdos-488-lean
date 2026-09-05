@@ -1,0 +1,8 @@
+'SmallExcess.pair_quotient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallExcess.nongenerators_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallExcess.quotient_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallExcess.active_add_high_le_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallExcess.active_add_two_le_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallExcess.pair_quotient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallExcess.small_excess_union_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SmallExcess.erdos488_excess_at_most_six' depends on axioms: [propext, Classical.choice, Quot.sound]

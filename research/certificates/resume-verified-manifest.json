@@ -1,0 +1,672 @@
+{
+  "checked_utc": "2026-09-05T17:30:59.601973+00:00",
+  "entries": [
+    {
+      "name": "E12P10Struct",
+      "source_sha256": "aebdc70106c5e30fe2520a2346d82b764ca9b68b926b0ec09a14b20831473f8e",
+      "source": "research/certificates/E12P10Struct.lean",
+      "olean_sha256": "d81f211b281272101ca0a33f05bf2a20ec872778dfa6abed14bdb9c1314eb37e",
+      "log_sha256": "b4300bedb58eb54e2675a9ce7f5bd6e703a8ff047170d9e13def6fb4f38ac808",
+      "verification_seconds": 792.9269621669991,
+      "status": "passed",
+      "profile": [
+        8,
+        6,
+        5,
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "E": 12
+    },
+    {
+      "name": "E11DirectP0",
+      "source_sha256": "3abf084bef11ac02294d49e29825fe1a6de19b39736be244bb41abcfb49d8168",
+      "source": "research/certificates/E11DirectP0.lean",
+      "olean_sha256": "2d9dbcdb33487405fa654f1e598f8e4ae3036b5a0fa7d1592bbd50568d463fff",
+      "log_sha256": "6f7141a18ae42fcb4377d458aeb8939c72291dc6727b722767ccbfd222875f11",
+      "verification_seconds": 67.5363599730008,
+      "status": "passed",
+      "profile": [
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "E": 11
+    },
+    {
+      "name": "E11IndexedP0",
+      "source_sha256": "736b5f6afe46163a748a99ec5e44f3ae1c3172dda2dbd96b7392793f227e11b2",
+      "source": "research/certificates/E11IndexedP0.lean",
+      "olean_sha256": "dffdaac8eb52139546e7865bbdfdaa1a3bf9ed71d0fcc6b41a5491f7e25f143e",
+      "log_sha256": "46d16ebf8da9de1f155ac5ae5bafb65d37a600e21d9eb360df502f277a3a086c",
+      "verification_seconds": 70.88913409399902,
+      "status": "passed",
+      "profile": [
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "E": 11
+    },
+    {
+      "name": "E13DirectP0",
+      "source_sha256": "8049314cba34d1fa0dccad0672a2d846f9bd3bef199566564b63b2de0e67cd25",
+      "source": "research/certificates/E13DirectP0.lean",
+      "olean_sha256": "5023a01f38336f01389d83c15b4b74336bce902853c6584b149f5af979c5a28d",
+      "log_sha256": "f33ca0f6110b6fa9b5ed10b6d0268d17b1bc6e9f1e08e8eb294d2007c39b3474",
+      "verification_seconds": 75.02046134799821,
+      "status": "passed",
+      "profile": [
+        10,
+        6,
+        5,
+        4,
+        3,
+        3,
+        3
+      ],
+      "E": 13
+    },
+    {
+      "name": "E13DirectP1",
+      "source_sha256": "f378e986e43d23bc8213b909547fab790f9cc98e9fa03709e975b03ac99cbc0f",
+      "source": "research/certificates/E13DirectP1.lean",
+      "olean_sha256": "7f8b2659c3f665c41acd4504318143789fa81320b873197bca33147505ac1262",
+      "log_sha256": "8b667aeaeb87092d3fa5e4921abe4e1d10bb1445b6e7e4ffc19c7a3752759e97",
+      "verification_seconds": 81.19116482499885,
+      "status": "passed",
+      "profile": [
+        10,
+        7,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "E": 13
+    },
+    {
+      "name": "E13DirectP2",
+      "source_sha256": "9ec1045115211e25dff1c20d0c6bf532a120d29d431ea3e1e35b7d770638a37c",
+      "source": "research/certificates/E13DirectP2.lean",
+      "olean_sha256": "a63993bed27f6bbeea75faf0b258f970b7cd2d76663acab9db5f122a2147f589",
+      "log_sha256": "4e83d69e853eb586b0843a6427581c02971764c1d8e344e35f878d7d28c67c48",
+      "verification_seconds": 109.27367623600003,
+      "status": "passed",
+      "profile": [
+        10,
+        6,
+        5,
+        4,
+        4,
+        3,
+        3
+      ],
+      "E": 13
+    },
+    {
+      "name": "E11UniqueP0",
+      "source_sha256": "0d6106d20768f0544f4c14259316d71f6c98b2c016588e65bd9196a7a96e841e",
+      "source": "research/certificates/E11UniqueP0.lean",
+      "olean_sha256": "fbd9032330b75be9dac2057da7af4834a87d71685f1db8ac64a7411dfc444213",
+      "log_sha256": "70f7f14820f5012a83193211f77ade3d1b9d9271c10d624c1e7a90e0d028b7b7",
+      "verification_seconds": 66.88293152999904,
+      "status": "passed",
+      "profile": [
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "E": 11
+    },
+    {
+      "name": "E13UniqueP0",
+      "source_sha256": "37a99af691fdbc8427d0a3301d04d28dc4aa5b9199290f713bb0733745d6e6d8",
+      "source": "research/certificates/E13UniqueP0.lean",
+      "olean_sha256": "883e557745ae66e2ffb87db7b846d8fb9547db5594fba7d7916357318cdbf1e0",
+      "log_sha256": "705ff46daf532e2288ee48a66f7069e5e0a9598d5caec8d9fafc256e0852e149",
+      "verification_seconds": 175.1555609049974,
+      "status": "passed",
+      "profile": [
+        11,
+        7,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "E": 13
+    },
+    {
+      "name": "E13StableP0",
+      "source_sha256": "03eb69a4ea137c67769827b8799609f0e3c8b9614485a1e197b28e19f010194e",
+      "source": "research/certificates/E13StableP0.lean",
+      "olean_sha256": "342a1b2d65f19c9e7c3656f7ecf1329fdfb287e5f7067fa6bfbe74a3a59ea869",
+      "log_sha256": "a31d27049da7d8ffa6632b689842ab5510fd6b417df3815e1a5e9feffb9a0028",
+      "verification_seconds": 237.73944966999989,
+      "status": "passed",
+      "profile": [
+        10,
+        6,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "E": 13
+    },
+    {
+      "name": "E13StableP1",
+      "source_sha256": "d22f589a78c2bba25e193d99427ac855e37b6a6ff2531b1ce3cfb80224638295",
+      "source": "research/certificates/E13StableP1.lean",
+      "olean_sha256": "f4f1892eeba7f8d28534cff056b356d0b6d498ffc5077909af8e99a9b54d4a3c",
+      "log_sha256": "5ea42bacf2be1de96030346dbe6b4f61339c94fce966a4f5401cd4c1e40b3673",
+      "verification_seconds": 354.92864313599785,
+      "status": "passed",
+      "profile": [
+        10,
+        7,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "E": 13
+    },
+    {
+      "name": "E11IntegerP0",
+      "source_sha256": "3fb39935b547945f1ff4eee5c83660077c6bcfc489c7789e4b54aecb60ee1fd8",
+      "source": "research/certificates/E11IntegerP0.lean",
+      "olean_sha256": "e2597fac45d4b73174ebee08cd3557f047023b46fc5abd5f44bcd0eca46c8170",
+      "log_sha256": "567e7ceaefe197c7d6d8b1d02059fc5ba6a861112cc902f3242ef2d30ec7358d",
+      "verification_seconds": 41.034450305000064,
+      "status": "passed",
+      "profile": [
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "E": 11
+    },
+    {
+      "name": "E11IntegerIndexedP0",
+      "source_sha256": "01e13e4d659d09b75791336737de3cdacd414e2d4ae00c41dfcbd7af26d28087",
+      "source": "research/certificates/E11IntegerIndexedP0.lean",
+      "olean_sha256": "85448f7e8094e7927d2b56c04f87b383d948b0143f0775789a21d90697c57fb3",
+      "log_sha256": "450a2fc84ae407d8cf274e62603d449b81e0d124045b34675e66edfe57701919",
+      "verification_seconds": 36.54156046999924,
+      "status": "passed",
+      "profile": [
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "E": 11
+    },
+    {
+      "name": "E11SharedP0",
+      "source_sha256": "64c0bf9c422231a7bca926aeedb1f773602ab0f15a1793a299f7231c8a4b17f8",
+      "source": "research/certificates/E11SharedP0.lean",
+      "olean_sha256": "d450c17cfaafd695deb7f87748f039a02b77a980048b35ac65a8134206a96180",
+      "log_sha256": "eeb0f124d5641c6f9124fcb3ccb9db970f0ca2ee675d44c1720d140dc46b2542",
+      "verification_seconds": 41.244970255000226,
+      "status": "passed",
+      "profile": [
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "E": 11
+    },
+    {
+      "name": "E14SharedP0",
+      "source_sha256": "248b3fa443edc80173eccb40253e34f0c7636135fa30575483877a69d5bda2bc",
+      "source": "research/certificates/E14SharedP0.lean",
+      "olean_sha256": "7e64120c0120682f81f4b3d3da8dbb266b3a16f3f0b39e12377f3ae39ecfda03",
+      "log_sha256": "028dc97939c61322491dae93313a2c3fed34f2a80304ed0278536954cdbaef6d",
+      "verification_seconds": 105.64360833700266,
+      "status": "passed",
+      "profile": [
+        12,
+        8,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "E": 14
+    },
+    {
+      "name": "E14SharedP1",
+      "source_sha256": "150ec15b036112c51b7e60991ea453240cc2f5f486832b15cb42e8ba7ea24902",
+      "source": "research/certificates/E14SharedP1.lean",
+      "olean_sha256": "7ff6ec5f7a1c4dd3d3e2420cb8ecc80a0a93232121fd217ef80c0faedbaa15d4",
+      "log_sha256": "1de3fa82e8a5ba5f83f2d6e5b25b48ec406ab858a97b700c78ae08018a751d50",
+      "verification_seconds": 592.2717108269972,
+      "status": "passed",
+      "profile": [
+        11,
+        7,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "E": 14
+    },
+    {
+      "name": "E14FamilyQ10",
+      "source_sha256": "6138334c534ca59d5fd37ae3a781339c1b124e242271be4e25586dcbad0cea23",
+      "source": "research/certificates/E14FamilyQ10.lean",
+      "olean_sha256": "f4acdbb0321c30de5ef35b2fd5b54dc1151f5a0e08d6c8e4ff406a08c83a9df0",
+      "log_sha256": "6a822a53959bf00116eec67dd88a88a058c94019a4ba9d47f447a33be4770c76",
+      "verification_seconds": 1200.3849480690005,
+      "status": "passed",
+      "E": 14,
+      "targets": [
+        [
+          10,
+          6,
+          6,
+          4,
+          4,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          4,
+          4,
+          4,
+          2
+        ],
+        [
+          10,
+          6,
+          6,
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          10,
+          6,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          5,
+          4,
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          10,
+          6,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          4,
+          4,
+          3,
+          2,
+          2
+        ],
+        [
+          10,
+          7,
+          4,
+          4,
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          10,
+          7,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          5,
+          4,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        [
+          10,
+          7,
+          4,
+          4,
+          3,
+          3,
+          3,
+          2,
+          2
+        ]
+      ],
+      "states": 1615,
+      "edges": 4879,
+      "mode": "integer_family_chunks",
+      "full_verification_manifest": "research/certificates/E14FamilyQ10.chunk-verification.json",
+      "full_verification_manifest_sha256": "25fb5a834a9c5e5782ba39e0b2b7fa43f7fa877323ce72b7ac4e4a790da4f65e",
+      "completed_files": 11
+    },
+    {
+      "name": "E11SharedParallel",
+      "source_sha256": "5f8dcc0999e45e307af3417b73039b84955b3057e13e7f3bcf97eeef6fb16782",
+      "source": "research/certificates/E11SharedParallel.lean",
+      "olean_sha256": "465e7630bde36fbeb6a7f7eeaab24b4ac97930ab26236550610e6741e07113aa",
+      "log_sha256": "2d9fe3ec444a5d75e101a9e3d1abbd5a84a0d59fc8c4b500816a69ce813f1499",
+      "verification_seconds": 26.614828436002426,
+      "status": "passed",
+      "E": 11,
+      "profile": [
+        8,
+        6,
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "states": 108,
+      "edges": 221,
+      "mode": "integer_shared_parallel_chunks",
+      "workers": 4,
+      "full_verification_manifest": "research/certificates/E11SharedParallel.chunk-verification.json",
+      "full_verification_manifest_sha256": "7f356412e282b85dd474d284fbee2d6cb58722712b28cff3d4071a49b9d31923",
+      "completed_files": 6
+    },
+    {
+      "name": "E15SelectedCoreCertificates",
+      "source": "research/E15SelectedCoreCertificates.lean",
+      "source_sha256": "08af146d2a86b72733c6e10c226a5fa57e15637829220a9da894d9eba2b19571",
+      "olean_sha256": "e48450f854300d006a24bcd5fba176741402783845314d16584073d9d1884fa3",
+      "log_sha256": "cda7e3e7cab62d884e2cb091aa1b157ca553ed97ad1cfa32af6c6cc189768a80",
+      "status": "passed",
+      "E": 15,
+      "mode": "core_no_completion",
+      "cores": 14,
+      "states": 1160,
+      "full_verification_manifest": "research/certificates/E15SelectedCores.core-verification.json",
+      "full_verification_manifest_sha256": "33b30d2a2b5666d0de972043e6a80d5afd795d95f21dcdb41496c3b07518fd44",
+      "completed_files": 28,
+      "batch_wall_seconds": 293.4503976670021
+    },
+    {
+      "name": "E15HighSelectedCoreCertificates",
+      "source": "research/E15HighSelectedCoreCertificates.lean",
+      "source_sha256": "5cfdfd08cb257651325226fe5a4d7e15cb478e53c1b917119d2ba7b49ba09682",
+      "olean_sha256": "f9d7f7493b560464ba635a30923908020dceebc3a1e63b445a529784273526cb",
+      "log_sha256": "0ef7b0bb3581a5ea721e3b624c67838d7fa32cd444bce8a17f8fecae2e188f35",
+      "status": "passed",
+      "E": 15,
+      "mode": "core_no_completion",
+      "cores": 28,
+      "states": 1421,
+      "full_verification_manifest": "research/certificates/E15HighCores.core-verification.json",
+      "full_verification_manifest_sha256": "0616d09ed70f162f79b15492a13a2cc4faa6c50464a809c3e306025f092b2468",
+      "completed_files": 56,
+      "batch_wall_seconds": 464.87781684400034
+    },
+    {
+      "name": "E15Core9764333NoCompletion",
+      "source": "research/certificates/E15Core9764333NoCompletion.lean",
+      "source_sha256": "5a98017147f28ed2c0e269387580f8b00306c842c5a3ed01f90a73e490cca8c3",
+      "olean_sha256": "7ce4f3101c3c54f20104f85ad36a8a8f20202517406ed0407dbe110ac9f7d06d",
+      "log_sha256": "560c99b96388d381db1f0490ebd5b9ab0879379fbf5765cd3ad1c20d0974edfa",
+      "status": "passed",
+      "E": 15,
+      "profile": [
+        9,
+        7,
+        6,
+        4,
+        3,
+        3,
+        3
+      ],
+      "mode": "core_no_completion",
+      "states": 287,
+      "edges": 621,
+      "verification_seconds": 160.2545544420027,
+      "full_verification_manifest": "research/certificates/E15Q9ReplacementCores.core-verification.json",
+      "full_verification_manifest_sha256": "a0d29473d9976dd081fcd81205403840d39ae550fa033239ac6632456859bbcb"
+    },
+    {
+      "name": "E15Core9754333NoCompletion",
+      "source": "research/certificates/E15Core9754333NoCompletion.lean",
+      "source_sha256": "409a6d876e10095587a2451378b2bb63d9abe51c925cb651ec5099bb484e3f29",
+      "olean_sha256": "a19055c849f0b2d5ce959344bfe6679c6b49faad54e4d706c93290eef67da0ef",
+      "log_sha256": "528ee037ecae76111af92bae1b829dd04f01f01aa176374bf7f2c45a873dd874",
+      "status": "passed",
+      "E": 15,
+      "profile": [
+        9,
+        7,
+        5,
+        4,
+        3,
+        3,
+        3
+      ],
+      "mode": "core_no_completion",
+      "states": 591,
+      "edges": 1303,
+      "verification_seconds": 375.14494180699694,
+      "full_verification_manifest": "research/certificates/E15Q9ReplacementCores.core-verification.json",
+      "full_verification_manifest_sha256": "a0d29473d9976dd081fcd81205403840d39ae550fa033239ac6632456859bbcb"
+    },
+    {
+      "name": "E15FinalFamilyQ11",
+      "source": "research/certificates/E15FinalFamilyQ11.lean",
+      "source_sha256": "bd7a448a83d31d96023a2de3793753b773443f092045beae9772aa57aaeec647",
+      "olean_sha256": "3840961aa3ac749ac22b341376bbaa71c69ca5987a612c5650515e2ecaadf0b4",
+      "log_sha256": "0c06299ce2280c0b1234c414a8ac5d454edb0102b467e024b21105610bc7d183",
+      "status": "passed",
+      "E": 15,
+      "targets": [
+        [
+          11,
+          7,
+          4,
+          4,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ]
+      ],
+      "states": 2163,
+      "edges": 7682,
+      "mode": "integer_family_parallel_chunks",
+      "workers": 4,
+      "batch_wall_seconds": 1154.6812804330002,
+      "full_verification_manifest": "research/certificates/E15FinalFamilyQ11.chunk-verification.json",
+      "full_verification_manifest_sha256": "7f089ea92abab08f6ecd8847539dfe4eda1ee91cee61712624ad141a72863bdc",
+      "completed_files": 13
+    },
+    {
+      "name": "E15FinalFamilyQ10",
+      "source": "research/certificates/E15FinalFamilyQ10.lean",
+      "source_sha256": "96c353b3929f4ee7162a5f2f01523a134524010368b94f68fce8a51c2d849797",
+      "olean_sha256": "f3aa5b70794855a23beacae4b1982fad343e9866700e72f72adb179002d47148",
+      "log_sha256": "3b21e1fa1571e5923aada4874c7f1d9fb5cd1fe256f3d7cc9f2e7dba701dd8fa",
+      "status": "passed",
+      "E": 15,
+      "targets": [
+        [
+          10,
+          6,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          10,
+          7,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          3,
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        [
+          10,
+          6,
+          5,
+          4,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        [
+          10,
+          7,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ]
+      ],
+      "states": 4100,
+      "edges": 13187,
+      "mode": "integer_family_parallel_chunks",
+      "workers": 4,
+      "batch_wall_seconds": 1847.2858813099992,
+      "full_verification_manifest": "research/certificates/E15FinalFamilyQ10.chunk-verification.json",
+      "full_verification_manifest_sha256": "4fd72fc0843fb2b90cb24dabf451bbd18997896671d63f5d36549ec326bdcf62",
+      "completed_files": 23
+    },
+    {
+      "name": "E15CompletedGroups",
+      "source": "research/E15CompletedGroups.lean",
+      "source_sha256": "6b19ee4c9f703468b15412aa94cb832916e6efaf70e417aa417c6b4af55345b0",
+      "olean_sha256": "56116521af678de678c5f7ce9ec9cb33e0d4017077dc6b6f5ee3931989dce0bc",
+      "log_sha256": "975b4b7a1a1a2ab8720cfb9bc96a8bf563db33f3981a7f2b2e954ce4acf7b29e",
+      "status": "passed",
+      "E": 15,
+      "mode": "actual_last_seven_safe_assembly",
+      "full_verification_manifest": "research/E15CompletedGroups.verification.json",
+      "full_verification_manifest_sha256": "99da864d2ddc3ea86558b713050bc72e66f5a74532b5fa2e9fed299384462691"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "complete; exact rational search only; not a Lean completeness theorem",
+  "excess_layers": {
+    "11": {
+      "profiles": 8,
+      "states": 1340,
+      "seconds": 0.5496659560030821,
+      "witnesses": 0
+    },
+    "12": {
+      "profiles": 23,
+      "states": 6402,
+      "seconds": 2.9308694159981314,
+      "witnesses": 0
+    },
+    "13": {
+      "profiles": 138,
+      "states": 53174,
+      "seconds": 29.41375229300229,
+      "witnesses": 0
+    },
+    "14": {
+      "profiles": 267,
+      "states": 265643,
+      "seconds": 169.9041797469963,
+      "witnesses": 0
+    },
+    "15": {
+      "profiles": 637,
+      "states": 1150374,
+      "seconds": 829.156534585969,
+      "witnesses": 0
+    }
+  },
+  "total_profiles": 1073,
+  "total_states": 1476933,
+  "positive_control": {
+    "states": 1995,
+    "found": {
+      "G": [
+        16,
+        24,
+        36,
+        40,
+        54,
+        56,
+        60,
+        81,
+        84,
+        88,
+        90
+      ],
+      "n": 180,
+      "E": 16,
+      "J": 33,
+      "profile": [
+        11,
+        7,
+        5,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "gcd": 1
+    }
+  },
+  "sha256": {
+    "research/search/excess_capacity_profiles.py": "dfe1229f54e285be9fc1797c63f6fac79874154abf62f85db3519ae1f69abe3c",
+    "research/search/excess_connected_normalized.py": "9f42795edb2d3f3fe4c5e6eb1a0e00977643d8c7f61f82d3a4d3c5391c5ad522",
+    "research/search/excess_capacity_profiles.json": "9f93a44067288a2591fbd1848cfd2a1d5a2f9df2bf149fd174a0b008ab394546",
+    "research/search/excess_connected_11_11.json": "0d5e7d6902a96c199528a71e60c5d6e8ce2859adc426e17d84e764bcd160e34d",
+    "research/search/excess_connected_12_15.json": "c87b74ea00ff3d5851c9f9d353753864c17d03b0a32b0256d9e8e06a358041d7"
+  }
+}

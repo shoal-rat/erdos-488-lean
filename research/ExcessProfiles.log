@@ -1,0 +1,3 @@
+'ExcessProfiles.failure_produces_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessProfiles.mem_enumerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessProfiles.failure_mem_candidates' depends on axioms: [propext, Classical.choice, Quot.sound]

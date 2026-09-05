@@ -1,0 +1,48 @@
+{
+  "file": "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfile.lean",
+  "sha256": "8384a0279791c91b9254384346c6e40401da05fd28bcbf5e9569c6d8ed318392",
+  "fingerprint": "c54618933b7fe3c26aa338e8cf9b146be0bda0090cbe8f8cf3532a078c8b48fb",
+  "verification_seconds": 3.8992714019987034,
+  "exit_code": 0,
+  "pass": true,
+  "lean_verified": true,
+  "trust_level": 0,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "log": "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfile.trust0.log",
+  "log_sha256": "ad6ed5e3e8d891d13334634783eb42bf605dc7f5be7f18d32e36bfbe375b63db",
+  "olean_sha256": "6d3f13244ccf1a0ce190f26ee943509bbd0edb3e05b9948e9e6ba4dc3f777022",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-R",
+    "..",
+    "-o",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfile.olean",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfile.lean"
+  ],
+  "local_dependency_hashes": {
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileData.olean": "631f0aab16d61e00c3e8af3b2bfa77bf494f9aee2fd6be2f9ae720273c91981b",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileChunk000.olean": "ef35fb3fea19258cbebd85ab64b8c78c6a4f652b5eaba61ca10cac436bd9006e",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileChunk001.olean": "a27d6d4a5dc0ff5eb4b90fb79b93a189c35f03085535a1445bb0f4293a7cd392",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileChunk002.olean": "69f40d60e2a2be19e491c4a39bb15bc970554199a47c5371ba8f8f56045a972b",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileChunk003.olean": "0f4eb1d05fcb206dca3b3d40b4494464b9e7cd92833feb75b6e7af11ff4f1e02",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileChunk004.olean": "42dd43a29b2e8eaf3d166490f863fb330cd69898e3f04f7ddc850c6a950fd296",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileChunk005.olean": "0779e3e466d6673b3dcfd79021f199c19eafb4d54e5d43135502a279bf4a02c6",
+    "<original-proof-root>/research/certificates/E16ExactPrefixKnownProfileChunk006.olean": "a874341f9cb7f75dc7f7bba5f5b53eb742cd360418e9b48cd1421c6b7ec6da0e"
+  },
+  "pool_wait_seconds": 2.4316002964042127e-05,
+  "resource_usage": {
+    "user_seconds": 2.538519,
+    "system_seconds": 1.323364,
+    "max_rss_kib": 3393028
+  }
+}

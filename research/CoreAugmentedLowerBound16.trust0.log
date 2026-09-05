@@ -1,0 +1,7 @@
+'CoreAugmentedLowerBound16.verified_core_list_union_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CoreAugmentedLowerBound16.verified_core_entries_ge_two' does not depend on any axioms
+'CoreAugmentedLowerBound16.generator_list_lowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreAugmentedLowerBound16.valid_lowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreAugmentedLowerBound16.splitTests_imply_connected' depends on axioms: [propext, Classical.choice, Quot.sound]

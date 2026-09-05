@@ -1,0 +1,291 @@
+{
+  "scope": "Candidate quotient profiles for a minimal auxiliary failure at exact excess 15; final seven profiles are certified safe",
+  "counts_are_read_from_published_Lean_literals": true,
+  "plot_is_a_proof": false,
+  "stages": [
+    {
+      "stage": "Finite enumeration",
+      "count": 1610,
+      "sources": [
+        {
+          "source": "research/ExcessProfilesFifteenTable.lean",
+          "definition": "compactProfilesFifteen",
+          "source_sha256": "5f8962444e083b72ea930ad0e502604ece69bf9117c4ccc9c164cf4c8076e0cc"
+        }
+      ],
+      "checked_theorem": "ExcessProfiles.blockCandidates_fifteen"
+    },
+    {
+      "stage": "Geometry + minimality",
+      "count": 429,
+      "sources": [
+        {
+          "source": "research/profile_blocks/E15CapacityChunk0.lean",
+          "definition": "preScreen15Chunk0",
+          "source_sha256": "703ae7118001bf836a539e4760c145e2478a80cfbba943e0dc38f53f5cd06671"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk1.lean",
+          "definition": "preScreen15Chunk1",
+          "source_sha256": "1007aaa5fe0496d51ed0fa2d61afd5ed5694d7f7a82a5c6fe559be7024df98fd"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk2.lean",
+          "definition": "preScreen15Chunk2",
+          "source_sha256": "4ad9fd7a577cab93a6a390e0cf438f701d8fb563d79b9469fc6293cae1a53ce1"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk3.lean",
+          "definition": "preScreen15Chunk3",
+          "source_sha256": "a1941625f66d402a6a3ba84e1af3f51fd5ae5ec5221569b7a5539953c0a4c6e7"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk4.lean",
+          "definition": "preScreen15Chunk4",
+          "source_sha256": "d113a8193e6d648d7a115931e93f43166232d664c8001c10657fdcd5509ecfd0"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk5.lean",
+          "definition": "preScreen15Chunk5",
+          "source_sha256": "19baa958d54f966b85ea673a03e2631ca051a4d36ac0539969de3a6bba3a89e2"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk6.lean",
+          "definition": "preScreen15Chunk6",
+          "source_sha256": "f110840d2b288a06a3a7a8f495543d8e17e409d005a9205546f87b36b99b4485"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk7.lean",
+          "definition": "preScreen15Chunk7",
+          "source_sha256": "0ceec8e861926c8dab7d6358cb1da4664348c22f0c1b4031c5091d08066ac9c9"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk8.lean",
+          "definition": "preScreen15Chunk8",
+          "source_sha256": "102e874801e052469b78537cd33cd1ffa752be96dcb1a85c61b0d1c98ae06266"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk9.lean",
+          "definition": "preScreen15Chunk9",
+          "source_sha256": "24c0f1c89c84f340da188a16dd38e95af4f9eca397d3962cb852daea40cc7af1"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk10.lean",
+          "definition": "preScreen15Chunk10",
+          "source_sha256": "80772958b3ddc3295e602cb9f01693b9785a63ad009990f1173473562e857059"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk11.lean",
+          "definition": "preScreen15Chunk11",
+          "source_sha256": "b9e57f3d006515195fda421735b20cbf1874bcacd523a89144c5c07e519ab247"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk12.lean",
+          "definition": "preScreen15Chunk12",
+          "source_sha256": "271eadd1c621e5a056eb4e1406ddd2e1dd1a2e3699dc93610af35f990cf58749"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk13.lean",
+          "definition": "preScreen15Chunk13",
+          "source_sha256": "028e2a89c25939288ffd40d4a1dd00d900f2a416b065b01a3c3fe7237e02bc1c"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk14.lean",
+          "definition": "preScreen15Chunk14",
+          "source_sha256": "460eba99622f12bf820a0f6a61b1a0109c8ab7355abbaeeb1be9c0a30a59c272"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk15.lean",
+          "definition": "preScreen15Chunk15",
+          "source_sha256": "aeee7f4406e965f748ab6ec82e695445536d12cf5bdbc99c45a47ecfdc6dbe9b"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk16.lean",
+          "definition": "preScreen15Chunk16",
+          "source_sha256": "4b4ad001415e7ed43ef3a8b928948aaec1efebfe875ddcf6db8c56a804b6b220"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk17.lean",
+          "definition": "preScreen15Chunk17",
+          "source_sha256": "9652f0298ff78d622dff1eb0b113f3a1a263978bee122d0dd54a55c73e791517"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk18.lean",
+          "definition": "preScreen15Chunk18",
+          "source_sha256": "779699c186945bf4657fbb8742e72e4ecfce348f48ac77e0900a515dee7019e4"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk19.lean",
+          "definition": "preScreen15Chunk19",
+          "source_sha256": "480af60b1140216a327f7668c93afad355fe326268e6fc698de1aeddebe12d64"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk20.lean",
+          "definition": "preScreen15Chunk20",
+          "source_sha256": "1adf55e4c1f95d80a7b7857abb31ab705a44e1c13b36fa0a05230398822da1d0"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk21.lean",
+          "definition": "preScreen15Chunk21",
+          "source_sha256": "58430774cf580fbfe9d78cb6044bf3fd5ba9b1aab122e2d4fab0b1ed7de5466c"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk22.lean",
+          "definition": "preScreen15Chunk22",
+          "source_sha256": "5a79eae9ee74f21d32d61430b3dd8eae924f2ab1e8c2284815f78d0b244177ba"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk23.lean",
+          "definition": "preScreen15Chunk23",
+          "source_sha256": "217d5a2697e3ab53bcd23a9421129ee8e66b6a6401d6729a516ec41f821c287e"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk24.lean",
+          "definition": "preScreen15Chunk24",
+          "source_sha256": "66b62332784938b8bbc8a2851c24e2b07ccb7a81cdf631a48ba9b2ab8f8d35f9"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk25.lean",
+          "definition": "preScreen15Chunk25",
+          "source_sha256": "1ef0f47a81919387193c5ce47202b474ff1b47ee03ef267c5273519ec1bbc2d9"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk26.lean",
+          "definition": "preScreen15Chunk26",
+          "source_sha256": "7f230de4604cbe5f40dec6bf1c5b4d0cfb38f92f630115a14e63040dd1f1ec5c"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk27.lean",
+          "definition": "preScreen15Chunk27",
+          "source_sha256": "b2bdf4ac0ff69ff87d3b883a8c81710e68116e12bcf34652256f3d73d363a809"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk28.lean",
+          "definition": "preScreen15Chunk28",
+          "source_sha256": "cb3140a68ea1c0c6e38b973b9ccca233218de16f4c9bc24b6366ddcded98cb9d"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk29.lean",
+          "definition": "preScreen15Chunk29",
+          "source_sha256": "b0fe279a8f426ba99d3b528100ef6563d7fa1df629361eecd6a14ff5c4f0fb9d"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk30.lean",
+          "definition": "preScreen15Chunk30",
+          "source_sha256": "77893ec1b0a4fd129daef6bb4c9a18d3f49b280ca19a8bf7a9d43dfdd3d87cb3"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk31.lean",
+          "definition": "preScreen15Chunk31",
+          "source_sha256": "68d7b8a44f969e3e985cf19af6c5fe6493171ee0c3fa587b6a3eccefcbc960c0"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk32.lean",
+          "definition": "preScreen15Chunk32",
+          "source_sha256": "371f64489eb0ef017b8ee0d022cd4e7d7dd697871a246b6277c37e15cc238d2c"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk33.lean",
+          "definition": "preScreen15Chunk33",
+          "source_sha256": "33f0ee304ab96b33acf323c2888e65766621716af0f943b5aa227c7d20702b4e"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk34.lean",
+          "definition": "preScreen15Chunk34",
+          "source_sha256": "a5f351697baeffe3c949e4f7e9f34458d9e2c9dd304eba0b2d42e260bf222ca5"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk35.lean",
+          "definition": "preScreen15Chunk35",
+          "source_sha256": "db7deaa2549edac9027d4f1cc440bd75538a752b2709aa0bf851a454e5f843e0"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk36.lean",
+          "definition": "preScreen15Chunk36",
+          "source_sha256": "304b4cb54f52ff3c72e1fe52da48cdcda595391caa8c3fd9cb1f07888836d5a8"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk37.lean",
+          "definition": "preScreen15Chunk37",
+          "source_sha256": "bab5b70ebf59bc13a53a08ad19addbc443babf6209dc67de65c20b0647936faf"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk38.lean",
+          "definition": "preScreen15Chunk38",
+          "source_sha256": "572ee7c695b4129e0bb981c715c4de94789666ce45831abd7a7f53ee1762c28a"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk39.lean",
+          "definition": "preScreen15Chunk39",
+          "source_sha256": "e718dff6ebb2f9710d7034f21a2a07b0146704ec1e12cd468153b97f5dd9a845"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk40.lean",
+          "definition": "preScreen15Chunk40",
+          "source_sha256": "6c0b94bf557bde9f860a07f719f95a24f510a63e707241c0388ec794831a1e2d"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk41.lean",
+          "definition": "preScreen15Chunk41",
+          "source_sha256": "a2047f2757820ddd18438625ecffe8bbb87636e6ab1a53c2fabe6aea5d3924e7"
+        },
+        {
+          "source": "research/profile_blocks/E15CapacityChunk42.lean",
+          "definition": "preScreen15Chunk42",
+          "source_sha256": "9276b3c103cc4ea85fb8fcb9546276960c4e52870b254cb0cdf4dec7d735256f"
+        }
+      ],
+      "checked_theorem": "ExcessProfiles.preScreenFifteen_checked"
+    },
+    {
+      "stage": "Aggregate capacity",
+      "count": 223,
+      "sources": [
+        {
+          "source": "research/ExcessProfilesMinimalFifteen.lean",
+          "definition": "minimalProfilesFifteen",
+          "source_sha256": "a3c9d4f12d0b2fa0c33f5b0d159e46fbecda838fb02e8bc069698008b8f91f26"
+        }
+      ],
+      "checked_theorem": "ExcessProfiles.minimalProfilesFifteen_checked"
+    },
+    {
+      "stage": "Core + layer exclusions",
+      "count": 11,
+      "sources": [
+        {
+          "source": "research/ExcessProfilesFinalFifteen.lean",
+          "definition": "finalProfilesFifteen",
+          "source_sha256": "f161388d96d1a6fa0df9832081bfe938e426bf42bfdb0b792b92fb7a18957f8c"
+        }
+      ],
+      "checked_theorem": "ExcessProfiles.finalProfilesFifteen_checked"
+    },
+    {
+      "stage": "Private-point conditions",
+      "count": 9,
+      "sources": [
+        {
+          "source": "research/ExcessProfilesPrivateFifteen.lean",
+          "definition": "privateProfilesFifteen",
+          "source_sha256": "e0f69b1d270580a159d85916bb0139809a4828f5826d81fd32ba2ce57716af81"
+        }
+      ],
+      "checked_theorem": "ExcessProfiles.privateProfilesFifteen_checked"
+    },
+    {
+      "stage": "Last core exclusions",
+      "count": 7,
+      "sources": [
+        {
+          "source": "research/ExcessProfilesLastFifteen.lean",
+          "definition": "lastProfilesFifteen",
+          "source_sha256": "6acc9009afb873d5e257563b698698a50122d8d8302aa9cac0e0c6651adeaa3d"
+        }
+      ],
+      "checked_theorem": "ExcessProfiles.lastProfilesFifteen_checked"
+    }
+  ],
+  "final_safety_theorem": "CertificateBridge.last_profiles_fifteen_safe",
+  "final_safety_source": "research/E15CompletedGroups.lean"
+}

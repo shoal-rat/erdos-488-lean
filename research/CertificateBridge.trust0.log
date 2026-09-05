@@ -1,0 +1,3 @@
+'CertificateBridge.covered_safe_profiles_imply_slack_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CertificateBridge.compact_safe_implies_slack_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CertificateBridge.twelve_safe_implies_slack_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

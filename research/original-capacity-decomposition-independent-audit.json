@@ -1,0 +1,54 @@
+{
+  "audit_utc": "2026-09-05T18:38:26.779421+00:00",
+  "kind": "independent_read_only_semantic_audit",
+  "new_recompilations": 0,
+  "modules": [
+    {
+      "source": "research/OriginalCapacityBlockDecomposition.lean",
+      "source_sha256": "4e86d9697fe407ca718b7dd52e6ebef4debb1aa313c60ac78cdcb10dfd68f9c3",
+      "olean_sha256": "329c85bf9e2ea06d746207074931ec24c3ffb4dcc11a6541657e6433a4a08069",
+      "log_sha256": "0af9a7f859fc8e10fb6f3062988fcc7be3d0e998d0a04f664f823028d985b37f"
+    },
+    {
+      "source": "research/OriginalCapacityBlockShortcuts.lean",
+      "source_sha256": "293256a110d5b8f1334b58ed0f0304e6f9c252c5d0c40b82f9491f0053a3ce30",
+      "olean_sha256": "9081aed815cca5cad9852dd281bce3d6075c05f846f0a5249372860982d6f656",
+      "log_sha256": "5d87460c8da28465283db1b4638cc285491412e77b244ab3bbb70d34454749ec"
+    },
+    {
+      "source": "research/OriginalCapacityNestedDecomposition.lean",
+      "source_sha256": "7c199dc6b6110950f9b74a682ccb3662a5402bba09a1d8f5c4237557586fc94b",
+      "olean_sha256": "7bd53b3402965a46dbded2f3275e06db6aeabb4a7a62110879fd2af9e63f4e1d",
+      "log_sha256": "640692b26c94ec8b9880b74e5cbf1123be588df48cd3e3502c493cfe3897cdd7"
+    },
+    {
+      "source": "research/OriginalCapacityPrefixDecomposition.lean",
+      "source_sha256": "c0afd8485064b53743862f8b98869c5513f9c46c5b5badfcfcf5ef8ca3483ed4",
+      "olean_sha256": "d12d26b994c29141f378235506cd27edfc0d76dc4066f74dc9e5557142c35adb",
+      "log_sha256": "fffe5b4450ca745d96507bb4f1e1e974149d515be7e0bb32f9901af91d79621f"
+    },
+    {
+      "source": "research/OriginalCapacityPrefixShortcuts.lean",
+      "source_sha256": "c2fa168bd2634381c2bcf6d17f63d257da410a13f369596c4e6c1526ebd02d77",
+      "olean_sha256": "f6d55a408dd772585a29012922ea56334f4c9e126d9ae034e5c4b6c3bfe33722",
+      "log_sha256": "c017ba9326f5a68e381d85fd3616da766b3caffdce3e04f8521751199ae89de0"
+    },
+    {
+      "source": "research/OriginalCapacityPrefixTests.lean",
+      "source_sha256": "5d02f3a17ed2dc292e7b06b0982488779a1ad26a660719734975711b4980cbe1",
+      "olean_sha256": "817b1e205dd4c1168907e6605f8bfc98dd4885d959f956205e9722dd34c7e4da",
+      "log_sha256": "16c216c3f558736e1b6551c46d9cc7360ad876ebf4a366e5cc6a74def96e8c2b"
+    }
+  ],
+  "original_definitions_compared": [
+    "ExcessProfilesCompact.enumerateCompact",
+    "ExcessProfilesBlocks.candidateBlock",
+    "ExcessProfilesCapacity.capacityBlock"
+  ],
+  "semantic_issue_found": false,
+  "does_not_certify_literal_tables": true,
+  "updated_utc": "2026-09-05T18:57:47.308524+00:00",
+  "arbitrary_depth_extension_read_only_reviewed": true,
+  "prefix_all_sublist_shortcuts_read_only_reviewed": true,
+  "hereditary_half_capacity_tests_read_only_reviewed": true
+}

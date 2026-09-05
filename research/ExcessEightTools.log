@@ -1,0 +1,4 @@
+'ExcessEightTools.active_add_three_le_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEightTools.three_mul_le_lcm_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEightTools.common_quotient_bound_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEightTools.primitive_common_quotient_bound_eight_four' depends on axioms: [propext, Classical.choice, Quot.sound]

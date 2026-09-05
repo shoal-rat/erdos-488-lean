@@ -1,0 +1,5 @@
+'SymbolicProfileCoreExclusion.verifiedCore_not_subperm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SymbolicProfileCoreExclusion.actual_coreFilter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SymbolicProfileCoreExclusion.actual_coreFilter_of_each_lowerBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

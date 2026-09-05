@@ -1,0 +1,2 @@
+'NormalizedCertificate.E15FinalFamilyQ10_node1799_verified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.E15FinalFamilyQ10_node1799_slack' depends on axioms: [propext, Classical.choice, Quot.sound]

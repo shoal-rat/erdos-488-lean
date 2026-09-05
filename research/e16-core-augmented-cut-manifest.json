@@ -1,0 +1,76 @@
+{
+  "proofs": [
+    {
+      "module": "CoreAugmentedLowerBound16",
+      "actual_compile_exit_code": 0,
+      "lean_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "lean": {
+        "path": "research/CoreAugmentedLowerBound16.lean",
+        "sha256": "10a302f3a0d8df3727c8df68c9685ad85213dfe49927ac1ca03eb0106ffe5626"
+      },
+      "olean": {
+        "path": "research/CoreAugmentedLowerBound16.olean",
+        "sha256": "cf9ff3028028a94fad1f5ea60a09808491e0e8de7d7eaeb5014867f487248e28"
+      },
+      "trust0.log": {
+        "path": "research/CoreAugmentedLowerBound16.trust0.log",
+        "sha256": "ae76e1b4bb26a5abcf4e1272ab6a0e855ff6a63e6efa6578faa632a0f0196da6"
+      },
+      "standard_axioms_only": true
+    },
+    {
+      "module": "SemanticProfileLowerBound",
+      "actual_compile_exit_code": 0,
+      "lean_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "lean": {
+        "path": "research/SemanticProfileLowerBound.lean",
+        "sha256": "7f4511531da5ab2f308aa289d5bb77146e3efbb3002eab922ebf30400e73c864"
+      },
+      "olean": {
+        "path": "research/SemanticProfileLowerBound.olean",
+        "sha256": "f9cfd21f070631d774bc5bcdf38afa53e04fbc345b54c11cd14240cd2b566531"
+      },
+      "trust0.log": {
+        "path": "research/SemanticProfileLowerBound.trust0.log",
+        "sha256": "d880ce0bbfe19ea060ffad956df343fb2cd5ccacc703394edc5f18e6145512f8"
+      },
+      "standard_axioms_only": true
+    },
+    {
+      "module": "ExtraCoreAugmentedLowerBound16",
+      "actual_compile_exit_code": 0,
+      "lean_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "lean": {
+        "path": "research/ExtraCoreAugmentedLowerBound16.lean",
+        "sha256": "d8df1eaad272ba6af70fb83113ed4d28f3e00f4473cde543cbf889f902de9497"
+      },
+      "olean": {
+        "path": "research/ExtraCoreAugmentedLowerBound16.olean",
+        "sha256": "621641c5e025e83372f67da0551cd076e715d1b448a7bcabd7a24daa6ab5ced6"
+      },
+      "trust0.log": {
+        "path": "research/ExtraCoreAugmentedLowerBound16.trust0.log",
+        "sha256": "afe0c222342a390541398dbe9442b753e7cc6a0f83ef1b20f9e34da4bc4e7a74"
+      },
+      "standard_axioms_only": true
+    }
+  ],
+  "exact_extra_core_count": 4,
+  "old_verified_core_count": 42,
+  "literal_e16_profile_table_certified_by_these_modules": false
+}

@@ -1,0 +1,5 @@
+'NormalizedCertificate.fits_iff_count_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.next_fits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.initial_fits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.initial_reaches_fits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.fits_iff_subperm' depends on axioms: [propext, Classical.choice, Quot.sound]

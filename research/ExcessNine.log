@@ -1,0 +1,4 @@
+'ExcessNine.pair_constraint_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessNine.high_card_le_two_of_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessNine.quotient_excess_le_eighteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessNine.erdos488_excess_at_most_nine' depends on axioms: [propext, Classical.choice, Quot.sound]

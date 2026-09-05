@@ -1,0 +1,7 @@
+'ExcessSix.active_add_high_le_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSix.active_le_four_of_large_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSix.excess_le_twelve_of_all_quotients_le_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSix.excess_le_twelve_from_pair_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessPair.pair_quotient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSix.excess_six_union_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSix.erdos488_exact_excess_six' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'MinimumWeightProfileTransfer.eq_active_of_weight_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MinimumWeightProfileTransfer.profile_eq_of_weight_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MinimumWeightProfileTransfer.original_inequality_of_profile_safe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

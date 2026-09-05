@@ -1,0 +1,2 @@
+'ElevenSevenFiveTwoLayer.equality_ratios' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ElevenSevenFiveTwoLayer.two_layer_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]

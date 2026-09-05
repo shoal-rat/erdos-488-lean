@@ -1,0 +1,5 @@
+'QuadSevenSixFiveFour.card_three_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSixFiveFour.ratios_seven_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSixFiveFour.last_pair_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSixFiveFour.geometry_four_five_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSixFiveFour.excess_at_least_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]

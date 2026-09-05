@@ -1,0 +1,33 @@
+../research/ExcessEightGeometry.lean:60:24: warning: Variable name `hbadiv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hbadiv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+../research/ExcessEightGeometry.lean:144:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../research/ExcessEightGeometry.lean:145:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../research/ExcessEightGeometry.lean:146:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../research/ExcessEightGeometry.lean:147:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../research/ExcessEightGeometry.lean:148:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../research/ExcessEightGeometry.lean:149:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../research/ExcessEightGeometry.lean:150:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+../research/ExcessEightGeometry.lean:151:52: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'ExcessEightGeometry.pair_count_before_lcm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEightGeometry.ratio_two_three_of_quotients_seven_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEightGeometry.no_quotients_7_5_4' depends on axioms: [propext, Classical.choice, Quot.sound]

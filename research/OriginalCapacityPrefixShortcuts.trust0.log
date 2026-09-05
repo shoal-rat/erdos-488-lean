@@ -1,0 +1,9 @@
+'OriginalCapacityBlockDecomposition.prefix_sublist_of_mem_prefixPipeline' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_bonferroni' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_aggregate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

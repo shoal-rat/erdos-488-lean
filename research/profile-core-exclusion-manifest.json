@@ -1,0 +1,86 @@
+{
+  "utc": "2026-09-05T16:58:17.551802+00:00",
+  "modules": {
+    "NormalizedNoCompletion": {
+      "source_sha256": "d49c415eea1790762829f44bbf334e735fcdbe99997c00cb375e67e1cdd4f9dc",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    "ProfileConnectivity": {
+      "source_sha256": "12bb2f6ef3b18b03005cfa7d657f0c10701eae33b75ebaf9ffeea43a21de408f",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    "ProfileCoreExclusion": {
+      "source_sha256": "57c099b07a88edb7c43763a61e04746e60e71efa666c375bf800df1ebb3249d2",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    "E15CoreConnectivity": {
+      "source_sha256": "d76b9788baa133ef9da9b5e5edd005a048ee0f4d3c5cb18be7a9895358f65acc",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    "E15HighCoreConnectivity": {
+      "source_sha256": "24d3f797faa686890b7a6d94f99695b82a2cc0818a136d930db9ddf39b41aba2",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    "E15SelectedVerifiedCores": {
+      "source_sha256": "d104d69c764604f19ddfe68ccc596f1a705e33ae9fa61f7124196652df8419e9",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    "E15HighSelectedVerifiedCores": {
+      "source_sha256": "57c81819824283478ceaf83bc7311e9cd9842e1b4d6d0e188104dd9f9417d58f",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    "E15VerifiedCores": {
+      "source_sha256": "89db376a465de3ee0b45a796c469c9162881e3a3c6356a181b62e583b08a696c",
+      "compile_flags": [
+        "-j",
+        "1",
+        "-t",
+        "0"
+      ],
+      "exit_code": 0
+    }
+  },
+  "verified_core_count": 42
+}

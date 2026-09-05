@@ -1,0 +1,3 @@
+'PrimitiveReduction.core_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimitiveReduction.core_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimitiveReduction.covered_core' depends on axioms: [propext, Classical.choice, Quot.sound]

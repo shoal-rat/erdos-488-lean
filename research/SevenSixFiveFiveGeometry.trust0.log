@@ -1,0 +1,3 @@
+'SevenSixFiveFiveGeometry.intersection_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixFiveFiveGeometry.some_double_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SevenSixFiveFiveGeometry.oriented_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'TenEightCores.ratios_ten_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TenEightCores.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

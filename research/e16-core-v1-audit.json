@@ -1,0 +1,43 @@
+{
+  "completed_utc": "2026-09-05T18:27:26.540095+00:00",
+  "selection_sha256": "c46da9448c6380c024c7b7c398f8be085c99a8356f4d483b4b86323b91f870d1",
+  "cores": 66,
+  "normalized_states": 4667,
+  "nontrivial_positional_cuts": 1660,
+  "core_length_histogram": {
+    "4": 25,
+    "3": 10,
+    "5": 23,
+    "6": 7,
+    "7": 1
+  },
+  "raw_and_noCompletion_modules": 132,
+  "all_raw_and_wrapper_kernel_checks_passed": true,
+  "all_cut_checks_passed": true,
+  "generic_actual_filter_passed": true,
+  "all_graph_state_counts_match_frozen_selection": true,
+  "warnings": [],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "local_assembly_modules": {
+    "research/E16CoreConnectivityV1.lean": {
+      "source_sha256": "2dfdb50a6343321185b88b44316109bc28b8c010e22bed23f1b0160aba043910",
+      "olean_sha256": "17a586b8bc738e3a882add0bd5af86e35311426f629d272be1fd9ada2312ac1c"
+    },
+    "research/E16SelectedCoreCertificatesV1.lean": {
+      "source_sha256": "2d7eba9b56fe1921050bd5bad718652b1e4464e745c123d0bec9d0e78156b38a",
+      "olean_sha256": "5ca4123ae85d5c03e780ffb896fd6905f162755292d43089a5f01138dfb9e46a"
+    },
+    "research/E16VerifiedCoresV1.lean": {
+      "source_sha256": "b77899d9aeac55956757b81a674ac8271216ecaa84d120f3885fe8b0ca0d6130",
+      "olean_sha256": "dec6f974c9cfefb44105f42ab6fd3c9fb5a5ad0623bb728836bccdecb9d29b80"
+    }
+  },
+  "resume_record": "research/certificates/E16SelectedCoresV1.resume.json",
+  "graph_manifest": "research/certificates/E16SelectedCoresV1.core-verification.json",
+  "assembly_manifest": "research/e16-verified-cores-v1-verification.json",
+  "scope": "Universal exclusion of the 66 listed cores at excess at most 16; not complete E16 coverage"
+}

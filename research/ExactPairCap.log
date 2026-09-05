@@ -1,0 +1,5 @@
+'ExactPairCap.common_le_orderedCap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactPairCap.common_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactPairCap.intersection_card_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactPairCap.primitive_common_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactPairCap.tableThroughSixteen_verified' depends on axioms: [propext, Classical.choice, Quot.sound]

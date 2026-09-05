@@ -1,0 +1,3 @@
+'RationalUnionPruning.common_multiple_incidence_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalUnionPruning.common_multiple_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RationalUnionPruning.smallSlack_original_at_180' depends on axioms: [propext, Classical.choice, Quot.sound]

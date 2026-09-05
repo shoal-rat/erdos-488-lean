@@ -1,0 +1,2 @@
+'PrimitiveCoreBounds.erdos488_core_excess_at_most_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimitiveCoreBounds.erdos488_core_excess_at_most_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

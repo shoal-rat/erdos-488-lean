@@ -1,0 +1,2 @@
+'ExcessProfiles.failure_mem_capacityCandidates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessProfiles.failure_mem_capacityTwelve' depends on axioms: [propext, Classical.choice, Quot.sound]

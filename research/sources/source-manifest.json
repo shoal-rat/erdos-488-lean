@@ -1,0 +1,26 @@
+{
+  "accessed_utc": "2026-09-05T11:30:36.045742+00:00",
+  "formal_conjectures_main_commit_at_check": "8323e878b83fcd7f4a448256069352a265460d75",
+  "source_note": "snapshots contain unproved conjecture statements; no deliverable proof imports them",
+  "files": {
+    "699.lean.txt": "8b1a74ad4b3d30c0ec89b35bcb28584ed726c242e957233965b80d7cddab689b",
+    "97.lean.txt": "43b60ab56bfb6b6ab17e3d4f03d2ed5abda30b2fe2245abaaa9a505aa9cd2e44",
+    "128.lean.txt": "4e95cb275ef07ed46a8fa206def1e59e175c1763d3a9dde416c121e10ac2ffce",
+    "723.lean.txt": "57d2a9c701808324dbb207ed10d764059cef77584270bb097d8c810e6c83010f",
+    "23.lean.txt": "fd51a26b2790f5bb33aae2295c982e71e717f0143608cf8a9c690c7b8a6af60d",
+    "488.lean.txt": "baca00a906cdf3d101abe9cd8e7a6b5016cef81476502b8908851b4f86524a0a",
+    "885.lean.txt": "e9fe2f91c4eda5a95db5fac87a79cd9a6bce65a1590a6de1b9c600bb0c55dc90",
+    "677.lean.txt": "3202f95f675dbbf900b08d906f4ed7e5c47bb6d7f9ddab73029f7020506b456b",
+    "686.lean.txt": "e4ed16033e8d9011f25ee027841e129ce39b9c4e7fea4bf8176d33174042dcbf",
+    "erdos-problems.yaml": "bbb5ac11970c41815180b2cb80e6276fac847d1485177e5ff48bdf3b34963bd8",
+    "287.lean.txt": "9e90445fcbb14f334a23d1afbd7e46a69fdfd55794ecfa134e23754a21d8c402",
+    "erdos488-2026-03-20.pdf": "68639a31a69302089202a71b156425cf5db6f08e7f43fc91ed1869faaeecf5a3",
+    "647.lean.txt": "ce49e9e780bacb8acb8d0e28d0d3aa94d3243509413d90d4e94af672fa01400d",
+    "1110.lean.txt": "0e1a678224153a554260dd171fa0c705210653dcc0adf9e668894cbf0cbdcc0e",
+    "20.lean.txt": "aaf8925867fb3812e12f81bfc3fd29f66ad4e0e5107240a2f8cc5cd1b3471775",
+    "1212.lean.txt": "273f4a0b0f9e66dad275baf2f325566f2fe9baa98a7923309e0c4ebbac9464d6",
+    "701.lean.txt": "c6ec5d079f69c0e44cb6de74874df4a68d82108a000358002bbda0b24f3fd266",
+    "307.lean.txt": "ef19952b7e1598e1267caaeefc39e34636a8b39fe31589e96809b82ce11a5e22",
+    "107.lean.txt": "ac62df0b0a9532d0032bb7976f6991a86bf4b008d4352a18b9afac0d1002d328"
+  }
+}

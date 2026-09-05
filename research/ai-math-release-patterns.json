@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-09-05",
+  "task_scope": "Read-only primary-source publication research; local research artifacts only",
+  "external_repositories_compiled": false,
+  "github_writes": false,
+  "new_lean_runs": false,
+  "main_project_count": 4,
+  "companion_project_count": 1,
+  "projects": [
+    {
+      "name": "AlphaProof Nexus results",
+      "owner": "google-deepmind",
+      "repository_url": "https://github.com/google-deepmind/alphaproof-nexus-results",
+      "kind": "Primary AI-generated proof-artifact publication",
+      "observed_artifacts": ["APNOutputs/", "NaturalLanguageProofs/", "erdos_problems_attempted.txt", "lean-toolchain", "lakefile.toml", "lake-manifest.json", ".github/workflows/lean_action_ci.yml"],
+      "observed_pattern": "Parallel formal proofs and human prose; attempted inputs identified; configured Lean and documentation actions.",
+      "release_evidence": {
+        "status": "observed_versioned_github_release",
+        "url": "https://github.com/google-deepmind/alphaproof-nexus-results/releases/tag/science-submission",
+        "title": "v1.0.0-science-submission",
+        "tag": "science-submission",
+        "abbreviated_commit": "0647711"
+      },
+      "additional_sources": ["https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/.github/workflows/lean_action_ci.yml"],
+      "limits": ["No current successful CI run checked", "No model-weights or training-code release established", "Release name does not establish paper acceptance"],
+      "recommendation": "Pair informal mathematics with exact Lean entries; freeze paper-associated artifact versions and disclose attempted scope."
+    },
+    {
+      "name": "Lean proofs collection including Aristotle Erdős proofs",
+      "owner": "plby",
+      "repository_url": "https://github.com/plby/lean-proofs",
+      "kind": "Contributor-maintained public Lean proof collection",
+      "observed_artifacts": ["src/latest/", "src/v4.24.0/", "data/sources.yaml", "tex/", "pdf/", "ErdosProblems/"],
+      "observed_pattern": "Topic and toolchain organization; a sampled source header distinguishes prior literature, mathematical contributors, formal prover, and versions.",
+      "release_evidence": {"status": "public_repository_observed_tagged_release_not_established", "release_page_fetch": "failed"},
+      "additional_sources": ["https://github.com/plby/lean-proofs/blob/main/data/sources.yaml", "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos1026.lean"],
+      "limits": ["Not an official Harmonic model release", "Individual mathematical claims not independently rechecked in this task"],
+      "recommendation": "Use statement-level provenance and theorem-to-source mappings; distinguish prior mathematics from new proof implementation."
+    },
+    {
+      "name": "Uniform-constant unit-distance formalization",
+      "owner": "kim-em",
+      "repository_url": "https://github.com/kim-em/erdos-unit-distance",
+      "kind": "Primary AI-assisted formalization with companion verifier",
+      "observed_artifacts": ["ErdosUnitDistance/", "ErdosUnitDistance.lean", "informal-proof.md", "formalization.yaml", "lean-toolchain", "lakefile.toml", "lake-manifest.json"],
+      "observed_pattern": "Precise theorem first, axioms and scope stated explicitly; metadata records roles, resources, dependencies and canceled work.",
+      "release_evidence": {"status": "explicitly_no_github_releases_at_inspection", "url": "https://github.com/kim-em/erdos-unit-distance/releases"},
+      "additional_sources": ["https://github.com/kim-em/erdos-unit-distance/blob/master/formalization.yaml"],
+      "companion": {
+        "repository_url": "https://github.com/kim-em/erdos-unit-distance-comparator",
+        "observed_artifacts": ["Challenge.lean", "Solution.lean", "comparator.json", "verify.sh", ".github/workflows/"],
+        "observed_pattern": "Separate intended statement and supplied proof, with documented comparator verification.",
+        "execution_verified_by_this_review": false
+      },
+      "limits": ["Repository's verification claims were inspected, not independently executed", "Placeholder-based challenge format is not recommended for our current accepted proof tree"],
+      "recommendation": "Publish the exact accepted declarations, actual axiom output, provenance, and semantic audits; add comparator claims only after a separate successful integration."
+    },
+    {
+      "name": "First Proof second batch",
+      "owner": "1stproof",
+      "repository_url": "https://github.com/1stproof/batch-2",
+      "kind": "Primary research-mathematics AI evaluation publication",
+      "observed_artifacts": ["batch-2-design/", "batch-2-submissions/", "batch-2-modeltesting/", "batch-2-raw-outputs/", "batch-2-AI-solutions/", "batch-2-human-solution/", "batch-2-reviews/"],
+      "observed_pattern": "Protocol, execution outputs, mathematical solutions, and referee evaluation are separately organized; reviews provide TeX and PDF.",
+      "release_evidence": {"status": "public_repository_observed_tagged_release_not_established", "release_page_fetch": "failed"},
+      "additional_sources": ["https://github.com/1stproof/batch-2/tree/main/batch-2-design", "https://github.com/1stproof/batch-2/tree/main/batch-2-reviews"],
+      "limits": ["Not established here as a Lean-verified theorem release", "Its referee reports do not imply external review of our project"],
+      "recommendation": "Separate accepted proofs, run evidence, failed attempts and assessments, retaining honest review provenance."
+    }
+  ],
+  "local_result_status_snapshot": {
+    "basis": "Existing accepted proof and independent-audit records; current final theorem sources read without recompilation",
+    "auxiliary_excess_at_most_15": {"status": "previously_kernel_verified", "file": "research/ExcessFifteenMain.lean", "theorem": "ExcessFifteen.excess_at_most_fifteen_union_bound"},
+    "original_excess_at_most_15": {"status": "previously_kernel_verified", "file": "research/ExcessFifteenMain.lean", "theorem": "ExcessFifteen.erdos488_excess_at_most_fifteen"},
+    "least_auxiliary_failure_excess_16": {"status": "previously_kernel_verified", "file": "research/SharpSlackThreshold.lean", "theorem": "SharpSlackThreshold.sixteen_is_least_failure_excess"},
+    "unbounded_sparse_coprime_incidence_ratio": {"status": "previously_kernel_verified", "file": "research/UnboundedSlackRatio.lean", "theorem": "UnboundedSlackRatio.arbitrary_sparse_coprime_incidence_ratio"},
+    "full_original_excess_16": {"status": "pending_at_this_snapshot", "file": "research/ExcessSixteenMain.lean", "reason": "Finite graph family certificates alone do not establish full universal coverage and final assembly"},
+    "historical_priority": "Not established by this publication-pattern review"
+  },
+  "recommendations": {
+    "working_title_en": "Sharp Incidence Thresholds for Primitive Sets",
+    "working_title_zh": "本原生成元集的尖锐关联计数阈值",
+    "subtitle": "Lean-verified results around Erdos problem 488",
+    "primary_language": "en",
+    "companion_language": "zh-CN",
+    "readme_order": ["Precise contribution", "Paper / theorem / verification links", "Definitions", "Verified result table", "Proof architecture", "Reproduction", "Provenance and scope"],
+    "proposed_assets": ["README.md", "README.zh-CN.md", "docs/theorems.md", "docs/theorems.json", "paper/main.tex", "paper/references.bib", "paper/paper.pdf", "paper/figures/", "verification/", "scripts/verify-release.sh", "docs/method.md", "docs/ai-provenance.md", "docs/attempts.md", ".github/workflows/verify.yml", "CITATION.cff", "LICENSE", "NOTICE", "CHANGELOG.md"],
+    "preserve_existing_proof_paths": true,
+    "figures": ["Separate auxiliary/original threshold rows", "Verified counterexample incidence matrix or multiplicity histogram", "Finite reduction and checker soundness diagram"],
+    "release_manifest_fields": ["commit", "file_hashes", "toolchain", "dependency_lock", "main_theorem_identifiers", "compiler_commands", "exit_statuses", "axiom_outputs", "certificate_acceptance_records", "review_scope"],
+    "claim_boundaries": ["Auxiliary refutations do not refute the original inequality", "Auxiliary sharpness does not establish original sharpness", "Prime reciprocal divergence is a credited classical ingredient", "Kernel correctness does not establish historical novelty", "Agent audits are not external human peer review", "Do not claim full E16 before actual final acceptance"]
+  },
+  "access_limitations": ["Several raw.githubusercontent.com requests were unavailable; cited GitHub HTML files supplied the inspected content", "Two dedicated release pages failed to load; release absence was not inferred from those failures"],
+  "external_content_reuse": "Short paraphrases and file names only; no long copied prose"
+}

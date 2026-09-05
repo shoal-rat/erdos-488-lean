@@ -1,0 +1,3 @@
+'DyadicCapacity.points_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DyadicCapacity.four_level_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DyadicCapacity.actual_dyadicTest' depends on axioms: [propext, Classical.choice, Quot.sound]

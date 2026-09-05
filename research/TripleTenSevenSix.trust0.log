@@ -1,0 +1,3 @@
+'TripleTenSevenSix.ratios_ten_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TripleTenSevenSix.ratios_ten_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TripleTenSevenSix.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

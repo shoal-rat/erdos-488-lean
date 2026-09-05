@@ -1,0 +1,6 @@
+'SharpSparseThreshold.family_structure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpSparseThreshold.family_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpSparseThreshold.family_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpSparseThreshold.arbitrarily_sparse_coprime_sharp_failure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

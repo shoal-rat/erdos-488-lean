@@ -1,0 +1,12 @@
+'OriginalCapacityBlockDecomposition.bonferroniTests_of_sublist' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.aggregateTests_of_sublist' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_bonferroniTests' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_aggregateTests' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

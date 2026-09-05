@@ -1,0 +1,5 @@
+'SharpSlackThreshold.every_slack_failure_has_excess_at_least_sixteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SharpSlackThreshold.sparse_coprime_threshold_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpSlackThreshold.sixteen_is_least_failure_excess' depends on axioms: [propext, Classical.choice, Quot.sound]

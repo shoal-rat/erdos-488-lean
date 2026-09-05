@@ -1,0 +1,4 @@
+'MinimalFailure.exists_minimal_excessive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MinimalFailure.minimal_excessive_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MinimalFailure.minimal_excessive_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MinimalFailure.exists_minimal_slack_failure' depends on axioms: [propext, Classical.choice, Quot.sound]

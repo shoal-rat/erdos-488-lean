@@ -1,0 +1,5 @@
+'NormalizedCertificate.quotCount_insert_eq_of_notMem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.fits_insert_implies_canExtend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.canExtend_iff_fits_insert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.canExtend_of_fits_available' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.next_canExtend' depends on axioms: [propext, Classical.choice, Quot.sound]

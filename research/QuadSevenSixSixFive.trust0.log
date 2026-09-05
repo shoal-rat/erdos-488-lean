@@ -1,0 +1,2 @@
+'QuadSevenSixSixFive.saturated_triple_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSixSixFive.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

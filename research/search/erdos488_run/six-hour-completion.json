@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-09-05T18:32:29.839501+00:00",
+  "event": "wall_target_reached",
+  "completed_utc": "2026-09-05T18:22:28Z",
+  "tool_session_id": 79393,
+  "observed_tool_exit_code": 0,
+  "active_wall_seconds_exact_checkpoint": 21600.003879169002,
+  "process_cpu_seconds_exact_checkpoint": 42656.073504,
+  "target_seconds": 21600,
+  "all_runtime_pauses_excluded": true,
+  "source_and_binary_hashes": {
+    "research/search/erdos488_search.cpp": "0cc858f285923015c12c8c1f7ddc88295cb3edbadf3c4b60e2cb6b1ddccda918",
+    "research/search/erdos488_search": "00863a5c5e1b15985dfc9bb09a767ec085baa0b71ae4ee03d828106a0bb9acc3"
+  },
+  "checkpoint_sha256": "4938932cb667e95dbb7c9a92955edd1dc1318cd930e5c9f073e6a3311d51e767",
+  "latest_sha256": "1b41d59dc380b3dc606fc28c26f284696b644e5ea874edd49a723df5ecf288a5",
+  "counterexample_file_present": false,
+  "prefix_sieve_evaluations_including_repeated_inputs": 38347110,
+  "primitive_exhaustive_sets_reported": 2358887,
+  "exhaustive_max_generator_completed": 32,
+  "maximum_finite_horizon": 4194304,
+  "comparison_metrics_caution": "exact_ratio_comparisons is a nominal upper bound; equivalent_n_m_pairs is implicit coverage, not executed pair tests. See README.md.",
+  "proof_scope": "No original-problem counterexample in checked inputs. This search is not a Lean proof or unrestricted exclusion."
+}

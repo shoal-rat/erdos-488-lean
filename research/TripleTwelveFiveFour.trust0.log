@@ -1,0 +1,3 @@
+'TripleTwelveFiveFour.ratio_twelve_low' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TripleTwelveFiveFour.ratio_five_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TripleTwelveFiveFour.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,100 @@
+{
+  "checked_utc": "2026-09-05T17:49:51.591903+00:00",
+  "results": [
+    {
+      "name": "SharpSlackThreshold",
+      "exit_code": 0,
+      "pass": true,
+      "source_sha256": "f2ee068dc77fa45d50fd803bf9874e289afd937496d40be722bc82c98056194b",
+      "original_olean_sha256": "d3053a1aaa476ee6a478f57f30f0096dc00dedefe2d569d8edeb33379a7a03af",
+      "independent_olean_sha256": "d3053a1aaa476ee6a478f57f30f0096dc00dedefe2d569d8edeb33379a7a03af",
+      "object_hashes_equal": true,
+      "log_sha256": "535c865e823c9fa710669bcf4d48313cce640546ec75c1716adde46f680ba49b",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 5.054393842998252,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/independent-threshold-audit/SharpSlackThreshold.olean",
+        "<original-proof-root>/research/SharpSlackThreshold.lean"
+      ],
+      "frozen_originals_unchanged": true
+    },
+    {
+      "name": "SharpSparseThreshold",
+      "exit_code": 0,
+      "pass": true,
+      "source_sha256": "29f7f7ff81ce8306facf2b76a7982676bcb792c1b84180e501ea743eec8780e8",
+      "original_olean_sha256": "fc31accfa673dc6e47bc83e8ef3e457b61d4c01a615ae13830543bb8c8722543",
+      "independent_olean_sha256": "fc31accfa673dc6e47bc83e8ef3e457b61d4c01a615ae13830543bb8c8722543",
+      "object_hashes_equal": true,
+      "log_sha256": "13124970a633de3cb002327fb6001ad9e522292c982d06e358cc5c65eda6aa13",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 6.46548749700014,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/independent-threshold-audit/SharpSparseThreshold.olean",
+        "<original-proof-root>/research/SharpSparseThreshold.lean"
+      ],
+      "frozen_originals_unchanged": true
+    },
+    {
+      "name": "SharpSparseOriginal",
+      "exit_code": 0,
+      "pass": true,
+      "source_sha256": "ed0ff41ab9449675e511a102a6203bdec01ab27b450a53c5fbb092204e3dc003",
+      "original_olean_sha256": "20f43be9a66db79b1219c20c80760c56edd8a506252258bfba89f8583c92c47d",
+      "independent_olean_sha256": "20f43be9a66db79b1219c20c80760c56edd8a506252258bfba89f8583c92c47d",
+      "object_hashes_equal": true,
+      "log_sha256": "c1ed9afe82a86937f19c398f1e86c7047f31a3742716cc082e1f1c60b2e0a4bc",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 4.92606781500217,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/independent-threshold-audit/SharpSparseOriginal.olean",
+        "<original-proof-root>/research/SharpSparseOriginal.lean"
+      ],
+      "frozen_originals_unchanged": true
+    }
+  ],
+  "complete": true,
+  "pass": true
+}

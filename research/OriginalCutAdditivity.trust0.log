@@ -1,0 +1,5 @@
+'OriginalCutAdditivity.covered_disjoint_of_proper_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCutAdditivity.multipleCount_cut_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCutAdditivity.multipleCount_cut_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCutAdditivity.original_bound_of_disjoint_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCutAdditivity.all_original_bounds_of_disjoint_cut' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'OriginalCapacityBlockDecomposition.prependPipeline_flatMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCapacityBlockDecomposition.capacitySubBlock_eq_flatMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.prependPipeline_prepend_eq_nil_of_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.capacitySubSubBlock_eq_nil_of_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

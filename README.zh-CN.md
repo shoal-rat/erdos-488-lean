@@ -12,36 +12,38 @@
 
 ## 数学问题
 
-如果一个正整数有限集中，任意两个不同元素都不存在整除关系，就称它为**本原集**。对于本原有限集 $G\subseteq\{2,\ldots,n\}$，定义
+如果一个正整数有限集中，任意两个不同元素都不存在整除关系，就称它为**本原集**。对于本原有限集 $`G\subseteq\{2,\ldots,n\}`$，定义
 
-$$
+```math
 F_G(n)=\#\{1\le u\le n:\exists g\in G,\ g\mid u\},
 \qquad
 I_G(n)=\sum_{g\in G}\left\lfloor\frac ng\right\rfloor.
-$$
+```
 
-**超额** $E_G(n)=F_G(n)-|G|$ 表示除生成元本身以外，被覆盖的整数个数。对于非空的 $G$，原问题询问：是否对每个整数 $m>n$ 都有
 
-$$
+**超额** $`E_G(n)=F_G(n)-|G|`$ 表示除生成元本身以外，被覆盖的整数个数。对于非空的 $`G`$，原问题询问：是否对每个整数 $`m>n`$ 都有
+
+```math
 nF_G(m)<2mF_G(n)?
-$$
+```
 
-辅助估计 $I_G(n)+|G|\le2F_G(n)$ 足以推出原不等式。我们的结果确定它首次失败的精确边界，并说明越过边界时为何需要更强的方法。
+
+辅助估计 $`I_G(n)+|G|\le2F_G(n)`$ 足以推出原不等式。我们的结果确定它首次失败的精确边界，并说明越过边界时为何需要更强的方法。
 
 ## 已证明的结果
 
 | 结果 | 精确内容 | Lean 入口 |
 | --- | --- | --- |
-| **超额不超过 15 时，原不等式成立** | 对任意非空本原集 $G\subseteq\{2,\ldots,n\}$，如果 $E_G(n)\le15$，则原严格不等式对所有 $m>n$ 成立。辅助估计也在整个范围内成立。 | [ExcessFifteenMain.lean](research/ExcessFifteenMain.lean) |
+| **超额不超过 15 时，原不等式成立** | 对任意非空本原集 $`G\subseteq\{2,\ldots,n\}`$，如果 $`E_G(n)\le15`$，则原严格不等式对所有 $`m>n`$ 成立。辅助估计也在整个范围内成立。 | [ExcessFifteenMain.lean](research/ExcessFifteenMain.lean) |
 | **辅助估计的精确阈值为 16** | 辅助估计可能失败的最小超额恰好是 16。即使同时要求整体互素、覆盖密度任意小、下端点任意大，阈值仍是 16。所构造的尖锐反例族仍满足原不等式。 | [SharpSlackThreshold.lean](research/SharpSlackThreshold.lean)、[SharpSparseLeast.lean](research/SharpSparseLeast.lean)、[SharpSparseOriginal.lean](research/SharpSparseOriginal.lean) |
 | **两个辅助猜想被否定** | 给出精确有限反例，分别否定指定的 2026 年 3 月 20 日稿本中关于二元组与尾集的猜想 4.8，以及稀疏情形的次序松弛量猜想 6.11。 | [ProofsSmall.lean](research/ProofsSmall.lean)、[ProofsCore.lean](research/ProofsCore.lean) |
-| **二元组与尾集的密度比无上界** | 对每个固定的 $2\le a<b$ 且 $a\nmid b$，可选择有限素数尾集，使较晚端点与较早端点的存活密度之比超过任意指定倍数。尾集与端点允许变化。 | [GeneralPairTail.lean](research/GeneralPairTail.lean) |
-| **辅助估计的失败程度无上界** | 即使同时要求本原性、整体互素性、任意稀疏性和任意大的端点，关联计数与覆盖计数之比仍无上界。另有构造实现每个加性缺口 $L\ge2$。 | [UnboundedSlackRatio.lean](research/UnboundedSlackRatio.lean)、[UnboundedSlackDefect.lean](research/UnboundedSlackDefect.lean) |
+| **二元组与尾集的密度比无上界** | 对每个固定的 $`2\le a<b`$ 且 $`a\nmid b`$，可选择有限素数尾集，使较晚端点与较早端点的存活密度之比超过任意指定倍数。尾集与端点允许变化。 | [GeneralPairTail.lean](research/GeneralPairTail.lean) |
+| **辅助估计的失败程度无上界** | 即使同时要求本原性、整体互素性、任意稀疏性和任意大的端点，关联计数与覆盖计数之比仍无上界。另有构造实现每个加性缺口 $`L\ge2`$。 | [UnboundedSlackRatio.lean](research/UnboundedSlackRatio.lean)、[UnboundedSlackDefect.lean](research/UnboundedSlackDefect.lean) |
 
-这里的**整体互素**指 $\gcd(G)=1$，不要求任意两个生成元互素。完整假设、量词和定理名称见[论文](paper/paper.zh.pdf)及相应 Lean 源文件。
+这里的**整体互素**指 $`\gcd(G)=1`$，不要求任意两个生成元互素。完整假设、量词和定理名称见[论文](paper/paper.zh.pdf)及相应 Lean 源文件。
 
 <!-- BEGIN E16 STATUS: v0.1 retains the excess-at-most-fifteen release scope. -->
-**本次发布范围：超额不超过 15。** 完整 E16 原不等式主定理及其本原核包装器现已通过本地内核编译，另行进行的最终语义审计尚待完成。在准备后续更新期间，以上 v0.1 定理列表保留超额不超过 15 的结果。
+**首发范围：超额不超过 15。** E16 原题定理及本原核心推论现已通过本地主定理重编和独立集成审计，将在单独的下一版本公布；v0.1 的定理清单与复现 manifest 仍以已接受的 E≤15 快照为准。
 <!-- END E16 STATUS -->
 
 本项目尚未解决不加限制的 Erdős 原问题。辅助估计的反例不等于原不等式的反例。形式化验证确立的是已展示的数学命题；这里不声称所有强化结果在整个文献中均属首次。
@@ -50,17 +52,27 @@ $$
 
 取
 
-$$
+```math
 G=\{16,24,36,40,54,56,60,81,84,88,90\},\qquad n=180.
-$$
+```
 
-Lean 验证了 $G$ 的本原性、$\gcd(G)=1$，以及
 
-$$
+Lean 验证了 $`G`$ 的本原性、$`\gcd(G)=1`$，以及
+
+```math
 |G|=11,\quad F_G(180)=27,\quad I_G(180)=44,\quad E_G(180)=16.
-$$
+```
 
-因此 $2F_G(180)=54<180$，但 $I_G(180)+|G|=55>54$。辅助估计只差一个单位就成立，而阈值定理排除了所有更小的超额。[反例与精确计数](research/SmallSlack.lean) · [最小超额定理](research/SharpSlackThreshold.lean)
+
+因此 $`2F_G(180)=54<180`$，但 $`I_G(180)+|G|=55>54`$。辅助估计只差一个单位就成立，而阈值定理排除了所有更小的超额。[反例与精确计数](research/SmallSlack.lean) · [最小超额定理](research/SharpSlackThreshold.lean)
+
+## 证明分类图
+
+![E=15 的六个已证明筛选阶段，候选剖面数依次为 1610、429、223、11、9、7；右侧使用单独的线性坐标放大最后三个阶段。](paper/figures/profile-funnel.png)
+
+柱图统计超额恰为 15 时，极小辅助失败族的候选商值剖面。最后每个剖面都有经过检查的安全证书；完整归约与这些证书共同推出全称定理。右侧放大图使用另行标明的线性坐标。
+
+[精确数据、源码定义与定理名称](paper/figures/profile-funnel-data.json) · [重建图表](scripts/build_profile_funnel.py) · [最终安全性定理](research/E15CompletedGroups.lean)
 
 ## 复现证明
 
@@ -99,6 +111,8 @@ python3 research/verify_bundle.py --dry-run
 正面结果结合了商剖面界、有限容量检查、小核排除、归一化图证书，以及回到原不等式的严格桥接。利用已有编译依赖检查一个最终模块，与从源码重建它的整个依赖图，是两种不同的验证；记录会说明实际范围。被中断、被拒绝或已被替代的尝试不计入已接受的证明。
 
 ## 从一个宽泛的研究提示开始
+
+![研究流程：原始提示词、多 agent 搜索、Lean 内核验证、可审计产物。记录的有效搜索时间为 21,600.003879 秒；AI 审查与外部同行评审有别。](social/03-workflow.png)
 
 项目起于用户的一次要求：让 AI 梳理数学研究机会，开展至少六小时的研究，并交付经过 Lean 验证的结果。[阅读原始中文提示与英文翻译](docs/INITIAL-PROMPT.md)。
 

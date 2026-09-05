@@ -1,0 +1,6 @@
+'SymbolicProfileCoreExclusion.additional_core_profiles_sixteen_verified' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SymbolicProfileCoreExclusion.actual_additional_coreFilter_sixteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

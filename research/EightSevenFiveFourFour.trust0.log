@@ -1,0 +1,3 @@
+'EightSevenFiveFourFour.eight_seven_five_four_union_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EightSevenFiveFourFour.embedded_four_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EightSevenFiveFourFour.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

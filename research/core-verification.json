@@ -1,0 +1,56 @@
+{
+  "utc": "2026-09-05T11:43:27.020441+00:00",
+  "version": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "trust_level": 0,
+  "checks": [
+    {
+      "file": "research/ProofsCore.lean",
+      "sha256": "9512166b6c16dca3131a5f9320b399d9147e721e592484780fe0a92c9bf63547",
+      "command": [
+        "<original-proof-root>/lean-adapted/bin/lean",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/ProofsCore.olean",
+        "<original-proof-root>/research/ProofsCore.lean"
+      ],
+      "exit_code": 0,
+      "log": "research/ProofsCore.rebuild.log"
+    },
+    {
+      "file": "research/ProofsSmall.lean",
+      "sha256": "745db564b622cc5b7f3ad4b4136d97d175e88f55c483d351262c5edc6f73c617",
+      "command": [
+        "<original-proof-root>/lean-adapted/bin/lean",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/ProofsSmall.olean",
+        "<original-proof-root>/research/ProofsSmall.lean"
+      ],
+      "exit_code": 0,
+      "log": "research/ProofsSmall.rebuild.log"
+    },
+    {
+      "file": "research/Scaling.lean",
+      "sha256": "645229c189a1c4907e98c4058dc9c0af793d4dadb4521974a840084770595e03",
+      "command": [
+        "<original-proof-root>/lean-adapted/bin/lean",
+        "-t",
+        "0",
+        "-R",
+        "<original-proof-root>",
+        "-o",
+        "<original-proof-root>/research/Scaling.olean",
+        "<original-proof-root>/research/Scaling.lean"
+      ],
+      "exit_code": 0,
+      "log": "research/Scaling.rebuild.log"
+    }
+  ],
+  "passed": true
+}

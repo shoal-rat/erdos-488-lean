@@ -1,0 +1,8 @@
+'QuadNineSixFiveFour.pattern_no_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFour.pattern_6_9_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFour.pattern_4_6_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFour.pattern_10_15_16' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFour.pattern_10_15_18' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFour.pattern_8_12_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFour.pattern_3_4_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadNineSixFiveFour.excess_at_least_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]

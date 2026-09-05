@@ -1,0 +1,5 @@
+'NormalizedCertificate.integerAdmissible_of_pruned' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.checkEntryInteger_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.natScale_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.natScale_incomparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedCertificate.integer_new_points_card' depends on axioms: [propext, Classical.choice, Quot.sound]

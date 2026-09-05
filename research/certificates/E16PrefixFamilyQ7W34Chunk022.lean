@@ -1,0 +1,935 @@
+import research.certificates.E16PrefixFamilyQ7W34Data
+namespace NormalizedCertificate
+open ExactReciprocalPrefixFamily
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 1000000
+
+/- NODE_PROOF 2200 -/
+
+theorem E16PrefixFamilyQ7W34_node2200_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2200 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2201 -/
+
+theorem E16PrefixFamilyQ7W34_cache2201_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2201.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2201 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2201_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2201 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2201) E16PrefixFamilyQ7W34_cache2201_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2201_correct (by decide +kernel))
+
+/- NODE_PROOF 2202 -/
+
+theorem E16PrefixFamilyQ7W34_cache2202_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2202.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2202 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2202_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2202 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2202) E16PrefixFamilyQ7W34_cache2202_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2202_correct (by decide +kernel))
+
+/- NODE_PROOF 2203 -/
+
+theorem E16PrefixFamilyQ7W34_node2203_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2203 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2204 -/
+
+theorem E16PrefixFamilyQ7W34_node2204_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2204 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2205 -/
+
+theorem E16PrefixFamilyQ7W34_node2205_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2205 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2206 -/
+
+theorem E16PrefixFamilyQ7W34_node2206_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2206 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2207 -/
+
+theorem E16PrefixFamilyQ7W34_node2207_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2207 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2208 -/
+
+theorem E16PrefixFamilyQ7W34_cache2208_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2208.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2208 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2208_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2208 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2208) E16PrefixFamilyQ7W34_cache2208_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2208_correct (by decide +kernel))
+
+/- NODE_PROOF 2209 -/
+
+theorem E16PrefixFamilyQ7W34_cache2209_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2209.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2209 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2209_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2209 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2209) E16PrefixFamilyQ7W34_cache2209_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2209_correct (by decide +kernel))
+
+/- NODE_PROOF 2210 -/
+
+theorem E16PrefixFamilyQ7W34_cache2210_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2210.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2210 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2210_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2210 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2210) E16PrefixFamilyQ7W34_cache2210_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2210_correct (by decide +kernel))
+
+/- NODE_PROOF 2211 -/
+
+theorem E16PrefixFamilyQ7W34_node2211_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2211 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2212 -/
+
+theorem E16PrefixFamilyQ7W34_node2212_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2212 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2213 -/
+
+theorem E16PrefixFamilyQ7W34_node2213_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2213 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2214 -/
+
+theorem E16PrefixFamilyQ7W34_node2214_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2214 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2215 -/
+
+theorem E16PrefixFamilyQ7W34_node2215_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2215 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2216 -/
+
+theorem E16PrefixFamilyQ7W34_cache2216_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2216.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2216 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2216_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2216 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2216) E16PrefixFamilyQ7W34_cache2216_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2216_correct (by decide +kernel))
+
+/- NODE_PROOF 2217 -/
+
+theorem E16PrefixFamilyQ7W34_node2217_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2217 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2218 -/
+
+theorem E16PrefixFamilyQ7W34_cache2218_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2218.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2218 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2218_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2218 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2218) E16PrefixFamilyQ7W34_cache2218_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2218_correct (by decide +kernel))
+
+/- NODE_PROOF 2219 -/
+
+theorem E16PrefixFamilyQ7W34_node2219_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2219 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2220 -/
+
+theorem E16PrefixFamilyQ7W34_node2220_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2220 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2221 -/
+
+theorem E16PrefixFamilyQ7W34_node2221_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2221 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2222 -/
+
+theorem E16PrefixFamilyQ7W34_cache2222_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2222.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2222 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2222_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2222 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2222) E16PrefixFamilyQ7W34_cache2222_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2222_correct (by decide +kernel))
+
+/- NODE_PROOF 2223 -/
+
+theorem E16PrefixFamilyQ7W34_node2223_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2223 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2224 -/
+
+theorem E16PrefixFamilyQ7W34_node2224_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2224 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2225 -/
+
+theorem E16PrefixFamilyQ7W34_node2225_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2225 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2226 -/
+
+theorem E16PrefixFamilyQ7W34_cache2226_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2226.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2226 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2226_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2226 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2226) E16PrefixFamilyQ7W34_cache2226_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2226_correct (by decide +kernel))
+
+/- NODE_PROOF 2227 -/
+
+theorem E16PrefixFamilyQ7W34_node2227_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2227 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2228 -/
+
+theorem E16PrefixFamilyQ7W34_node2228_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2228 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2229 -/
+
+theorem E16PrefixFamilyQ7W34_node2229_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2229 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2230 -/
+
+theorem E16PrefixFamilyQ7W34_node2230_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2230 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2231 -/
+
+theorem E16PrefixFamilyQ7W34_node2231_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2231 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2232 -/
+
+theorem E16PrefixFamilyQ7W34_node2232_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2232 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2233 -/
+
+theorem E16PrefixFamilyQ7W34_node2233_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2233 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2234 -/
+
+theorem E16PrefixFamilyQ7W34_cache2234_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2234.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2234 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2234_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2234 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2234) E16PrefixFamilyQ7W34_cache2234_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2234_correct (by decide +kernel))
+
+/- NODE_PROOF 2235 -/
+
+theorem E16PrefixFamilyQ7W34_cache2235_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2235.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2235 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2235_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2235 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2235) E16PrefixFamilyQ7W34_cache2235_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2235_correct (by decide +kernel))
+
+/- NODE_PROOF 2236 -/
+
+theorem E16PrefixFamilyQ7W34_cache2236_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2236.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2236 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2236_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2236 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2236) E16PrefixFamilyQ7W34_cache2236_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2236_correct (by decide +kernel))
+
+/- NODE_PROOF 2237 -/
+
+theorem E16PrefixFamilyQ7W34_node2237_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2237 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2238 -/
+
+theorem E16PrefixFamilyQ7W34_cache2238_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2238.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2238 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2238_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2238 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2238) E16PrefixFamilyQ7W34_cache2238_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2238_correct (by decide +kernel))
+
+/- NODE_PROOF 2239 -/
+
+theorem E16PrefixFamilyQ7W34_node2239_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2239 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2240 -/
+
+theorem E16PrefixFamilyQ7W34_node2240_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2240 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2241 -/
+
+theorem E16PrefixFamilyQ7W34_cache2241_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2241.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2241 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2241_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2241 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2241) E16PrefixFamilyQ7W34_cache2241_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2241_correct (by decide +kernel))
+
+/- NODE_PROOF 2242 -/
+
+theorem E16PrefixFamilyQ7W34_cache2242_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2242.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2242 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2242_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2242 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2242) E16PrefixFamilyQ7W34_cache2242_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2242_correct (by decide +kernel))
+
+/- NODE_PROOF 2243 -/
+
+theorem E16PrefixFamilyQ7W34_node2243_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2243 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2244 -/
+
+theorem E16PrefixFamilyQ7W34_cache2244_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2244.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2244 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2244_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2244 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2244) E16PrefixFamilyQ7W34_cache2244_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2244_correct (by decide +kernel))
+
+/- NODE_PROOF 2245 -/
+
+theorem E16PrefixFamilyQ7W34_node2245_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2245 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2246 -/
+
+theorem E16PrefixFamilyQ7W34_node2246_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2246 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2247 -/
+
+theorem E16PrefixFamilyQ7W34_node2247_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2247 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2248 -/
+
+theorem E16PrefixFamilyQ7W34_node2248_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2248 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2249 -/
+
+theorem E16PrefixFamilyQ7W34_cache2249_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2249.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2249 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2249_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2249 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2249) E16PrefixFamilyQ7W34_cache2249_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2249_correct (by decide +kernel))
+
+/- NODE_PROOF 2250 -/
+
+theorem E16PrefixFamilyQ7W34_cache2250_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2250.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2250 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2250_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2250 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2250) E16PrefixFamilyQ7W34_cache2250_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2250_correct (by decide +kernel))
+
+/- NODE_PROOF 2251 -/
+
+theorem E16PrefixFamilyQ7W34_cache2251_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2251.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2251 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2251_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2251 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2251) E16PrefixFamilyQ7W34_cache2251_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2251_correct (by decide +kernel))
+
+/- NODE_PROOF 2252 -/
+
+theorem E16PrefixFamilyQ7W34_cache2252_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2252.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2252 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2252_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2252 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2252) E16PrefixFamilyQ7W34_cache2252_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2252_correct (by decide +kernel))
+
+/- NODE_PROOF 2253 -/
+
+theorem E16PrefixFamilyQ7W34_node2253_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2253 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2254 -/
+
+theorem E16PrefixFamilyQ7W34_node2254_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2254 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2255 -/
+
+theorem E16PrefixFamilyQ7W34_node2255_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2255 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2256 -/
+
+theorem E16PrefixFamilyQ7W34_node2256_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2256 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2257 -/
+
+theorem E16PrefixFamilyQ7W34_node2257_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2257 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2258 -/
+
+theorem E16PrefixFamilyQ7W34_cache2258_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2258.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2258 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2258_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2258 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2258) E16PrefixFamilyQ7W34_cache2258_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2258_correct (by decide +kernel))
+
+/- NODE_PROOF 2259 -/
+
+theorem E16PrefixFamilyQ7W34_cache2259_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2259.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2259 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2259_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2259 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2259) E16PrefixFamilyQ7W34_cache2259_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2259_correct (by decide +kernel))
+
+/- NODE_PROOF 2260 -/
+
+theorem E16PrefixFamilyQ7W34_cache2260_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2260.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2260 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2260_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2260 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2260) E16PrefixFamilyQ7W34_cache2260_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2260_correct (by decide +kernel))
+
+/- NODE_PROOF 2261 -/
+
+theorem E16PrefixFamilyQ7W34_node2261_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2261 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2262 -/
+
+theorem E16PrefixFamilyQ7W34_cache2262_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2262.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2262 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2262_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2262 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2262) E16PrefixFamilyQ7W34_cache2262_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2262_correct (by decide +kernel))
+
+/- NODE_PROOF 2263 -/
+
+theorem E16PrefixFamilyQ7W34_cache2263_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2263.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2263 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2263_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2263 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2263) E16PrefixFamilyQ7W34_cache2263_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2263_correct (by decide +kernel))
+
+/- NODE_PROOF 2264 -/
+
+theorem E16PrefixFamilyQ7W34_cache2264_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2264.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2264 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2264_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2264 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2264) E16PrefixFamilyQ7W34_cache2264_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2264_correct (by decide +kernel))
+
+/- NODE_PROOF 2265 -/
+
+theorem E16PrefixFamilyQ7W34_cache2265_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2265.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2265 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2265_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2265 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2265) E16PrefixFamilyQ7W34_cache2265_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2265_correct (by decide +kernel))
+
+/- NODE_PROOF 2266 -/
+
+theorem E16PrefixFamilyQ7W34_cache2266_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2266.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2266 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2266_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2266 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2266) E16PrefixFamilyQ7W34_cache2266_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2266_correct (by decide +kernel))
+
+/- NODE_PROOF 2267 -/
+
+theorem E16PrefixFamilyQ7W34_cache2267_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2267.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2267 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2267_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2267 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2267) E16PrefixFamilyQ7W34_cache2267_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2267_correct (by decide +kernel))
+
+/- NODE_PROOF 2268 -/
+
+theorem E16PrefixFamilyQ7W34_node2268_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2268 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2269 -/
+
+theorem E16PrefixFamilyQ7W34_cache2269_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2269.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2269 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2269_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2269 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2269) E16PrefixFamilyQ7W34_cache2269_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2269_correct (by decide +kernel))
+
+/- NODE_PROOF 2270 -/
+
+theorem E16PrefixFamilyQ7W34_cache2270_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2270.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2270 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2270_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2270 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2270) E16PrefixFamilyQ7W34_cache2270_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2270_correct (by decide +kernel))
+
+/- NODE_PROOF 2271 -/
+
+theorem E16PrefixFamilyQ7W34_node2271_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2271 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2272 -/
+
+theorem E16PrefixFamilyQ7W34_cache2272_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2272.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2272 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2272_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2272 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2272) E16PrefixFamilyQ7W34_cache2272_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2272_correct (by decide +kernel))
+
+/- NODE_PROOF 2273 -/
+
+theorem E16PrefixFamilyQ7W34_cache2273_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2273.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2273 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2273_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2273 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2273) E16PrefixFamilyQ7W34_cache2273_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2273_correct (by decide +kernel))
+
+/- NODE_PROOF 2274 -/
+
+theorem E16PrefixFamilyQ7W34_cache2274_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2274.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2274 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2274_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2274 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2274) E16PrefixFamilyQ7W34_cache2274_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2274_correct (by decide +kernel))
+
+/- NODE_PROOF 2275 -/
+
+theorem E16PrefixFamilyQ7W34_node2275_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2275 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2276 -/
+
+theorem E16PrefixFamilyQ7W34_cache2276_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2276.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2276 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2276_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2276 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2276) E16PrefixFamilyQ7W34_cache2276_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2276_correct (by decide +kernel))
+
+/- NODE_PROOF 2277 -/
+
+theorem E16PrefixFamilyQ7W34_cache2277_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2277.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2277 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2277_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2277 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2277) E16PrefixFamilyQ7W34_cache2277_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2277_correct (by decide +kernel))
+
+/- NODE_PROOF 2278 -/
+
+theorem E16PrefixFamilyQ7W34_cache2278_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2278.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2278 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2278_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2278 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2278) E16PrefixFamilyQ7W34_cache2278_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2278_correct (by decide +kernel))
+
+/- NODE_PROOF 2279 -/
+
+theorem E16PrefixFamilyQ7W34_node2279_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2279 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2280 -/
+
+theorem E16PrefixFamilyQ7W34_node2280_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2280 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2281 -/
+
+theorem E16PrefixFamilyQ7W34_node2281_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2281 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2282 -/
+
+theorem E16PrefixFamilyQ7W34_node2282_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2282 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2283 -/
+
+theorem E16PrefixFamilyQ7W34_cache2283_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2283.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2283 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2283_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2283 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2283) E16PrefixFamilyQ7W34_cache2283_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2283_correct (by decide +kernel))
+
+/- NODE_PROOF 2284 -/
+
+theorem E16PrefixFamilyQ7W34_node2284_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2284 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2285 -/
+
+theorem E16PrefixFamilyQ7W34_node2285_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2285 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2286 -/
+
+theorem E16PrefixFamilyQ7W34_node2286_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2286 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2287 -/
+
+theorem E16PrefixFamilyQ7W34_node2287_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2287 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2288 -/
+
+theorem E16PrefixFamilyQ7W34_node2288_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2288 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2289 -/
+
+theorem E16PrefixFamilyQ7W34_node2289_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2289 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2290 -/
+
+theorem E16PrefixFamilyQ7W34_node2290_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2290 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2291 -/
+
+theorem E16PrefixFamilyQ7W34_cache2291_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2291.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2291 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2291_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2291 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2291) E16PrefixFamilyQ7W34_cache2291_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2291_correct (by decide +kernel))
+
+/- NODE_PROOF 2292 -/
+
+theorem E16PrefixFamilyQ7W34_node2292_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2292 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2293 -/
+
+theorem E16PrefixFamilyQ7W34_cache2293_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2293.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2293 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2293_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2293 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2293) E16PrefixFamilyQ7W34_cache2293_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2293_correct (by decide +kernel))
+
+/- NODE_PROOF 2294 -/
+
+theorem E16PrefixFamilyQ7W34_node2294_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2294 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2295 -/
+
+theorem E16PrefixFamilyQ7W34_node2295_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2295 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2296 -/
+
+theorem E16PrefixFamilyQ7W34_cache2296_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2296.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2296 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2296_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2296 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2296) E16PrefixFamilyQ7W34_cache2296_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2296_correct (by decide +kernel))
+
+/- NODE_PROOF 2297 -/
+
+theorem E16PrefixFamilyQ7W34_cache2297_correct : IntegerCacheCorrect E16PrefixFamilyQ7W34_node2297.state [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_cache2297 := by
+  decide +kernel
+
+theorem E16PrefixFamilyQ7W34_node2297_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2297 := by
+  apply entry_of_checkFamilyEntryInteger (index := E16PrefixFamilyQ7W34_index2297) E16PrefixFamilyQ7W34_cache2297_correct
+  · decide +kernel
+  · exact familyTerminal_of_slack (slackSafe_of_integer_cache E16PrefixFamilyQ7W34_cache2297_correct (by decide +kernel))
+
+/- NODE_PROOF 2298 -/
+
+theorem E16PrefixFamilyQ7W34_node2298_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2298 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+/- NODE_PROOF 2299 -/
+
+theorem E16PrefixFamilyQ7W34_node2299_verified :
+    FamilyPrefixEntryValid E16PrefixFamilyQ7W34_tree 16 34 [7,7,5,5,4,4,3,3,3,3] E16PrefixFamilyQ7W34_targets E16PrefixFamilyQ7W34_node2299 := by
+  apply entry_of_gain
+  · decide +kernel
+  · decide +kernel
+
+#print axioms E16PrefixFamilyQ7W34_node2299_verified
+end NormalizedCertificate

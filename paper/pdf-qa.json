@@ -15,7 +15,9 @@
       "log_sha256": "8c74036521ab25470edbfd18c2ca934d18e9d1fdec1d66af44197e7197aa0518",
       "rendered_page_count": 12,
       "montage": "tmp/qa/en-montage.png",
-      "text_character_count": 26005
+      "text_character_count": 26005,
+      "verification_log": "verification/paper.final-xelatex.log",
+      "log_context": "Unmodified final local XeLaTeX transcript. Absolute installation paths are provenance, not requirements for a normal rebuild."
     },
     {
       "file": "paper.zh.pdf",
@@ -27,9 +29,16 @@
       "log_sha256": "d04d94e29d17d413edb56d40ee1d740e23930aab04b68e5c62ecc595688648bc",
       "rendered_page_count": 10,
       "montage": "tmp/qa/zh-montage.png",
-      "text_character_count": 11904
+      "text_character_count": 11904,
+      "verification_log": "verification/paper.zh.final-xelatex.log",
+      "log_context": "Unmodified final local XeLaTeX transcript. Absolute installation paths are provenance, not requirements for a normal rebuild."
     }
   ],
   "visual_review": "Every rendered page reviewed in montage; source mapping tables, witness figure, and bilingual prompt appendix additionally inspected at page resolution.",
-  "font_strategy": "Local Noto Sans CJK OTF with native XeTeX Chinese line breaking; Latin Modern supplies the Hungarian double-acute glyph and math fonts."
+  "font_strategy": "Local Noto Sans CJK OTF with native XeTeX Chinese line breaking; Latin Modern supplies the Hungarian double-acute glyph and math fonts.",
+  "public_final_compile_logs": [
+    "verification/paper.final-xelatex.log",
+    "verification/paper.zh.final-xelatex.log"
+  ],
+  "public_log_policy": "Only final successful compile transcripts are included here. Temporary format construction and unsuccessful dependency attempts are not release build requirements."
 }

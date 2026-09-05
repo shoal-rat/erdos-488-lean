@@ -1,0 +1,2 @@
+'QuadSevenSevenFiveFiveSixteen.oriented_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSevenFiveFiveSixteen.excess_at_least_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]

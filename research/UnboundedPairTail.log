@@ -1,0 +1,14 @@
+../research/UnboundedPairTail.lean:51:23: warning: This simp argument is unused:
+  Nat.lt_succ_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [fullPrimeTail]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+../research/UnboundedPairTail.lean:225:14: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'AuxiliaryCounterexamples.fullPrimeTail_initial_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.even_totatives_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.tailEulerProduct_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamples.pairTail_density_ratios_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]

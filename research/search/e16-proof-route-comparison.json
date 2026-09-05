@@ -1,0 +1,5989 @@
+{
+  "kind": "untrusted_proof_size_comparison",
+  "fixed_v1_cores": 66,
+  "fixed_v1_states": 4667,
+  "Lean_verified": false,
+  "results": [
+    {
+      "optional_core_size_limit": 0,
+      "optional_cores": 0,
+      "optional_core_states": 0,
+      "remaining_profiles": 64,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 6,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.523,
+          "visited_states": 2829,
+          "fully_expanded_states": 2829,
+          "edges_enumerated": 3711,
+          "prefix_leaves": 2529,
+          "prefix_leaf_cardinalities": {
+            "3": 77,
+            "4": 710,
+            "5": 1255,
+            "6": 484,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 1.865,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 8,
+          "weight": 33,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              8,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              8,
+              6,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 1.044,
+          "visited_states": 3763,
+          "fully_expanded_states": 3763,
+          "edges_enumerated": 5602,
+          "prefix_leaves": 3149,
+          "prefix_leaf_cardinalities": {
+            "3": 110,
+            "5": 1246,
+            "4": 828,
+            "6": 740,
+            "7": 220,
+            "8": 5
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 33,
+          "target_profiles": 14,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              6,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              6,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              4,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 1.713,
+          "visited_states": 4986,
+          "fully_expanded_states": 4986,
+          "edges_enumerated": 7531,
+          "prefix_leaves": 4215,
+          "prefix_leaf_cardinalities": {
+            "3": 126,
+            "4": 908,
+            "5": 1726,
+            "6": 1187,
+            "7": 253,
+            "8": 15
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 34,
+          "target_profiles": 6,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 8.731,
+          "visited_states": 13089,
+          "fully_expanded_states": 13089,
+          "edges_enumerated": 31052,
+          "prefix_leaves": 7427,
+          "prefix_leaf_cardinalities": {
+            "5": 1543,
+            "4": 188,
+            "6": 3030,
+            "7": 1948,
+            "8": 654,
+            "9": 64
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 35,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 5.55,
+          "visited_states": 8587,
+          "fully_expanded_states": 8587,
+          "edges_enumerated": 25608,
+          "prefix_leaves": 1195,
+          "prefix_leaf_cardinalities": {
+            "5": 66,
+            "6": 404,
+            "7": 618,
+            "8": 107
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 13,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              8,
+              6,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.9,
+          "visited_states": 2116,
+          "fully_expanded_states": 2116,
+          "edges_enumerated": 3038,
+          "prefix_leaves": 1762,
+          "prefix_leaf_cardinalities": {
+            "3": 147,
+            "4": 749,
+            "5": 687,
+            "6": 175,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 3.067,
+          "visited_states": 5151,
+          "fully_expanded_states": 5151,
+          "edges_enumerated": 11741,
+          "prefix_leaves": 2982,
+          "prefix_leaf_cardinalities": {
+            "6": 1406,
+            "5": 1067,
+            "4": 170,
+            "7": 325,
+            "8": 14
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 35,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 1.424,
+          "visited_states": 3320,
+          "fully_expanded_states": 3320,
+          "edges_enumerated": 9855,
+          "prefix_leaves": 654,
+          "prefix_leaf_cardinalities": {
+            "5": 71,
+            "7": 206,
+            "6": 364,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.212,
+          "visited_states": 786,
+          "fully_expanded_states": 786,
+          "edges_enumerated": 1133,
+          "prefix_leaves": 680,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 176,
+            "4": 391,
+            "6": 7
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 34,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 1.969,
+          "visited_states": 3784,
+          "fully_expanded_states": 3784,
+          "edges_enumerated": 8220,
+          "prefix_leaves": 2523,
+          "prefix_leaf_cardinalities": {
+            "6": 1124,
+            "5": 1072,
+            "4": 191,
+            "7": 136
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 12,
+          "weight": 33,
+          "target_profiles": 3,
+          "profiles": [
+            [
+              12,
+              8,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              12,
+              8,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              12,
+              8,
+              5,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.287,
+          "visited_states": 750,
+          "fully_expanded_states": 750,
+          "edges_enumerated": 1321,
+          "prefix_leaves": 530,
+          "prefix_leaf_cardinalities": {
+            "4": 205,
+            "5": 226,
+            "3": 29,
+            "7": 6,
+            "6": 64
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 12,
+          "weight": 34,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              12,
+              8,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              12,
+              8,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 1.695,
+          "visited_states": 1725,
+          "fully_expanded_states": 1725,
+          "edges_enumerated": 4351,
+          "prefix_leaves": 748,
+          "prefix_leaf_cardinalities": {
+            "5": 260,
+            "6": 355,
+            "7": 103,
+            "4": 25,
+            "8": 5
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 12,
+          "weight": 35,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              12,
+              8,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.931,
+          "visited_states": 1896,
+          "fully_expanded_states": 1896,
+          "edges_enumerated": 5850,
+          "prefix_leaves": 229,
+          "prefix_leaf_cardinalities": {
+            "7": 116,
+            "6": 96,
+            "8": 13,
+            "5": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 56715,
+      "prefix_edges": 126850,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 56715,
+      "selected_optional_cores": []
+    },
+    {
+      "optional_core_size_limit": 150,
+      "optional_cores": 8,
+      "optional_core_states": 805,
+      "remaining_profiles": 48,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.018,
+          "visited_states": 2223,
+          "fully_expanded_states": 2223,
+          "edges_enumerated": 2959,
+          "prefix_leaves": 1959,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "4": 642,
+            "5": 973,
+            "6": 269,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.065,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 8,
+          "weight": 33,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              8,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.045,
+          "visited_states": 2622,
+          "fully_expanded_states": 2622,
+          "edges_enumerated": 3889,
+          "prefix_leaves": 2217,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "5": 843,
+            "4": 542,
+            "6": 563,
+            "7": 192,
+            "8": 5
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 33,
+          "target_profiles": 11,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              6,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.077,
+          "visited_states": 4986,
+          "fully_expanded_states": 4986,
+          "edges_enumerated": 7531,
+          "prefix_leaves": 4215,
+          "prefix_leaf_cardinalities": {
+            "3": 126,
+            "4": 908,
+            "5": 1726,
+            "6": 1187,
+            "7": 253,
+            "8": 15
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 34,
+          "target_profiles": 4,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.31,
+          "visited_states": 13079,
+          "fully_expanded_states": 13079,
+          "edges_enumerated": 31040,
+          "prefix_leaves": 7417,
+          "prefix_leaf_cardinalities": {
+            "5": 1540,
+            "4": 188,
+            "6": 3024,
+            "7": 1947,
+            "8": 654,
+            "9": 64
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 35,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.211,
+          "visited_states": 8587,
+          "fully_expanded_states": 8587,
+          "edges_enumerated": 25608,
+          "prefix_leaves": 1195,
+          "prefix_leaf_cardinalities": {
+            "5": 66,
+            "6": 404,
+            "7": 618,
+            "8": 107
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 10,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.027,
+          "visited_states": 1843,
+          "fully_expanded_states": 1843,
+          "edges_enumerated": 2636,
+          "prefix_leaves": 1538,
+          "prefix_leaf_cardinalities": {
+            "4": 628,
+            "5": 632,
+            "3": 104,
+            "6": 170,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 4,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.099,
+          "visited_states": 5151,
+          "fully_expanded_states": 5151,
+          "edges_enumerated": 11741,
+          "prefix_leaves": 2982,
+          "prefix_leaf_cardinalities": {
+            "6": 1406,
+            "5": 1067,
+            "4": 170,
+            "7": 325,
+            "8": 14
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 35,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.108,
+          "visited_states": 3320,
+          "fully_expanded_states": 3320,
+          "edges_enumerated": 9855,
+          "prefix_leaves": 654,
+          "prefix_leaf_cardinalities": {
+            "5": 71,
+            "7": 206,
+            "6": 364,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.011,
+          "visited_states": 786,
+          "fully_expanded_states": 786,
+          "edges_enumerated": 1133,
+          "prefix_leaves": 680,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 176,
+            "4": 391,
+            "6": 7
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 34,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.278,
+          "visited_states": 3784,
+          "fully_expanded_states": 3784,
+          "edges_enumerated": 8220,
+          "prefix_leaves": 2523,
+          "prefix_leaf_cardinalities": {
+            "6": 1124,
+            "5": 1072,
+            "4": 191,
+            "7": 136
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 12,
+          "weight": 33,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              12,
+              8,
+              5,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.008,
+          "visited_states": 708,
+          "fully_expanded_states": 708,
+          "edges_enumerated": 1243,
+          "prefix_leaves": 495,
+          "prefix_leaf_cardinalities": {
+            "4": 205,
+            "5": 212,
+            "3": 29,
+            "7": 3,
+            "6": 46
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 51022,
+      "prefix_edges": 113692,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 51827,
+      "selected_optional_cores": [
+        [
+          12,
+          8,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          7,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          8,
+          6,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "optional_core_size_limit": 202,
+      "optional_cores": 11,
+      "optional_core_states": 1377,
+      "remaining_profiles": 41,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.025,
+          "visited_states": 2223,
+          "fully_expanded_states": 2223,
+          "edges_enumerated": 2959,
+          "prefix_leaves": 1959,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "4": 642,
+            "5": 973,
+            "6": 269,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.085,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 8,
+          "weight": 33,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              8,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.034,
+          "visited_states": 2622,
+          "fully_expanded_states": 2622,
+          "edges_enumerated": 3889,
+          "prefix_leaves": 2217,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "5": 843,
+            "4": 542,
+            "6": 563,
+            "7": 192,
+            "8": 5
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 33,
+          "target_profiles": 11,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              6,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.074,
+          "visited_states": 4986,
+          "fully_expanded_states": 4986,
+          "edges_enumerated": 7531,
+          "prefix_leaves": 4215,
+          "prefix_leaf_cardinalities": {
+            "3": 126,
+            "4": 908,
+            "5": 1726,
+            "6": 1187,
+            "7": 253,
+            "8": 15
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 34,
+          "target_profiles": 4,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.235,
+          "visited_states": 13079,
+          "fully_expanded_states": 13079,
+          "edges_enumerated": 31040,
+          "prefix_leaves": 7417,
+          "prefix_leaf_cardinalities": {
+            "5": 1540,
+            "4": 188,
+            "6": 3024,
+            "7": 1947,
+            "8": 654,
+            "9": 64
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 35,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.181,
+          "visited_states": 8587,
+          "fully_expanded_states": 8587,
+          "edges_enumerated": 25608,
+          "prefix_leaves": 1195,
+          "prefix_leaf_cardinalities": {
+            "5": 66,
+            "6": 404,
+            "7": 618,
+            "8": 107
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 8,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.016,
+          "visited_states": 1843,
+          "fully_expanded_states": 1843,
+          "edges_enumerated": 2636,
+          "prefix_leaves": 1538,
+          "prefix_leaf_cardinalities": {
+            "4": 628,
+            "5": 632,
+            "3": 104,
+            "6": 170,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 3,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.088,
+          "visited_states": 4967,
+          "fully_expanded_states": 4967,
+          "edges_enumerated": 11344,
+          "prefix_leaves": 2832,
+          "prefix_leaf_cardinalities": {
+            "6": 1325,
+            "5": 1037,
+            "4": 170,
+            "7": 287,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 35,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.085,
+          "visited_states": 3174,
+          "fully_expanded_states": 3174,
+          "edges_enumerated": 9351,
+          "prefix_leaves": 602,
+          "prefix_leaf_cardinalities": {
+            "5": 70,
+            "7": 189,
+            "6": 330,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 4,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.01,
+          "visited_states": 786,
+          "fully_expanded_states": 786,
+          "edges_enumerated": 1133,
+          "prefix_leaves": 680,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 176,
+            "4": 391,
+            "6": 7
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.031,
+          "visited_states": 1848,
+          "fully_expanded_states": 1848,
+          "edges_enumerated": 4222,
+          "prefix_leaves": 1127,
+          "prefix_leaf_cardinalities": {
+            "4": 101,
+            "6": 521,
+            "7": 71,
+            "5": 434
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 48048,
+      "prefix_edges": 107550,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 49425,
+      "selected_optional_cores": [
+        [
+          12,
+          8,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          11,
+          7,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          8,
+          6,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          4,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "optional_core_size_limit": 261,
+      "optional_cores": 12,
+      "optional_core_states": 1638,
+      "remaining_profiles": 32,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.018,
+          "visited_states": 2223,
+          "fully_expanded_states": 2223,
+          "edges_enumerated": 2959,
+          "prefix_leaves": 1959,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "4": 642,
+            "5": 973,
+            "6": 269,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.064,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 8,
+          "weight": 33,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              8,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.022,
+          "visited_states": 2622,
+          "fully_expanded_states": 2622,
+          "edges_enumerated": 3889,
+          "prefix_leaves": 2217,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "5": 843,
+            "4": 542,
+            "6": 563,
+            "7": 192,
+            "8": 5
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 33,
+          "target_profiles": 7,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              6,
+              6,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              6,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.056,
+          "visited_states": 4895,
+          "fully_expanded_states": 4895,
+          "edges_enumerated": 7416,
+          "prefix_leaves": 4126,
+          "prefix_leaf_cardinalities": {
+            "3": 126,
+            "4": 908,
+            "5": 1719,
+            "6": 1156,
+            "7": 207,
+            "8": 10
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.045,
+          "visited_states": 2515,
+          "fully_expanded_states": 2515,
+          "edges_enumerated": 5982,
+          "prefix_leaves": 1131,
+          "prefix_leaf_cardinalities": {
+            "4": 101,
+            "5": 525,
+            "6": 445,
+            "7": 58,
+            "8": 2
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 8,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.018,
+          "visited_states": 1843,
+          "fully_expanded_states": 1843,
+          "edges_enumerated": 2636,
+          "prefix_leaves": 1538,
+          "prefix_leaf_cardinalities": {
+            "4": 628,
+            "5": 632,
+            "3": 104,
+            "6": 170,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 3,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.083,
+          "visited_states": 4967,
+          "fully_expanded_states": 4967,
+          "edges_enumerated": 11344,
+          "prefix_leaves": 2832,
+          "prefix_leaf_cardinalities": {
+            "6": 1325,
+            "5": 1037,
+            "4": 170,
+            "7": 287,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 35,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.071,
+          "visited_states": 3174,
+          "fully_expanded_states": 3174,
+          "edges_enumerated": 9351,
+          "prefix_leaves": 602,
+          "prefix_leaf_cardinalities": {
+            "5": 70,
+            "7": 189,
+            "6": 330,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 4,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.007,
+          "visited_states": 786,
+          "fully_expanded_states": 786,
+          "edges_enumerated": 1133,
+          "prefix_leaves": 680,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 176,
+            "4": 391,
+            "6": 7
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.027,
+          "visited_states": 1848,
+          "fully_expanded_states": 1848,
+          "edges_enumerated": 4222,
+          "prefix_leaves": 1127,
+          "prefix_leaf_cardinalities": {
+            "4": 101,
+            "6": 521,
+            "7": 71,
+            "5": 434
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 28806,
+      "prefix_edges": 56769,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 30444,
+      "selected_optional_cores": [
+        [
+          9,
+          7,
+          6,
+          5,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          11,
+          7,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          8,
+          6,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          4,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "optional_core_size_limit": 450,
+      "optional_cores": 15,
+      "optional_core_states": 2942,
+      "remaining_profiles": 28,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.018,
+          "visited_states": 2223,
+          "fully_expanded_states": 2223,
+          "edges_enumerated": 2959,
+          "prefix_leaves": 1959,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "4": 642,
+            "5": 973,
+            "6": 269,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.082,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 8,
+          "weight": 33,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              8,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.035,
+          "visited_states": 2622,
+          "fully_expanded_states": 2622,
+          "edges_enumerated": 3889,
+          "prefix_leaves": 2217,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "5": 843,
+            "4": 542,
+            "6": 563,
+            "7": 192,
+            "8": 5
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              5,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              9,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              9,
+              6,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.055,
+          "visited_states": 4601,
+          "fully_expanded_states": 4601,
+          "edges_enumerated": 7004,
+          "prefix_leaves": 3845,
+          "prefix_leaf_cardinalities": {
+            "3": 122,
+            "4": 879,
+            "5": 1653,
+            "6": 1050,
+            "7": 141
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              9,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.037,
+          "visited_states": 2515,
+          "fully_expanded_states": 2515,
+          "edges_enumerated": 5982,
+          "prefix_leaves": 1131,
+          "prefix_leaf_cardinalities": {
+            "4": 101,
+            "5": 525,
+            "6": 445,
+            "7": 58,
+            "8": 2
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 8,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.016,
+          "visited_states": 1843,
+          "fully_expanded_states": 1843,
+          "edges_enumerated": 2636,
+          "prefix_leaves": 1538,
+          "prefix_leaf_cardinalities": {
+            "4": 628,
+            "5": 632,
+            "3": 104,
+            "6": 170,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 3,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.077,
+          "visited_states": 4967,
+          "fully_expanded_states": 4967,
+          "edges_enumerated": 11344,
+          "prefix_leaves": 2832,
+          "prefix_leaf_cardinalities": {
+            "6": 1325,
+            "5": 1037,
+            "4": 170,
+            "7": 287,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 35,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.069,
+          "visited_states": 3174,
+          "fully_expanded_states": 3174,
+          "edges_enumerated": 9351,
+          "prefix_leaves": 602,
+          "prefix_leaf_cardinalities": {
+            "5": 70,
+            "7": 189,
+            "6": 330,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 3,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.006,
+          "visited_states": 786,
+          "fully_expanded_states": 786,
+          "edges_enumerated": 1133,
+          "prefix_leaves": 680,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 176,
+            "4": 391,
+            "6": 7
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 26664,
+      "prefix_edges": 52135,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 29606,
+      "selected_optional_cores": [
+        [
+          11,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          6,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          5,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          11,
+          7,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          8,
+          6,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          9,
+          6,
+          6,
+          5,
+          3,
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "optional_core_size_limit": 750,
+      "optional_cores": 19,
+      "optional_core_states": 5538,
+      "remaining_profiles": 22,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.043,
+          "visited_states": 2223,
+          "fully_expanded_states": 2223,
+          "edges_enumerated": 2959,
+          "prefix_leaves": 1959,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "4": 642,
+            "5": 973,
+            "6": 269,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.06,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 8,
+          "weight": 33,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              8,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.042,
+          "visited_states": 2622,
+          "fully_expanded_states": 2622,
+          "edges_enumerated": 3889,
+          "prefix_leaves": 2217,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "5": 843,
+            "4": 542,
+            "6": 563,
+            "7": 192,
+            "8": 5
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 9,
+          "weight": 33,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              9,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.018,
+          "visited_states": 2008,
+          "fully_expanded_states": 2008,
+          "edges_enumerated": 3024,
+          "prefix_leaves": 1623,
+          "prefix_leaf_cardinalities": {
+            "4": 500,
+            "3": 82,
+            "5": 678,
+            "6": 323,
+            "7": 40
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 8,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.017,
+          "visited_states": 1843,
+          "fully_expanded_states": 1843,
+          "edges_enumerated": 2636,
+          "prefix_leaves": 1538,
+          "prefix_leaf_cardinalities": {
+            "4": 628,
+            "5": 632,
+            "3": 104,
+            "6": 170,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 3,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.108,
+          "visited_states": 4967,
+          "fully_expanded_states": 4967,
+          "edges_enumerated": 11344,
+          "prefix_leaves": 2832,
+          "prefix_leaf_cardinalities": {
+            "6": 1325,
+            "5": 1037,
+            "4": 170,
+            "7": 287,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 35,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.107,
+          "visited_states": 3174,
+          "fully_expanded_states": 3174,
+          "edges_enumerated": 9351,
+          "prefix_leaves": 602,
+          "prefix_leaf_cardinalities": {
+            "5": 70,
+            "7": 189,
+            "6": 330,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.009,
+          "visited_states": 766,
+          "fully_expanded_states": 766,
+          "edges_enumerated": 1107,
+          "prefix_leaves": 660,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 166,
+            "4": 382,
+            "6": 6
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 21536,
+      "prefix_edges": 42147,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 27074,
+      "selected_optional_cores": [
+        [
+          11,
+          7,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          11,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          6,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          5,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          11,
+          7,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          8,
+          6,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          9,
+          6,
+          6,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          5,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          5,
+          5,
+          3,
+          3,
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "optional_core_size_limit": 1500,
+      "optional_cores": 23,
+      "optional_core_states": 10112,
+      "remaining_profiles": 16,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 5,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              7,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.04,
+          "visited_states": 2223,
+          "fully_expanded_states": 2223,
+          "edges_enumerated": 2959,
+          "prefix_leaves": 1959,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "4": 642,
+            "5": 973,
+            "6": 269,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.077,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 7,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.039,
+          "visited_states": 1843,
+          "fully_expanded_states": 1843,
+          "edges_enumerated": 2636,
+          "prefix_leaves": 1538,
+          "prefix_leaf_cardinalities": {
+            "4": 628,
+            "5": 632,
+            "3": 104,
+            "6": 170,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.088,
+          "visited_states": 3415,
+          "fully_expanded_states": 3415,
+          "edges_enumerated": 7806,
+          "prefix_leaves": 2022,
+          "prefix_leaf_cardinalities": {
+            "6": 869,
+            "5": 762,
+            "4": 135,
+            "7": 243,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.01,
+          "visited_states": 766,
+          "fully_expanded_states": 766,
+          "edges_enumerated": 1107,
+          "prefix_leaves": 660,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 166,
+            "4": 382,
+            "6": 6
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 12180,
+      "prefix_edges": 22345,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 22292,
+      "selected_optional_cores": [
+        [
+          11,
+          7,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          11,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          6,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          5,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          11,
+          7,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          8,
+          6,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          6,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          5,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          5,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          7,
+          5,
+          5,
+          3,
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "optional_core_size_limit": 10000,
+      "optional_cores": 24,
+      "optional_core_states": 13743,
+      "remaining_profiles": 15,
+      "groups": [
+        {
+          "max_quotient": 7,
+          "weight": 33,
+          "target_profiles": 4,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              6,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.04,
+          "visited_states": 2223,
+          "fully_expanded_states": 2223,
+          "edges_enumerated": 2959,
+          "prefix_leaves": 1959,
+          "prefix_leaf_cardinalities": {
+            "3": 72,
+            "4": 642,
+            "5": 973,
+            "6": 269,
+            "7": 3
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 7,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              7,
+              7,
+              5,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.075,
+          "visited_states": 3933,
+          "fully_expanded_states": 3933,
+          "edges_enumerated": 7837,
+          "prefix_leaves": 2571,
+          "prefix_leaf_cardinalities": {
+            "6": 1395,
+            "5": 694,
+            "7": 412,
+            "4": 61,
+            "8": 9
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 33,
+          "target_profiles": 7,
+          "profiles": [
+            [
+              10,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              5,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2
+            ],
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              10,
+              6,
+              5,
+              4,
+              4,
+              4,
+              3,
+              3,
+              3
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.019,
+          "visited_states": 1843,
+          "fully_expanded_states": 1843,
+          "edges_enumerated": 2636,
+          "prefix_leaves": 1538,
+          "prefix_leaf_cardinalities": {
+            "4": 628,
+            "5": 632,
+            "3": 104,
+            "6": 170,
+            "7": 4
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 10,
+          "weight": 34,
+          "target_profiles": 1,
+          "profiles": [
+            [
+              10,
+              7,
+              6,
+              4,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.064,
+          "visited_states": 3415,
+          "fully_expanded_states": 3415,
+          "edges_enumerated": 7806,
+          "prefix_leaves": 2022,
+          "prefix_leaf_cardinalities": {
+            "6": 869,
+            "5": 762,
+            "4": 135,
+            "7": 243,
+            "8": 13
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        },
+        {
+          "max_quotient": 11,
+          "weight": 33,
+          "target_profiles": 2,
+          "profiles": [
+            [
+              11,
+              7,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              11,
+              7,
+              5,
+              4,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "complete": true,
+          "stopped_reason": null,
+          "seconds": 0.022,
+          "visited_states": 766,
+          "fully_expanded_states": 766,
+          "edges_enumerated": 1107,
+          "prefix_leaves": 660,
+          "prefix_leaf_cardinalities": {
+            "3": 106,
+            "5": 166,
+            "4": 382,
+            "6": 6
+          },
+          "unpruned_complete_states": 0,
+          "unpruned_complete_states_wrong_exact_excess": 0,
+          "unpruned_complete_exactE_failed_condition": 0
+        }
+      ],
+      "prefix_states": 12180,
+      "prefix_edges": 22345,
+      "all_graphs_complete": true,
+      "extra_core_plus_prefix_states": 25923,
+      "selected_optional_cores": [
+        [
+          11,
+          7,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          11,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          6,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          5,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          11,
+          7,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          6,
+          6,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          8,
+          6,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          12,
+          8,
+          5,
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          10,
+          7,
+          6,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          10,
+          7,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          6,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          6,
+          5,
+          3,
+          3
+        ],
+        [
+          9,
+          6,
+          5,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          9,
+          7,
+          5,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          8,
+          7,
+          5,
+          5,
+          3,
+          3,
+          3
+        ],
+        [
+          7,
+          7,
+          5,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+'NineSixSixStructure.one_pair_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineSixSixStructure.ordered_ratios' depends on axioms: [propext, Classical.choice, Quot.sound]

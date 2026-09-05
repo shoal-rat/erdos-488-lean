@@ -1,0 +1,3 @@
+'NineSixSixSets.first_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineSixSixSets.second_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NineSixSixSets.third_model' depends on axioms: [propext, Classical.choice, Quot.sound]

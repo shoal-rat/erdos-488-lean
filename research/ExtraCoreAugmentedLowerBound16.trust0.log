@@ -1,0 +1,5 @@
+'ExtraCoreAugmentedLowerBound16.actual_extraTests' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExtraCoreAugmentedLowerBound16.extra_metadata' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExtraCoreAugmentedLowerBound16.extra_unrealizable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExtraCoreAugmentedLowerBound16.generator_list_lowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExtraCoreAugmentedLowerBound16.valid_lowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]

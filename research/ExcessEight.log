@@ -1,0 +1,4 @@
+'ExcessEight.fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEight.fiber_three_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEight.quotient_excess_le_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessEight.erdos488_excess_at_most_eight' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,404 @@
+{
+  "reviewed_utc": "2026-09-05T18:59:15.803990+00:00",
+  "reviewer": "<original-agent-or-root>/excess12_resume",
+  "scope": "Independent semantic read-only audit of three generic capacity-prefix modules and defining support interfaces",
+  "findings": "No logical gap or change to original enumeration predicates found",
+  "independent_recompilation_performed": false,
+  "e16_full_theorem_status": "PENDING; this audit does not certify remaining concrete blocks or the final main",
+  "modules": [
+    {
+      "module": "research.OriginalCapacityPrefixDecomposition",
+      "directly_reviewed_new_module": true,
+      "lean": {
+        "path": "research/OriginalCapacityPrefixDecomposition.lean",
+        "bytes": 4650,
+        "sha256": "c0afd8485064b53743862f8b98869c5513f9c46c5b5badfcfcf5ef8ca3483ed4",
+        "mtime_ns": 1788633787959931134
+      },
+      "olean": {
+        "path": "research/OriginalCapacityPrefixDecomposition.olean",
+        "bytes": 120280,
+        "sha256": "d12d26b994c29141f378235506cd27edfc0d76dc4066f74dc9e5557142c35adb",
+        "mtime_ns": 1788633927875269245
+      },
+      "trust0.log": {
+        "path": "research/OriginalCapacityPrefixDecomposition.trust0.log",
+        "bytes": 999,
+        "sha256": "fffe5b4450ca745d96507bb4f1e1e974149d515be7e0bb32f9901af91d79621f",
+        "mtime_ns": 1788633927875269245
+      },
+      "direct_imports": [
+        "research.OriginalCapacityNestedDecomposition"
+      ],
+      "flagged_code_tokens": [],
+      "axiom_reports": {
+        "OriginalCapacityBlockDecomposition.prefixPipeline_nil": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prefixPipeline_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prefixPipeline_append_singleton": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.finishPipeline_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prefixBlock_succ_eq_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.capacityBlock_eq_prefixBlock": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.capacitySubBlock_eq_prefixBlock": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.capacitySubSubBlock_eq_prefixBlock": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "log_error_or_warning": false,
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.OriginalCapacityPrefixShortcuts",
+      "directly_reviewed_new_module": true,
+      "lean": {
+        "path": "research/OriginalCapacityPrefixShortcuts.lean",
+        "bytes": 2627,
+        "sha256": "c2fa168bd2634381c2bcf6d17f63d257da410a13f369596c4e6c1526ebd02d77",
+        "mtime_ns": 1788634322072641361
+      },
+      "olean": {
+        "path": "research/OriginalCapacityPrefixShortcuts.olean",
+        "bytes": 73232,
+        "sha256": "f6d55a408dd772585a29012922ea56334f4c9e126d9ae034e5c4b6c3bfe33722",
+        "mtime_ns": 1788634325961548070
+      },
+      "trust0.log": {
+        "path": "research/OriginalCapacityPrefixShortcuts.trust0.log",
+        "bytes": 396,
+        "sha256": "c017ba9326f5a68e381d85fd3616da766b3caffdce3e04f8521751199ae89de0",
+        "mtime_ns": 1788634325961548070
+      },
+      "direct_imports": [
+        "research.OriginalCapacityPrefixDecomposition"
+      ],
+      "flagged_code_tokens": [],
+      "axiom_reports": {
+        "OriginalCapacityBlockDecomposition.prefix_sublist_of_mem_prefixPipeline": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_bonferroni": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_aggregate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "log_error_or_warning": false,
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.OriginalCapacityPrefixTests",
+      "directly_reviewed_new_module": true,
+      "lean": {
+        "path": "research/OriginalCapacityPrefixTests.lean",
+        "bytes": 2771,
+        "sha256": "5d02f3a17ed2dc292e7b06b0982488779a1ad26a660719734975711b4980cbe1",
+        "mtime_ns": 1788634498036829107
+      },
+      "olean": {
+        "path": "research/OriginalCapacityPrefixTests.olean",
+        "bytes": 48416,
+        "sha256": "817b1e205dd4c1168907e6605f8bfc98dd4885d959f956205e9722dd34c7e4da",
+        "mtime_ns": 1788634524701464530
+      },
+      "trust0.log": {
+        "path": "research/OriginalCapacityPrefixTests.trust0.log",
+        "bytes": 520,
+        "sha256": "16c216c3f558736e1b6551c46d9cc7360ad876ebf4a366e5cc6a74def96e8c2b",
+        "mtime_ns": 1788634524701464530
+      },
+      "direct_imports": [
+        "research.OriginalCapacityPrefixShortcuts"
+      ],
+      "flagged_code_tokens": [],
+      "axiom_reports": {
+        "OriginalCapacityBlockDecomposition.bonferroniTests_of_sublist": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.aggregateTests_of_sublist": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_bonferroniTests": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_aggregateTests": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "log_error_or_warning": false,
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.OriginalCapacityNestedDecomposition",
+      "directly_reviewed_new_module": false,
+      "lean": {
+        "path": "research/OriginalCapacityNestedDecomposition.lean",
+        "bytes": 3096,
+        "sha256": "7c199dc6b6110950f9b74a682ccb3662a5402bba09a1d8f5c4237557586fc94b",
+        "mtime_ns": 1788633319828727062
+      },
+      "olean": {
+        "path": "research/OriginalCapacityNestedDecomposition.olean",
+        "bytes": 103144,
+        "sha256": "7bd53b3402965a46dbded2f3275e06db6aeabb4a7a62110879fd2af9e63f4e1d",
+        "mtime_ns": 1788633346781362129
+      },
+      "trust0.log": {
+        "path": "research/OriginalCapacityNestedDecomposition.trust0.log",
+        "bytes": 532,
+        "sha256": "640692b26c94ec8b9880b74e5cbf1123be588df48cd3e3502c493cfe3897cdd7",
+        "mtime_ns": 1788633346781362129
+      },
+      "direct_imports": [
+        "research.OriginalCapacityBlockShortcuts"
+      ],
+      "flagged_code_tokens": [],
+      "axiom_reports": {
+        "OriginalCapacityBlockDecomposition.prependPipeline_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.capacitySubBlock_eq_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.prependPipeline_prepend_eq_nil_of_incompatible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.capacitySubSubBlock_eq_nil_of_incompatible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "log_error_or_warning": false,
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.OriginalCapacityBlockShortcuts",
+      "directly_reviewed_new_module": false,
+      "lean": {
+        "path": "research/OriginalCapacityBlockShortcuts.lean",
+        "bytes": 946,
+        "sha256": "293256a110d5b8f1334b58ed0f0304e6f9c252c5d0c40b82f9491f0053a3ce30",
+        "mtime_ns": 1788633091679298888
+      },
+      "olean": {
+        "path": "research/OriginalCapacityBlockShortcuts.olean",
+        "bytes": 35520,
+        "sha256": "9081aed815cca5cad9852dd281bce3d6075c05f846f0a5249372860982d6f656",
+        "mtime_ns": 1788633101068458211
+      },
+      "trust0.log": {
+        "path": "research/OriginalCapacityBlockShortcuts.trust0.log",
+        "bytes": 280,
+        "sha256": "5d87460c8da28465283db1b4638cc285491412e77b244ab3bbb70d34454749ec",
+        "mtime_ns": 1788633101068458211
+      },
+      "direct_imports": [
+        "research.OriginalCapacityBlockDecomposition"
+      ],
+      "flagged_code_tokens": [],
+      "axiom_reports": {
+        "OriginalCapacityBlockDecomposition.tailPipeline_prepend_eq_nil_of_incompatible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.capacitySubBlock_eq_nil_of_incompatible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "log_error_or_warning": false,
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.OriginalCapacityBlockDecomposition",
+      "directly_reviewed_new_module": false,
+      "lean": {
+        "path": "research/OriginalCapacityBlockDecomposition.lean",
+        "bytes": 2395,
+        "sha256": "4e86d9697fe407ca718b7dd52e6ebef4debb1aa313c60ac78cdcb10dfd68f9c3",
+        "mtime_ns": 1788632789227957507
+      },
+      "olean": {
+        "path": "research/OriginalCapacityBlockDecomposition.olean",
+        "bytes": 63200,
+        "sha256": "329c85bf9e2ea06d746207074931ec24c3ffb4dcc11a6541657e6433a4a08069",
+        "mtime_ns": 1788632793144972713
+      },
+      "trust0.log": {
+        "path": "research/OriginalCapacityBlockDecomposition.trust0.log",
+        "bytes": 364,
+        "sha256": "0af9a7f859fc8e10fb6f3062988fcc7be3d0e998d0a04f664f823028d985b37f",
+        "mtime_ns": 1788632793144972713
+      },
+      "direct_imports": [
+        "research.ExcessProfilesCapacity"
+      ],
+      "flagged_code_tokens": [],
+      "axiom_reports": {
+        "OriginalCapacityBlockDecomposition.enumerateCompact_eq_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.tailPipeline_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "OriginalCapacityBlockDecomposition.capacityBlock_eq_flatMap": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "log_error_or_warning": false,
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.ExcessProfilesCompact",
+      "directly_reviewed_new_module": false,
+      "lean": {
+        "path": "research/ExcessProfilesCompact.lean",
+        "bytes": 4235,
+        "sha256": "3b2c1d6718e4f4acd5cb5eb4a7483c69d0688727911ab7236d78dab2b965b70c",
+        "mtime_ns": 1788614478918154874
+      },
+      "olean": {
+        "path": "research/ExcessProfilesCompact.olean",
+        "bytes": 301008,
+        "sha256": "2c1b50ef73f4bfc29f98ac8a13e0d7ff77241312daa854fcaccd318aa7375254",
+        "mtime_ns": 1788614483671145509
+      },
+      "trust0.log": null,
+      "direct_imports": [
+        "research.ExcessProfilesHalf"
+      ],
+      "flagged_code_tokens": [],
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.ExcessProfilesBlocks",
+      "directly_reviewed_new_module": false,
+      "lean": {
+        "path": "research/ExcessProfilesBlocks.lean",
+        "bytes": 4408,
+        "sha256": "2c93f077b74d0f96884f19405a1d49a2c2cf116e3ae378b5102791eacbdeb060",
+        "mtime_ns": 1788615619146394195
+      },
+      "olean": {
+        "path": "research/ExcessProfilesBlocks.olean",
+        "bytes": 346672,
+        "sha256": "428cb18de9f9e8d00d5f4114472f5a908daad78716e5400c0f7e953e7ee825b8",
+        "mtime_ns": 1788615623802167823
+      },
+      "trust0.log": null,
+      "direct_imports": [
+        "research.ExcessProfilesTight"
+      ],
+      "flagged_code_tokens": [],
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.ExcessProfilesCapacity",
+      "directly_reviewed_new_module": false,
+      "lean": {
+        "path": "research/ExcessProfilesCapacity.lean",
+        "bytes": 3796,
+        "sha256": "4d3802a10afb6aec19c0faef0b6bbe889ed8bfb7358cdf6b7ce85f5a922747f0",
+        "mtime_ns": 1788616701775698054
+      },
+      "olean": {
+        "path": "research/ExcessProfilesCapacity.olean",
+        "bytes": 115976,
+        "sha256": "36132bce46562fdaa1330c42bbb98d8c5c28870d8bd04b1446ba2eb07ad92002",
+        "mtime_ns": 1788616706259804592
+      },
+      "trust0.log": null,
+      "direct_imports": [
+        "research.ExcessProfileGroups",
+        "research.RatioCapacityTable",
+        "research.ExcessProfilesBlocks",
+        "research.ExcessProfilesElevenTable",
+        "research.ExcessProfilesTwelveTable"
+      ],
+      "flagged_code_tokens": [],
+      "source_not_newer_than_object": true
+    },
+    {
+      "module": "research.ExcessProfilesBonferroni",
+      "directly_reviewed_new_module": false,
+      "lean": {
+        "path": "research/ExcessProfilesBonferroni.lean",
+        "bytes": 6613,
+        "sha256": "7c780ec27dea397cb436cdc788e13bfad18a25394fbee5128858cc098809fa01",
+        "mtime_ns": 1788613975496554750
+      },
+      "olean": {
+        "path": "research/ExcessProfilesBonferroni.olean",
+        "bytes": 332176,
+        "sha256": "accc2f8e5ee97afd278d3f30bdd8235845d789b27c07e4a4c74eaed1ffb0e0a8",
+        "mtime_ns": 1788613979027210690
+      },
+      "trust0.log": null,
+      "direct_imports": [
+        "research.ExcessProfiles",
+        "Mathlib.Data.List.Sublists",
+        "Mathlib.Data.List.Perm.Basic"
+      ],
+      "flagged_code_tokens": [],
+      "source_not_newer_than_object": true
+    }
+  ]
+}

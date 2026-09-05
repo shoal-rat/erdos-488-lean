@@ -1,0 +1,4 @@
+'ExcessTen.fiber_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessTen.no_six_five_with_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessTen.quotient_excess_le_twenty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessTen.erdos488_excess_at_most_ten' depends on axioms: [propext, Classical.choice, Quot.sound]

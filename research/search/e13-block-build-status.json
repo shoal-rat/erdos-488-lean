@@ -1,0 +1,666 @@
+[
+  {
+    "name": "E13K1U2",
+    "exit": 0,
+    "seconds": 4.155
+  },
+  {
+    "name": "E13K1U3",
+    "exit": 0,
+    "seconds": 3.985
+  },
+  {
+    "name": "E13K1U4",
+    "exit": 0,
+    "seconds": 3.679
+  },
+  {
+    "name": "E13K1U5",
+    "exit": 0,
+    "seconds": 3.929
+  },
+  {
+    "name": "E13K1U6",
+    "exit": 0,
+    "seconds": 4.076
+  },
+  {
+    "name": "E13K1U7",
+    "exit": 0,
+    "seconds": 3.834
+  },
+  {
+    "name": "E13K1U8",
+    "exit": 0,
+    "seconds": 3.799
+  },
+  {
+    "name": "E13K1U9",
+    "exit": 0,
+    "seconds": 3.514
+  },
+  {
+    "name": "E13K1U10",
+    "exit": 0,
+    "seconds": 3.663
+  },
+  {
+    "name": "E13K1U11",
+    "exit": 0,
+    "seconds": 3.872
+  },
+  {
+    "name": "E13K1U12",
+    "exit": 0,
+    "seconds": 3.632
+  },
+  {
+    "name": "E13K1U13",
+    "exit": 0,
+    "seconds": 3.477
+  },
+  {
+    "name": "E13K1U14",
+    "exit": 0,
+    "seconds": 4.119
+  },
+  {
+    "name": "E13K2U2",
+    "exit": 0,
+    "seconds": 3.841
+  },
+  {
+    "name": "E13K2U3",
+    "exit": 0,
+    "seconds": 3.889
+  },
+  {
+    "name": "E13K2U4",
+    "exit": 0,
+    "seconds": 4.344
+  },
+  {
+    "name": "E13K2U5",
+    "exit": 0,
+    "seconds": 3.575
+  },
+  {
+    "name": "E13K2U6",
+    "exit": 0,
+    "seconds": 3.95
+  },
+  {
+    "name": "E13K2U7",
+    "exit": 0,
+    "seconds": 3.947
+  },
+  {
+    "name": "E13K2U8",
+    "exit": 0,
+    "seconds": 4.429
+  },
+  {
+    "name": "E13K2U9",
+    "exit": 0,
+    "seconds": 3.848
+  },
+  {
+    "name": "E13K2U10",
+    "exit": 0,
+    "seconds": 4.128
+  },
+  {
+    "name": "E13K2U11",
+    "exit": 0,
+    "seconds": 4.588
+  },
+  {
+    "name": "E13K2U12",
+    "exit": 0,
+    "seconds": 4.019
+  },
+  {
+    "name": "E13K2U13",
+    "exit": 0,
+    "seconds": 3.722
+  },
+  {
+    "name": "E13K2U14",
+    "exit": 0,
+    "seconds": 3.842
+  },
+  {
+    "name": "E13K3U2",
+    "exit": 0,
+    "seconds": 4.305
+  },
+  {
+    "name": "E13K3U3",
+    "exit": 0,
+    "seconds": 4.77
+  },
+  {
+    "name": "E13K3U4",
+    "exit": 0,
+    "seconds": 4.875
+  },
+  {
+    "name": "E13K3U5",
+    "exit": 0,
+    "seconds": 4.757
+  },
+  {
+    "name": "E13K3U6",
+    "exit": 0,
+    "seconds": 4.382
+  },
+  {
+    "name": "E13K3U7",
+    "exit": 0,
+    "seconds": 4.731
+  },
+  {
+    "name": "E13K3U8",
+    "exit": 0,
+    "seconds": 4.114
+  },
+  {
+    "name": "E13K3U9",
+    "exit": 0,
+    "seconds": 4.094
+  },
+  {
+    "name": "E13K3U10",
+    "exit": 0,
+    "seconds": 4.611
+  },
+  {
+    "name": "E13K3U11",
+    "exit": 0,
+    "seconds": 4.363
+  },
+  {
+    "name": "E13K3U12",
+    "exit": 0,
+    "seconds": 3.995
+  },
+  {
+    "name": "E13K3U13",
+    "exit": 0,
+    "seconds": 3.946
+  },
+  {
+    "name": "E13K3U14",
+    "exit": 0,
+    "seconds": 4.507
+  },
+  {
+    "name": "E13K4U2",
+    "exit": 0,
+    "seconds": 4.053
+  },
+  {
+    "name": "E13K4U3",
+    "exit": 0,
+    "seconds": 4.565
+  },
+  {
+    "name": "E13K4U4",
+    "exit": 0,
+    "seconds": 4.118
+  },
+  {
+    "name": "E13K4U5",
+    "exit": 0,
+    "seconds": 4.481
+  },
+  {
+    "name": "E13K4U6",
+    "exit": 0,
+    "seconds": 4.62
+  },
+  {
+    "name": "E13K4U7",
+    "exit": 0,
+    "seconds": 4.689
+  },
+  {
+    "name": "E13K4U8",
+    "exit": 0,
+    "seconds": 4.965
+  },
+  {
+    "name": "E13K4U9",
+    "exit": 0,
+    "seconds": 5.253
+  },
+  {
+    "name": "E13K4U10",
+    "exit": 0,
+    "seconds": 5.005
+  },
+  {
+    "name": "E13K4U11",
+    "exit": 0,
+    "seconds": 4.338
+  },
+  {
+    "name": "E13K4U12",
+    "exit": 0,
+    "seconds": 4.919
+  },
+  {
+    "name": "E13K4U13",
+    "exit": 0,
+    "seconds": 4.918
+  },
+  {
+    "name": "E13K4U14",
+    "exit": 0,
+    "seconds": 5.442
+  },
+  {
+    "name": "E13K5U2",
+    "exit": 0,
+    "seconds": 3.967
+  },
+  {
+    "name": "E13K5U3",
+    "exit": 0,
+    "seconds": 3.875
+  },
+  {
+    "name": "E13K5U4",
+    "exit": 0,
+    "seconds": 4.413
+  },
+  {
+    "name": "E13K5U5",
+    "exit": 0,
+    "seconds": 4.605
+  },
+  {
+    "name": "E13K5U6",
+    "exit": 0,
+    "seconds": 4.843
+  },
+  {
+    "name": "E13K5U7",
+    "exit": 0,
+    "seconds": 5.527
+  },
+  {
+    "name": "E13K5U8",
+    "exit": 0,
+    "seconds": 5.317
+  },
+  {
+    "name": "E13K5U9",
+    "exit": 0,
+    "seconds": 5.824
+  },
+  {
+    "name": "E13K5U10",
+    "exit": 0,
+    "seconds": 6.548
+  },
+  {
+    "name": "E13K5U11",
+    "exit": 0,
+    "seconds": 6.97
+  },
+  {
+    "name": "E13K5U12",
+    "exit": 0,
+    "seconds": 7.344
+  },
+  {
+    "name": "E13K5U13",
+    "exit": 0,
+    "seconds": 7.554
+  },
+  {
+    "name": "E13K5U14",
+    "exit": 0,
+    "seconds": 9.128
+  },
+  {
+    "name": "E13K6U2",
+    "exit": 0,
+    "seconds": 4.274
+  },
+  {
+    "name": "E13K6U3",
+    "exit": 0,
+    "seconds": 3.825
+  },
+  {
+    "name": "E13K6U4",
+    "exit": 0,
+    "seconds": 4.097
+  },
+  {
+    "name": "E13K6U5",
+    "exit": 0,
+    "seconds": 4.079
+  },
+  {
+    "name": "E13K6U6",
+    "exit": 0,
+    "seconds": 5.355
+  },
+  {
+    "name": "E13K6U7",
+    "exit": 0,
+    "seconds": 6.312
+  },
+  {
+    "name": "E13K6U8",
+    "exit": 0,
+    "seconds": 9.38
+  },
+  {
+    "name": "E13K6U9",
+    "exit": 0,
+    "seconds": 10.61
+  },
+  {
+    "name": "E13K6U10",
+    "exit": 0,
+    "seconds": 12.81
+  },
+  {
+    "name": "E13K6U11",
+    "exit": 0,
+    "seconds": 14.847
+  },
+  {
+    "name": "E13K6U12",
+    "exit": 0,
+    "seconds": 13.087
+  },
+  {
+    "name": "E13K6U13",
+    "exit": 0,
+    "seconds": 17.23
+  },
+  {
+    "name": "E13K6U14",
+    "exit": 0,
+    "seconds": 21.862
+  },
+  {
+    "name": "E13K7U2",
+    "exit": 0,
+    "seconds": 4.641
+  },
+  {
+    "name": "E13K7U3",
+    "exit": 0,
+    "seconds": 3.755
+  },
+  {
+    "name": "E13K7U4",
+    "exit": 0,
+    "seconds": 4.32
+  },
+  {
+    "name": "E13K7U5",
+    "exit": 0,
+    "seconds": 4.597
+  },
+  {
+    "name": "E13K7U6",
+    "exit": 0,
+    "seconds": 5.852
+  },
+  {
+    "name": "E13K7U7",
+    "exit": 0,
+    "seconds": 10.72
+  },
+  {
+    "name": "E13K7U8",
+    "exit": 0,
+    "seconds": 17.346
+  },
+  {
+    "name": "E13K7U9",
+    "exit": 0,
+    "seconds": 23.035
+  },
+  {
+    "name": "E13K7U10",
+    "exit": 0,
+    "seconds": 24.863
+  },
+  {
+    "name": "E13K7U11",
+    "exit": 0,
+    "seconds": 27.673
+  },
+  {
+    "name": "E13K7U12",
+    "exit": 0,
+    "seconds": 28.59
+  },
+  {
+    "name": "E13K7U13",
+    "exit": 0,
+    "seconds": 35.826
+  },
+  {
+    "name": "E13K7U14",
+    "exit": 0,
+    "seconds": 48.953
+  },
+  {
+    "name": "E13K8U2",
+    "exit": 0,
+    "seconds": 4.105
+  },
+  {
+    "name": "E13K8U3",
+    "exit": 0,
+    "seconds": 4.865
+  },
+  {
+    "name": "E13K8U4",
+    "exit": 0,
+    "seconds": 4.535
+  },
+  {
+    "name": "E13K8U5",
+    "exit": 0,
+    "seconds": 4.82
+  },
+  {
+    "name": "E13K8U6",
+    "exit": 0,
+    "seconds": 6.304
+  },
+  {
+    "name": "E13K8U7",
+    "exit": 0,
+    "seconds": 12.99
+  },
+  {
+    "name": "E13K8U8",
+    "exit": 0,
+    "seconds": 21.162
+  },
+  {
+    "name": "E13K8U9",
+    "status": "existing"
+  },
+  {
+    "name": "E13K8U10",
+    "exit": 0,
+    "seconds": 30.21
+  },
+  {
+    "name": "E13K8U11",
+    "exit": 0,
+    "seconds": 28.294
+  },
+  {
+    "name": "E13K8U12",
+    "exit": 0,
+    "seconds": 24.731
+  },
+  {
+    "name": "E13K8U13",
+    "exit": 0,
+    "seconds": 27.495
+  },
+  {
+    "name": "E13K9U2",
+    "exit": 0,
+    "seconds": 4.643
+  },
+  {
+    "name": "E13K9U3",
+    "exit": 0,
+    "seconds": 4.561
+  },
+  {
+    "name": "E13K9U4",
+    "exit": 0,
+    "seconds": 4.599
+  },
+  {
+    "name": "E13K9U5",
+    "exit": 0,
+    "seconds": 5.055
+  },
+  {
+    "name": "E13K9U6",
+    "exit": 0,
+    "seconds": 6.029
+  },
+  {
+    "name": "E13K9U7",
+    "exit": 0,
+    "seconds": 9.209
+  },
+  {
+    "name": "E13K9U8",
+    "exit": 0,
+    "seconds": 15.245
+  },
+  {
+    "name": "E13K9U9",
+    "exit": 0,
+    "seconds": 21.66
+  },
+  {
+    "name": "E13K9U10",
+    "exit": 0,
+    "seconds": 22.836
+  },
+  {
+    "name": "E13K9U11",
+    "exit": 0,
+    "seconds": 18.018
+  },
+  {
+    "name": "E13K10U2",
+    "exit": 0,
+    "seconds": 4.067
+  },
+  {
+    "name": "E13K10U3",
+    "exit": 0,
+    "seconds": 4.063
+  },
+  {
+    "name": "E13K10U4",
+    "exit": 0,
+    "seconds": 4.779
+  },
+  {
+    "name": "E13K10U5",
+    "exit": 0,
+    "seconds": 5.113
+  },
+  {
+    "name": "E13K10U6",
+    "exit": 0,
+    "seconds": 5.082
+  },
+  {
+    "name": "E13K10U7",
+    "exit": 0,
+    "seconds": 6.437
+  },
+  {
+    "name": "E13K10U8",
+    "exit": 0,
+    "seconds": 8.562
+  },
+  {
+    "name": "E13K10U9",
+    "exit": 0,
+    "seconds": 11.339
+  },
+  {
+    "name": "E13K11U2",
+    "exit": 0,
+    "seconds": 4.658
+  },
+  {
+    "name": "E13K11U3",
+    "exit": 0,
+    "seconds": 3.786
+  },
+  {
+    "name": "E13K11U4",
+    "exit": 0,
+    "seconds": 4.206
+  },
+  {
+    "name": "E13K11U5",
+    "exit": 0,
+    "seconds": 4.561
+  },
+  {
+    "name": "E13K11U6",
+    "exit": 0,
+    "seconds": 4.891
+  },
+  {
+    "name": "E13K11U7",
+    "exit": 0,
+    "seconds": 4.813
+  },
+  {
+    "name": "E13K12U2",
+    "exit": 0,
+    "seconds": 3.955
+  },
+  {
+    "name": "E13K12U3",
+    "exit": 0,
+    "seconds": 4.084
+  },
+  {
+    "name": "E13K12U4",
+    "exit": 0,
+    "seconds": 4.451
+  },
+  {
+    "name": "E13K12U5",
+    "exit": 0,
+    "seconds": 4.123
+  },
+  {
+    "name": "E13K13U2",
+    "exit": 0,
+    "seconds": 3.331
+  },
+  {
+    "name": "E13K13U3",
+    "exit": 0,
+    "seconds": 4.78
+  }
+]

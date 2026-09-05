@@ -1,0 +1,6 @@
+'ProductRatio25.length_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProductRatio25.square_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProductRatio25.length_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProductRatio25.length_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProductRatio25.square_ratio_length_two_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProductRatio25.square_ratio_length_four_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'ExcessElevenTools.seven_or_eight_six_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessElevenTools.high_inter_five_le_count_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessElevenTools.ten_inter_four_le_count_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessElevenTools.six_inter_three_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]

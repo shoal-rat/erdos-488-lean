@@ -1,0 +1,60 @@
+{
+  "official_reference": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions",
+  "files": {
+    "README.md": {
+      "inline_formulas": 16,
+      "display_formulas": 4,
+      "formula_bodies_preserved": true,
+      "idempotent": true,
+      "before_sha256": "bc13d611d1914914ad149d30b06c086ce0c3ab0811d50df8dbef709e9fed3bd3",
+      "after_sha256": "7df612e36e39e2ee196f3e98d2b598932e9ff4f8c36a734c6b42b5dfe883fb0f",
+      "final_sha256": "576d1f0cc3b7121230222a3c1ffd96ad2cb8b9b955a0480c30447476470e8759"
+    },
+    "README.zh-CN.md": {
+      "inline_formulas": 16,
+      "display_formulas": 4,
+      "formula_bodies_preserved": true,
+      "idempotent": true,
+      "before_sha256": "c9243db1367b01ea9ba74f967afe1622662955017016173260540885e7d00949",
+      "after_sha256": "9019f21632ead67a9e9ae8fc0ac85243fd0e915e62361ef52d88a83122ac2b73",
+      "final_sha256": "65456fc40da23efa8e167b064cab2ae9ac974fcdbe6bb209913d5888ae035424"
+    },
+    "paper/paper.md": {
+      "inline_formulas": 150,
+      "display_formulas": 34,
+      "formula_bodies_preserved": true,
+      "idempotent": true,
+      "before_sha256": "701562275c13517b2c1086ae28d2879bc0a411987c7dfe5c137862498671c8f5",
+      "after_sha256": "59642cc0eae47fcc51517977cddf9f0f605e560754f8ae4f7ba72ab4b59ae515",
+      "final_sha256": "59642cc0eae47fcc51517977cddf9f0f605e560754f8ae4f7ba72ab4b59ae515"
+    },
+    "paper/paper.zh.md": {
+      "inline_formulas": 138,
+      "display_formulas": 34,
+      "formula_bodies_preserved": true,
+      "idempotent": true,
+      "before_sha256": "dfd908f2d1e1a37da0688ce98b54e9c8ab06dcb1129e4f2eaccb6ec21ba71ac3",
+      "after_sha256": "6c3b18f799180777397baddfca4de222965659950feb7bbf54e5f82f5a809511",
+      "final_sha256": "6c3b18f799180777397baddfca4de222965659950feb7bbf54e5f82f5a809511"
+    }
+  },
+  "plot": {
+    "file": "paper/figures/profile-funnel.png",
+    "counts": [
+      1610,
+      429,
+      223,
+      11,
+      9,
+      7
+    ],
+    "all_counts_read_from_published_lean_literals": true,
+    "actual_image_viewed": true,
+    "overflow_observed": false
+  },
+  "readme_additions": [
+    "Profile classification chart with exact source provenance",
+    "Existing social/03-workflow.png",
+    "E16 status updated to passed integration audit; v0.1 remains E<=15"
+  ]
+}

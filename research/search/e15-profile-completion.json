@@ -1,0 +1,55 @@
+{
+  "recorded_utc": "2026-09-05T17:22:22.233358+00:00",
+  "enumeration_blocks": 176,
+  "capacity_chunks": 43,
+  "table_counts": [
+    1610,
+    429,
+    223,
+    11,
+    9,
+    7
+  ],
+  "accepted_modules": [
+    {
+      "module": "ExcessProfilesFifteenTable",
+      "source_sha256": "5f8962444e083b72ea930ad0e502604ece69bf9117c4ccc9c164cf4c8076e0cc",
+      "log_sha256": "b7ead92aac5b7325cb95c9c69e653007ae9e0a2b27e08c36e19fdeedad19d681"
+    },
+    {
+      "module": "ExcessProfilesMinimalFifteen",
+      "source_sha256": "a3c9d4f12d0b2fa0c33f5b0d159e46fbecda838fb02e8bc069698008b8f91f26",
+      "log_sha256": "c460372169160334d6b0dec7e2e206520dc62457c2430014acafc8485f2aaf0e"
+    },
+    {
+      "module": "ExcessProfilesFifteenCores",
+      "source_sha256": "b29b3108081850d4e222b8c5a401f334ae5092e58f6797c66ddce189dca3d3ad",
+      "log_sha256": "ca033673ba1ac8e0dcbc89cde37c2491395f46742c9c17393a4436a0c2dd0cee"
+    },
+    {
+      "module": "ExcessProfilesFifteenLayers",
+      "source_sha256": "30434e273a05914e2741672f41a68e89519e537c1da7d175de655e97f60a5795",
+      "log_sha256": "5eed3ca82b944c0f83707d39e5b22e8cd3d3ae27c0928e58080e2d45a86911b6"
+    },
+    {
+      "module": "E15VerifiedCores",
+      "source_sha256": "89db376a465de3ee0b45a796c469c9162881e3a3c6356a181b62e583b08a696c",
+      "log_sha256": "45d03cefedf02deec499c4f0e17a2863e86706789a091b4880a2beaf1f066c3a"
+    },
+    {
+      "module": "ExcessProfilesFinalFifteen",
+      "source_sha256": "f161388d96d1a6fa0df9832081bfe938e426bf42bfdb0b792b92fb7a18957f8c",
+      "log_sha256": "70c7e6e3153828a187acedf8e3ffc28a2a126a6932085b130eacf667ff131d13"
+    },
+    {
+      "module": "ExcessProfilesPrivateFifteen",
+      "source_sha256": "e0f69b1d270580a159d85916bb0139809a4828f5826d81fd32ba2ce57716af81",
+      "log_sha256": "0df1d1ab124ea860b8e11946b8599acabae5d2304ae1d198fd1d7450b2002dac"
+    },
+    {
+      "module": "ExcessProfilesLastFifteen",
+      "source_sha256": "6acc9009afb873d5e257563b698698a50122d8d8302aa9cac0e0c6651adeaa3d",
+      "log_sha256": "ee9ccb0ae2ce929eb08a1da46e19f96d7946a1a18fa96d1b6e2094b245191b49"
+    }
+  ]
+}

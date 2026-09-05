@@ -1,0 +1,3 @@
+'QuadSevenSixFiveFive.card_four_with_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSixFiveFive.ratios_seven_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadSevenSixFiveFive.excess_at_least_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]

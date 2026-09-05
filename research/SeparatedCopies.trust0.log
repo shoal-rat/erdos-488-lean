@@ -1,0 +1,7 @@
+'SeparatedCopies.pointMap_injective_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeparatedCopies.family_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeparatedCopies.covered_eq_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeparatedCopies.family_multipleCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeparatedCopies.family_incidenceCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeparatedCopies.family_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SeparatedCopies.family_exact_counts' depends on axioms: [propext, Classical.choice, Quot.sound]

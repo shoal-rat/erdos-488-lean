@@ -1,0 +1,3 @@
+'QuadEightSevenFiveFive.forced_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadEightSevenFiveFive.matched_pairs_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QuadEightSevenFiveFive.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

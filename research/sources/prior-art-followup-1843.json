@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-09-05T18:43:31Z",
+  "queries": [
+    "\"Erdős\" \"488\" \"excess\" sixteen",
+    "\"Chojecki\" \"6.11\" counterexample",
+    "\"Signed Transport\" \"Pair\" \"Low Layers\"",
+    "\"16,24,36,40,54,56,60,81,84,88,90\""
+  ],
+  "sources": [
+    {
+      "url": "https://www.ulam.ai/research/erdos488.pdf",
+      "observation": "Public PDF still states Conjectures 4.8/6.11 and Theorem 5.2 at excess <=5."
+    },
+    {
+      "url": "https://erdosproblemaday.com/",
+      "observation": "Own project ledger dated July 25 claims primitive cardinalities 3,4; no inspected proof from entry, not evidence for excess bound."
+    },
+    {
+      "url": "https://oeis.org/A014613",
+      "observation": "Witness integers are the first eleven four-almost-primes; sequence not novel."
+    },
+    {
+      "url": "https://www.erdosproblems.com/488",
+      "observation": "Direct open returned internal error."
+    }
+  ],
+  "priority_established": false
+}

@@ -1,0 +1,6 @@
+'MinimalCertificateBridgeFifteen.covered_minimal_safe_profiles_imply_slack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'MinimalCertificateBridgeFifteen.covered_minimal_safe_profiles_imply_original_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

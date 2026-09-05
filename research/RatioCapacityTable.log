@@ -1,0 +1,2 @@
+'RatioAggregateCapacity.weightTable_verified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RatioAggregateCapacity.capacity_eq_table' depends on axioms: [propext, Classical.choice, Quot.sound]

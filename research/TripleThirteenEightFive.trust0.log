@@ -1,0 +1,2 @@
+'TripleThirteenEightFive.ratio_thirteen_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TripleThirteenEightFive.excess_at_least_sixteen' depends on axioms: [propext, Classical.choice, Quot.sound]

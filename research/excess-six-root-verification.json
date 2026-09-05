@@ -1,0 +1,7 @@
+{
+  "command": "source lean-env.sh; cd lean-work; LEAN_PATH=<workspace>:$LEAN_PATH lake env lean -t 0 -R <workspace> -o ../research/ExcessSix.root-audit.olean ../research/ExcessSix.lean",
+  "exit_code": 0,
+  "source_sha256": "130307443c8249ae30f69047db1c5b2a7f0abc512e804fd03dcf8a0b2fdf139b",
+  "output_log": "ExcessSix.root-audit.log",
+  "scope": "Exact excess six theorem independently rebuilt by root; not the unrestricted conjecture."
+}

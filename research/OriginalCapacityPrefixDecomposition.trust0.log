@@ -1,0 +1,18 @@
+'OriginalCapacityBlockDecomposition.prefixPipeline_nil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixPipeline_flatMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixPipeline_append_singleton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.finishPipeline_flatMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixBlock_succ_eq_flatMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.capacityBlock_eq_prefixBlock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.capacitySubBlock_eq_prefixBlock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.capacitySubSubBlock_eq_prefixBlock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'SymbolicProfileConnectivity.splitTests_imply_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SymbolicProfileConnectivity.checked_profile_unrealizable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SymbolicProfileConnectivity.checked_core_not_subperm' depends on axioms: [propext, Classical.choice, Quot.sound]

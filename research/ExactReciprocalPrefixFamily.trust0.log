@@ -1,0 +1,8 @@
+'ExactReciprocalPrefixFamily.entry_of_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactReciprocalPrefixFamily.entry_of_checkFamilyEntryInteger' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ExactReciprocalPrefixFamily.family_conditional_safe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactReciprocalPrefixFamily.connected_original_of_family_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

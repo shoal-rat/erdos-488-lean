@@ -1,0 +1,12 @@
+'OriginalCapacityBlockDecomposition.length_of_mem_enumerateCompact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.length_of_mem_prefixPipeline' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.length_of_mem_prefixBlock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.prefixBlock_eq_nil_of_countedAggregateTests' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

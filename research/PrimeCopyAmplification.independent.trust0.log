@@ -1,0 +1,4 @@
+'PrimeCopyAmplification.two_copies_coprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeCopyAmplification.arbitrarily_sparse_coprime_from_incidence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

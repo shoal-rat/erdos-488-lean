@@ -1,0 +1,20 @@
+{
+  "E": 13,
+  "profile": [
+    10,
+    6,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2
+  ],
+  "states": 314,
+  "edges": 816,
+  "generation_seconds": 0.1380807410023408,
+  "file": "<original-proof-root>/research/certificates/E13StableP0.lean",
+  "sha256": "03eb69a4ea137c67769827b8799609f0e3c8b9614485a1e197b28e19f010194e",
+  "mode": "unique_struct_nodes",
+  "lean_verified": false
+}

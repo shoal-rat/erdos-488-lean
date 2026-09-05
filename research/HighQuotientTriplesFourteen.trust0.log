@@ -1,0 +1,4 @@
+'HighQuotientTriplesFourteen.ratio_twelve_eight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HighQuotientTriplesFourteen.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HighQuotientTriplesFourteen.eleven_seven_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HighQuotientTriplesFourteen.twelve_eight_five' depends on axioms: [propext, Classical.choice, Quot.sound]

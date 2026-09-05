@@ -1,0 +1,5 @@
+'OriginalCapacityBlockDecomposition.enumerateCompact_eq_flatMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalCapacityBlockDecomposition.tailPipeline_flatMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalCapacityBlockDecomposition.capacityBlock_eq_flatMap' depends on axioms: [propext, Classical.choice, Quot.sound]

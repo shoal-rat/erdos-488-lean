@@ -1,0 +1,29 @@
+{
+  "reviewed_utc": "2026-09-05T18:51:04.979816+00:00",
+  "status": "PROVISIONAL; final main not yet accepted",
+  "reviewer": "<original-agent-or-root>/excess12_resume",
+  "guide_sha256": "f06ac6fd376f7e755923de17693d26e5ecb570d39d888bcd4ed67eab5668f52b",
+  "no_lean_recompilation": true,
+  "corrections": [
+    "Inclusive n endpoint for active generators",
+    "Original versus auxiliary failure minimality explicit",
+    "Derivation W>32 on same H from original failure and exact E16",
+    "Proper union equals excess; disconnected cut adds disjoint side counts",
+    "Prefix belongs to same normalized actual H, with explicit positive scale and strict endpoint",
+    "Main and primitive-core extension remain pending"
+  ],
+  "verified_counts": {
+    "ordinary_profiles": 1391,
+    "dyadic_profiles": 932,
+    "third_layer_profiles": 890,
+    "after_first_cores": 64,
+    "after_additional_cores": 16,
+    "first_cores": 66,
+    "first_core_states": 4667,
+    "additional_cores": 23,
+    "additional_core_states": 10112,
+    "prefix_states": 12180,
+    "prefix_edges": 22345,
+    "prefix_stops": 8750
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "E": 14,
+  "profile": [
+    12,
+    8,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "states": 183,
+  "edges": 486,
+  "generation_seconds": 0.1391883840005903,
+  "file": "<original-proof-root>/research/certificates/E14SharedP0.lean",
+  "sha256": "248b3fa443edc80173eccb40253e34f0c7636135fa30575483877a69d5bda2bc",
+  "mode": "integer_shared_nodes",
+  "lean_verified": true,
+  "index": 0,
+  "verification_seconds": 105.64360833700266,
+  "exit_code": 0,
+  "pass": true,
+  "trust_level": 0,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "log": "<original-proof-root>/research/certificates/E14SharedP0.trust0.log",
+  "log_sha256": "028dc97939c61322491dae93313a2c3fed34f2a80304ed0278536954cdbaef6d",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-R",
+    "..",
+    "-o",
+    "<original-proof-root>/research/certificates/E14SharedP0.olean",
+    "<original-proof-root>/research/certificates/E14SharedP0.lean"
+  ]
+}

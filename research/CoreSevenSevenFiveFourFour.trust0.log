@@ -1,0 +1,10 @@
+'CoreSevenSevenFiveFourFour.seven_seven_five_four_union_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreSevenSevenFiveFourFour.common_base_of_disjoint_extensions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CoreSevenSevenFiveFourFour.embedded_four_of_double_intersection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CoreSevenSevenFiveFourFour.ratios_seven_five_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreSevenSevenFiveFourFour.embedded_four_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreSevenSevenFiveFourFour.excess_at_least_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]

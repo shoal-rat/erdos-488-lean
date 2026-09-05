@@ -1,0 +1,7 @@
+'NormalizedReciprocalCertificate.entry_of_checkEntryFast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedReciprocalCertificate.entry_of_reciprocal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedReciprocalCertificate.checkEntryReciprocal_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedReciprocalCertificate.reciprocal_certified_safe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NormalizedReciprocalCertificate.connected_original_inequality_of_reciprocalSafe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

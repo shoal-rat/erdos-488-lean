@@ -1,0 +1,8 @@
+'GeneralPairTail.exponential_beats_fixed_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GeneralPairTail.primeEulerProduct_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GeneralPairTail.primeModulus_le_scaled_totient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GeneralPairTail.head_totatives_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GeneralPairTail.initial_count_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GeneralPairTail.every_primitive_pair_has_unbounded_tail_density_ratios' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

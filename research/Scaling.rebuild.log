@@ -1,0 +1,8 @@
+'AuxiliaryCounterexamplesCore.scale_multipleCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamplesCore.scale_incidenceCount' depends on axioms: [propext, Quot.sound]
+'AuxiliaryCounterexamplesCore.scale_primitive' depends on axioms: [propext, Quot.sound]
+'AuxiliaryCounterexamplesCore.scalingBase_count' depends on axioms: [propext]
+'AuxiliaryCounterexamplesCore.scaled_sparse_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AuxiliaryCounterexamplesCore.sparse_counterexamples_arbitrarily_sparse_and_large' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

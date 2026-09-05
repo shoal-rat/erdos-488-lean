@@ -1,0 +1,3 @@
+'ConnectedReduction.exists_indivisible_excessive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConnectedReduction.exists_connected_slack_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConnectedReduction.connected_failure_is_active' depends on axioms: [propext, Classical.choice, Quot.sound]

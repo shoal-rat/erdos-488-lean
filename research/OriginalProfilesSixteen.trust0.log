@@ -1,0 +1,4 @@
+'OriginalProfilesSixteen.original_failure_exact_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalProfilesSixteen.necessary_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalProfilesSixteen.actual_mem_profiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalProfilesSixteen.exists_covered_original_failure' depends on axioms: [propext, Classical.choice, Quot.sound]

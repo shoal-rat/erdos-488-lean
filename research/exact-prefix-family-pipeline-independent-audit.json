@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-09-05T18:32:42.773919+00:00",
+  "type": "read_only_semantic_and_manifest_audit_no_recompile",
+  "generator_sha256": "ebc93898a1a7b429c3abac66108fd26b392eefc219aa734adc6f038fc7aaadd9",
+  "runner_sha256": "282f6aaabff2bc584581947c2bbb0dc06bc1841ce2396a14f5f3fd36613fe6aa",
+  "frozen_targets_sha256": "5ebf07406632fae1324eb30c76c102ea766bca397e306bb97374fd6bffc165de",
+  "targets_exact_partition": true,
+  "targets": 16,
+  "groups": 5,
+  "states": 12180,
+  "gain_stops": 8750,
+  "all_nonstops_slack_safe_exploration": true,
+  "new_kernel_compilations_claimed": false,
+  "runner_sha256_initial_review": "812a14136bb9488fc0d56f7dadc10bcf5919b7177bc680d799d69e2b5636d9c2",
+  "weighted_scheduling_review": {
+    "reviewed_utc": "2026-09-05T18:40:26.181685+00:00",
+    "previous_sha256": "812a14136bb9488fc0d56f7dadc10bcf5919b7177bc680d799d69e2b5636d9c2",
+    "current_sha256": "282f6aaabff2bc584581947c2bbb0dc06bc1841ce2396a14f5f3fd36613fe6aa",
+    "data_slots_argument_checked": true,
+    "partial_locks_released_before_retry": true,
+    "proof_acceptance_unchanged": true,
+    "mathematical_sources_unchanged": true
+  }
+}

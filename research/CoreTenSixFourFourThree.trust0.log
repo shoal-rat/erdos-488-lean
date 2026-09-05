@@ -1,0 +1,4 @@
+'CoreTenSixFourFourThree.ratios_ten_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreTenSixFourFourThree.geometry_five_thirds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreTenSixFourFourThree.geometry_three_halves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CoreTenSixFourFourThree.excess_at_least_thirteen' depends on axioms: [propext, Classical.choice, Quot.sound]

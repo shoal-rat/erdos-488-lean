@@ -1,0 +1,3 @@
+'PartialUnionReciprocalPruning.partial_union_reciprocal_pruning' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

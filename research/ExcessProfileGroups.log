@@ -1,0 +1,12 @@
+../research/ExcessProfileGroups.lean:103:8: warning: This simp argument is unused:
+  nsmul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'ExcessProfiles.quotientProfile_sublist_half_capacity_bonferroni' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ExcessProfiles.quotientProfile_sublist_capacity_bonferroni' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessProfiles.quotient_groups_bonferroni' depends on axioms: [propext, Classical.choice, Quot.sound]

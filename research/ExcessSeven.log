@@ -1,0 +1,4 @@
+'ExcessSeven.common_six_five_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSeven.quotient_three_card_le_one_with_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSeven.quotient_excess_le_fourteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExcessSeven.erdos488_exact_excess_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
