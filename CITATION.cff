@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the exact release and theorem used."
+title: "Beyond the Slack Barrier: Lean-Verified Bounds and Counterexamples for Erdős 488"
+type: software
+authors:
+  - name: "shoal-rat (project curator)"
+repository-code: "https://github.com/shoal-rat/erdos-488-lean"
+url: "https://github.com/shoal-rat/erdos-488-lean"
+version: "0.1.0"
+date-released: "2026-09-05"
+license: MIT
+abstract: "Lean-verified excess-at-most-fifteen cases of the original density inequality, a sharp auxiliary threshold at sixteen, and counterexamples to two auxiliary conjectures. The unrestricted Erdős problem remains open. AI assistance is disclosed in the accompanying bilingual paper."

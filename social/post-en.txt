@@ -1,0 +1,1 @@
+One broad prompt. 6h of search. AI agents + Lean verified Erdős 488 for excess ≤15, found a sharp auxiliary barrier at 16, and refuted two auxiliary conjectures. The full problem remains open. Paper, proofs & original prompt: https://github.com/shoal-rat/erdos-488-lean

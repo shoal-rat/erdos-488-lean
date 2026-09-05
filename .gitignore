@@ -1,0 +1,16 @@
+.lake/
+rebuild_logs/
+*.olean
+*.ilean
+*.c
+*.o
+__pycache__/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/fonts/*.otf
+tmp/
